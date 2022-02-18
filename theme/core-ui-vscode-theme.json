@@ -88,20 +88,32 @@
 
       IGNORED/INACTIVE/UNFOCUSED/DEEMPHASIZED
       <=====================| #607080CC======================>  */
-        "editorBracketMatch.border": "#607080CC",
+
         "list.inactiveFocusOutline": "#607080CC",
         "statusBar.noFolderForeground": "#607080CC",
         "gitDecoration.ignoredResourceForeground": "#607080CC",
         "gitDecoration.submoduleResourceForeground": "#607080CC",
         "editor.inlineValuesForeground": "#607080CC",
         "editorCodeLens.foreground": "#607080CC",
-
+        "editorBracketMatch.border": "#607080CC",
         "input.border": "#607080CC",
         "checkbox.border": "#607080CC",
         "dropdown.border": "#607080CC",
         "pickerGroup.border": "#607080CC",
-        "keybindingTable.headerBackground": "#0E1118",
-        "keybindingTable.rowsBackground": "#0E1118",
+        "editorHoverWidget.statusBarBackground": "#223344",
+        "tab.lastPinnedBorder": "#223344",
+        "editorWidget.border": "#223344",
+        "scm.providerBorder": "#223344",
+        "activityBar.border": "#223344",
+        "panelInput.border": "#223344",
+        "diffEditor.border": "#223344",
+        "statusBar.border": "#223344",
+        "sideBar.border": "#223344",
+        "contrastBorder": "#223344",
+        "tab.border": "#223344",
+
+        "keybindingTable.headerBackground": "#FFFFFF0F",
+        "keybindingTable.rowsBackground": "#00000044",
         /*******************************************************
 
            WHITE HIGHLIGHTING & TRANSPARENT LIGHT CONTRASTING
@@ -173,25 +185,26 @@
         "symbolIcon.stringForeground": "#DDDDDD",
         "symbolIcon.arrayForeground": "#DDDDDD",
         "symbolIcon.textForeground": "#DDDDDD",
+
         "symbolIcon.enumeratorMemberForeground": "#20C0FF",
         "symbolIcon.typeParameterForeground": "#20C0FF",
         "symbolIcon.enumeratorForeground": "#20C0FF",
+        "symbolIcon.interfaceForeground": "#00BBFF",
+        "symbolIcon.namespaceForeground": "#00BBFF",
+        "symbolIcon.referenceForeground": "#00BBFF",
         "symbolIcon.variableForeground": "#20C0FF",
-        "symbolIcon.numberForeground": "#20C0FF",
         "symbolIcon.operatorForeground": "#20C0FF",
         "symbolIcon.keywordForeground": "#20C0FF",
         "symbolIcon.packageForeground": "#20C0FF",
         "symbolIcon.snippetForeground": "#20C0FF",
+        "symbolIcon.numberForeground": "#20C0FF",
         "symbolIcon.folderForeground": "#20C0FF",
-        "symbolIcon.colorForeground": "#20C0FF",
-        "symbolIcon.fileForeground": "#20C0FF",
-        "symbolIcon.unitForeground": "#20C0FF",
-        "symbolIcon.interfaceForeground": "#00BBFF",
-        "symbolIcon.namespaceForeground": "#00BBFF",
-        "symbolIcon.referenceForeground": "#00BBFF",
         "symbolIcon.objectForeground": "#00BBFF",
         "symbolIcon.structForeground": "#00BBFF",
+        "symbolIcon.colorForeground": "#20C0FF",
         "symbolIcon.classForeground": "#00BBFF",
+        "symbolIcon.fileForeground": "#20C0FF",
+        "symbolIcon.unitForeground": "#20C0FF",
 
         "symbolIcon.booleanForeground": "#20C0FF",
         "symbolIcon.nullForeground": "#20C0FF",
@@ -613,7 +626,6 @@
         "inputValidation.infoBackground": "#000000CC",
         "minimap.foregroundOpacity": "#000000CC",
         "button.border": "#000000CC",
-        "editorHoverWidget.statusBarBackground": "#223344",
 
         "editor.findMatchBackground": "#00000044",
         "editor.findMatchHighlightBackground": "#00000044",

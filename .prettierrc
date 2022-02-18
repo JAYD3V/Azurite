@@ -1,0 +1,17 @@
+{
+    "printWidth": 80,
+    "tabWidth": 4,
+    "quoteProps": "consistent",
+    "trailingComma": "none",
+    "semi": true,
+    "arrowParens": "avoid",
+    "singleQuote": true,
+    "overrides": [
+        {
+            "files": ["*.json", "*.jsonc", ".prettierrc"],
+            "options": {
+                "printWidth": 90
+            }
+        }
+    ]
+}

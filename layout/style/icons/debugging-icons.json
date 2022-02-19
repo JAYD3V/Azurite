@@ -1,0 +1,9 @@
+{
+    "debugIcon.stopForeground": "#FF3844",
+    "debugIcon.breakpointForeground": "#FF3844",
+    "debugIcon.disconnectForeground": "#FF3844",
+    "debugIcon.breakpointStackframeForeground": "#FF3844CC",
+    "debugIcon.breakpointDisabledForeground": "#FF384488",
+    "debugIcon.breakpointUnverifiedForeground": "#FF384466",
+    "debugIcon.breakpointCurrentStackframeForeground": "#FF3844"
+}

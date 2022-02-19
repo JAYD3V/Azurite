@@ -3,11 +3,6 @@ import { readFile } from 'fs';
 // import { ThemeColor } from 'vscode';
 import * as filepath from 'path';
 
-
-// Aplz
-
-const apple = 'apple';
-
 export function parseJSONFile(fpath: string, verbose: boolean = false) {
   return new Promise<any>((resolve, reject) => {
     // Test if `fpath` has a `.json` file-extension.
@@ -38,7 +33,6 @@ export function parseJSONFile(fpath: string, verbose: boolean = false) {
           )
         );
       }
-
       try {
         const json: any = JSON.parse(data.toString());
         if (verbose) console.log(json);

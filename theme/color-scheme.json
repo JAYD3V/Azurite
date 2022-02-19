@@ -1,0 +1,20 @@
+{
+    "highlights": {
+        "status": {
+            "error": "",
+            "warning": "",
+            "info-hint": ""
+        },
+
+        "scm": {
+            "added": "",
+            "modified": "",
+            "ignored": "",
+            "deleted": "",
+            "untracked": "",
+            "renamed": ""
+        }
+    },
+
+    "workbench": {}
+}

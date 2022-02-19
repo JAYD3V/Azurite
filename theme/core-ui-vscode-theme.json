@@ -728,7 +728,7 @@
             "name": "COMMENTS",
             "scope": ["comment", "comment punctuation.definition"],
             "settings": {
-                "foreground": "#66AAFFAA"
+                "foreground": "#12901C"
             }
         },
 
@@ -736,7 +736,7 @@
             "name": "PUNCTUATION",
             "scope": ["punctuation", "meta.brace"],
             "settings": {
-                "foreground": "#66AAFFAA"
+                "foreground": "#999999"
             }
         },
         {
@@ -991,7 +991,7 @@
             "name": "JSON > PROPERTY-KEY'S, (lvl: 6)",
             "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta string support.type.property-name",
             "settings": {
-                "foreground": "#0CC0FF",
+                "foreground": "#0FB8FF",
                 "fontStyle": ""
             }
         },
@@ -1031,21 +1031,11 @@
             "name": "JSON > PROPERTY-KEY'S, (lvl: 1)",
             "scope": ["source.json meta string support.type.property-name"],
             "settings": {
-                "foreground": "#0CC0FF",
+                "foreground": "#0FB8FF",
                 "fontStyle": ""
             }
         },
-        {
-            "name": "",
-            "scope": [
-                "source.json comment.line.double-slash punctuation.definition.comment",
-                "source.json comment.line.double-slash"
-            ],
-            "settings": {
-                "foreground": "#A53EFF",
-                "fontStyle": "bold"
-            }
-        },
+
         {
             "name": "JSON > STRINGS",
             "scope": [
@@ -1062,7 +1052,7 @@
             "name": "JSON > BOOLEANS",
             "scope": "constant.language.json",
             "settings": {
-                "foreground": "#FF55BB",
+                "foreground": "#FF55AA",
                 "fontStyle": "italic"
             }
         },
@@ -1070,7 +1060,7 @@
             "name": "JSON > NUMBERS",
             "scope": "constant.numeric.json",
             "settings": {
-                "foreground": "#B0C060",
+                "foreground": "#AA58FF",
                 "fontStyle": "bold"
             }
         },

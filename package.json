@@ -45,8 +45,8 @@
                },
                {
                     "id": "generated-theme",
-                    "label": "UI Dynamics: Generated Theme",
-                    "path": "./theme/generated-vscode-theme.json",
+                    "label": "UI Dynamics: Pro Dev Dark Theme",
+                    "path": "./theme/pro-dev-dark-vscode-theme.json",
                     "uiTheme": "vs-dark"
                }
           ],

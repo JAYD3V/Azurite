@@ -197,13 +197,13 @@
           "symbolIcon.unitForeground": "#FFB22D",
           "symbolIcon.booleanForeground": "#FFB22D",
           "symbolIcon.nullForeground": "#FFB22D",
-          "symbolIcon.propertyForeground": "#22BBFF",
-          "symbolIcon.constructorForeground": "#22BBFF",
-          "symbolIcon.functionForeground": "#22BBFF",
-          "symbolIcon.methodForeground": "#22BBFF",
-          "symbolIcon.moduleForeground": "#22BBFF",
-          "symbolIcon.eventForeground": "#22BBFF",
-          "symbolIcon.fieldForeground": "#22BBFF",
+          "symbolIcon.propertyForeground": "#FAAA22",
+          "symbolIcon.constructorForeground": "#FAAA22",
+          "symbolIcon.functionForeground": "#FAAA22",
+          "symbolIcon.methodForeground": "#FAAA22",
+          "symbolIcon.moduleForeground": "#FAAA22",
+          "symbolIcon.eventForeground": "#FAAA22",
+          "symbolIcon.fieldForeground": "#FAAA22",
           "editorSuggestWidget.selectedIconForeground": "#FFB22D",
           "editorGutter.foldingControlForeground": "#FFB22D",
           "debugIcon.stepBackForeground": "#FFB22D",
@@ -304,14 +304,14 @@
           /*******************************************************
 
                   WORKBENCH BACKGROUND COLOR (Secondary)
-      <=====================| #230565 |=====================>  */
-          "welcomePage.progress.background": "#230565",
-          "tab.unfocusedActiveBackground": "#230565",
-          "breadcrumb.background": "#230565",
-          "tab.activeBackground": "#230565",
-          "tab.activeBorder": "#230565",
-          "keybindingLabel.background": "#230565",
-          "quickInputTitle.background": "#230565",
+      <=====================| #1D064E |=====================>  */
+          "welcomePage.progress.background": "#1D064E",
+          "tab.unfocusedActiveBackground": "#1D064E",
+          "breadcrumb.background": "#1D064E",
+          "tab.activeBackground": "#1D064E",
+          "tab.activeBorder": "#1D064E",
+          "keybindingLabel.background": "#1D064E",
+          "quickInputTitle.background": "#1D064E",
           "panel.background": "#141123",
           "sideBar.background": "#141123",
           "editor.background": "#141123",
@@ -482,20 +482,20 @@
           "button.hoverBackground": "#BBFF1188",
           /*******************************************************
                             SCM -> 'Modified'
-        <=====================| #22BBFF |======================> */
-          "settings.modifiedItemIndicator": "#22BBFF",
-          "tab.activeModifiedBorder": "#22BBFF",
-          "tab.inactiveModifiedBorder": "#22BBFF",
-          "tab.unfocusedActiveModifiedBorder": "#22BBFF",
-          "tab.unfocusedInactiveModifiedBorder": "#22BBFF",
-          "editorOverviewRuler.modifiedForeground": "#22BBFF",
-          "gitDecoration.modifiedResourceForeground": "#22BBFF",
-          "gitDecoration.stageModifiedResourceForeground": "#22BBFF",
-          "remoteHub.decorations.modifiedForegroundColor": "#22BBFF",
-          "peekViewTitleDescription.foreground": "#22BBFF",
-          "remoteHub.decorations.incomingModifiedForegroundColor": "#22BBFF",
-          "minimapGutter.modifiedBackground": "#22BBFF99",
-          "editorGutter.modifiedBackground": "#22BBFF99",
+        <=====================| #FAAA22 |======================> */
+          "settings.modifiedItemIndicator": "#FAAA22",
+          "tab.activeModifiedBorder": "#FAAA22",
+          "tab.inactiveModifiedBorder": "#FAAA22",
+          "tab.unfocusedActiveModifiedBorder": "#FAAA22",
+          "tab.unfocusedInactiveModifiedBorder": "#FAAA22",
+          "editorOverviewRuler.modifiedForeground": "#FAAA22",
+          "gitDecoration.modifiedResourceForeground": "#FAAA22",
+          "gitDecoration.stageModifiedResourceForeground": "#FAAA22",
+          "remoteHub.decorations.modifiedForegroundColor": "#FAAA22",
+          "peekViewTitleDescription.foreground": "#FAAA22",
+          "remoteHub.decorations.incomingModifiedForegroundColor": "#FAAA22",
+          "minimapGutter.modifiedBackground": "#FAAA2299",
+          "editorGutter.modifiedBackground": "#FAAA2299",
           /*
 
                             SCM -> 'Added'
@@ -666,8 +666,8 @@
           "property.defaultLibrary": {
                "italic": true
           },
-          "function": "#5CC244",
-          "method": "#5CC244",
+          "function": "#77CC5C",
+          "method": "#77CC5C",
      },
      "tokenColors": [
           {
@@ -715,10 +715,21 @@
                "name": "PUNCTUATION: Braces, Brackets, & Accessors",
                "scope": [
                     "meta.brace",
-                    "punctuation",
+                    "punctuation.definition.block",
+                    "punctuation.definition.parameters"
                ],
                "settings": {
-                    "foreground": "#0E85C0",
+                    "foreground": "#8040FF",
+                    "fontStyle": ""
+               }
+          },
+          {
+               "name": "",
+               "scope": [
+                    "punctuation"
+               ],
+               "settings": {
+                    "foreground": "#888888",
                     "fontStyle": ""
                }
           },
@@ -742,7 +753,7 @@
                     "keyword.operator.expression"
                ],
                "settings": {
-                    "foreground": "#0999FF",
+                    "foreground": "#009DFF",
                     "fontStyle": ""
                }
           },
@@ -755,7 +766,7 @@
                     "storage.type.function.arrow",
                ],
                "settings": {
-                    "foreground": "#0999FF",
+                    "foreground": "#009DFF",
                     "fontStyle": "italic"
                }
           },
@@ -808,16 +819,17 @@
                // Numbers and Escaped Characters
                "scope": [
                     "constant.numeric",
+                    "constant.language.import-export-all",
                ],
                "settings": {
-                    "foreground": "#11CC22",
+                    "foreground": "#00DD22",
                     "fontStyle": "bold"
                }
           },
           {
-               "name": "UNARY SYNTAX (Operator Like)",
+               "name": "VARIABLES > PROPERTIES",
                "scope": [
-                    "constant.language.import-export-all",
+                    "variable.object.property"
                ],
                "settings": {
                     "foreground": "#16B2C2",
@@ -862,7 +874,7 @@
                     "entity.name.function"
                ],
                "settings": {
-                    "foreground": "#5CC244",
+                    "foreground": "#77CC5C",
                     "fontStyle": ""
                }
           },
@@ -1108,7 +1120,7 @@
                     "heading.3.markdown entity.name.section.markdown markup.bold.markdown"
                ],
                "settings": {
-                    "foreground": "#0999FF",
+                    "foreground": "#009DFF",
                     "fontStyle": "bold underline"
                }
           },
@@ -1123,7 +1135,7 @@
                     "heading.3.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
                ],
                "settings": {
-                    "foreground": "#0999FF",
+                    "foreground": "#009DFF",
                     "fontStyle": "italic bold underline"
                }
           },
@@ -1136,7 +1148,7 @@
                     "heading.5.markdown entity.name.section.markdown markup.bold.markdown"
                ],
                "settings": {
-                    "foreground": "#0999FF",
+                    "foreground": "#009DFF",
                     "fontStyle": "bold"
                }
           },
@@ -1149,7 +1161,7 @@
                     "heading.5.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
                ],
                "settings": {
-                    "foreground": "#0999FF",
+                    "foreground": "#009DFF",
                     "fontStyle": "bold"
                }
           },

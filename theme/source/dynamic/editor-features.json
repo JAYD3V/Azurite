@@ -1,0 +1,9 @@
+{
+     "terminalCursor.foreground": "#0088FF",
+     "editorCursor.foreground": "#0088FF",
+     "terminalCursor.background": "#00BBFF",
+     "editorCursor.background": "#00BBFF",
+     "scrollbarSlider.activeBackground": "#0088FF",
+     "scrollbarSlider.hoverBackground": "#0088FF",
+     "scrollbarSlider.background": "#0088FF66"
+}

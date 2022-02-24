@@ -1,0 +1,50 @@
+{
+     "modified": [
+          "settings.modifiedItemIndicator",
+          "tab.activeModifiedBorder",
+          "tab.inactiveModifiedBorder",
+          "tab.unfocusedActiveModifiedBorder",
+          "tab.unfocusedInactiveModifiedBorder",
+          "editorOverviewRuler.modifiedForeground",
+          "gitDecoration.modifiedResourceForeground",
+          "gitDecoration.stageModifiedResourceForeground",
+          "remoteHub.decorations.modifiedForegroundColor",
+          "peekViewTitleDescription.foreground",
+          "remoteHub.decorations.incomingModifiedForegroundColor",
+          "minimapGutter.modifiedBackground",
+          "editorGutter.modifiedBackground"
+     ],
+     "added": [
+          "editorGutter.addedBackground",
+          "editorOverviewRuler.addedForeground",
+          "gitDecoration.addedResourceForeground",
+          "minimapGutter.addedBackground",
+          "remoteHub.decorations.addedForegroundColor",
+          "remoteHub.decorations.incomingAddedForegroundColor",
+          "editorOverviewRuler.incomingContentForeground",
+          "merge.incomingContentBackground",
+          "diffEditor.insertedTextBackground",
+          "merge.incomingHeaderBackground",
+          "diffEditor.insertedTextBorder",
+          "gitDecoration.untrackedResourceForeground"
+     ],
+     "deleted": [
+          "remoteHub.decorations.incomingDeletedForegroundColor",
+          "remoteHub.decorations.deletedForegroundColor",
+          "gitDecoration.stageDeletedResourceForeground",
+          "gitDecoration.deletedResourceForeground",
+          "editorOverviewRuler.deletedForeground",
+          "minimapGutter.deletedBackground",
+          "editorGutter.deletedBackground"
+     ],
+     "renamed": [
+          "remoteHub.decorations.incomingRenamedForegroundColor",
+          "gitDecoration.renamedResourceForeground"
+     ],
+     "ignored": [
+          "gitDecoration.ignoredResourceForeground"
+     ],
+     "submodule": [
+          "gitDecoration.submoduleResourceForeground"
+     ]
+}

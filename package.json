@@ -38,13 +38,13 @@
      "contributes": {
           "themes": [
                {
-                    "id": "ui-dynamics-core-theme",
+                    "id": "ui-dynamics-purple-urple",
                     "label": "UI Dynamics: Core Theme",
                     "path": "./theme/core-ui-vscode-theme.json",
                     "uiTheme": "vs-dark"
                },
                {
-                    "id": "generated-theme",
+                    "id": "ui-dynamics-pro-dark",
                     "label": "UI Dynamics: Pro Dev Dark Theme",
                     "path": "./theme/pro-dev-dark-vscode-theme.json",
                     "uiTheme": "vs-dark"

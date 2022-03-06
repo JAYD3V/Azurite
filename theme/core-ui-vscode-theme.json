@@ -15,7 +15,7 @@
           /*
 
     *----------------------------------------------------------*
-        Special/Unique Properties  (!! IePORTANT !!)
+        Special/Unique Properties
     *=========================================================*/
           "extensionIcon.preReleaseForeground": "#ff6800",
           "gitDecoration.untrackedResourceForeground": "#90F440",

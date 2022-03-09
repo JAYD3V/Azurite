@@ -1,67 +1,59 @@
 {
-     "name": "ui-dynamics",
-     "version": "1.0.0",
-     "author": "JAYD3V",
-     "license": "MIT",
-     "description": "One of the things that has been developed for VSCode, that there's a big gap for, is a customizable theme. Something between a fully custom configured environment (which is basically the development of your own theme), and using someone elses theme as they have built it. This repositories project delivers  a VSC theme that takes advantage of the VSCode extensible API, and implements into it, the Native JSON Parsing features included in JavaScript. The result is a theme that is customizable, and looks better than any other theme available, all with just a couple of clicks.",
-     "repository": "git+https://github.com/W3Dojo/UI-Dynamics.git",
-     "bugs": "https://github.com/W3Dojo/UI-Dynamics/issues",
-     "homepage": "https://github.com/W3Dojo/UI-Dynamics#readme",
-     "devDependencies": {
-          "@types/mocha": "^9.1.0",
-          "@types/node": "^17.0.18",
-          "@types/vscode": "^1.64.0",
-          "@typescript-eslint/eslint-plugin": "^5.11.0",
-          "@typescript-eslint/parser": "^5.11.0",
-          "eslint": "^7.32.0",
-          "eslint-config-standard": "^16.0.3",
-          "eslint-plugin-import": "^2.25.4",
-          "eslint-plugin-node": "^11.1.0",
-          "eslint-plugin-promise": "^5.2.0", 
-          "prettier": "2.5.1",
-          "semver": "^7.3.5",
-          "typescript": "^4.6.0-dev.20220211",
-          "mocha": "^9.2.1"
-     },
-     "scripts": {
-          "vscode:prepublish": "npm run compile",
-          "start": "node ./build/extension.js",
-          "testChanges": "tsc -p && npm start",
-          "compile": "tsc -p ./",
-          "watch": "tsc -watch -p ./"
-     },
-     "main": "./build/extension.js",
-     "activationEvents": [
-          "onStartupFinished",
-          "*"
-     ],
-     "contributes": {
-          "themes": [
-               {
-                    "id": "ui-dynamics-purple-urple",
-                    "label": "UI Dynamics: Core Theme",
-                    "path": "./theme/core-ui-vscode-theme.json",
-                    "uiTheme": "vs-dark"
-               },
-               {
-                    "id": "ui-dynamics-pro-dark",
-                    "label": "UI Dynamics: Pro Dev Dark Theme",
-                    "path": "./theme/pro-dev-dark-vscode-theme.json",
-                    "uiTheme": "vs-dark"
-               }
-          ],
-          "contributes": {
-               "commands": [
-                    {
-                         "command": "uiDynamics.troubleshoot",
-                         "title": "UIDynamics: Troubleshoot"
-                    }
-               ]
-          }
-     },
-     "engines": {
-          "vscode": "^1.64.0",
-          "node": "^17.0.0",
-          "npm": "^8.0.0"
-     }
+    "name": "ui-dynamics",
+    "version": "1.0.0",
+    "author": "JAYD3V",
+    "license": "MIT",
+    "description": "One of the things that has been developed for VSCode, that there's a big gap for, is a customizable theme. Something between a fully custom configured environment (which is basically the development of your own theme), and using someone elses theme as they have built it. This repositories project delivers  a VSC theme that takes advantage of the VSCode extensible API, and implements into it, the Native JSON Parsing features included in JavaScript. The result is a theme that is customizable, and looks better than any other theme available, all with just a couple of clicks.",
+    "repository": "git+https://github.com/W3Dojo/UI-Dynamics.git",
+    "bugs": "https://github.com/W3Dojo/UI-Dynamics/issues",
+    "homepage": "https://github.com/W3Dojo/UI-Dynamics#readme",
+    "devDependencies": {
+        "@types/mocha": "^9.1.0",
+        "@types/node": "^17.0.18",
+        "@types/vscode": "^1.64.0",
+        "@typescript-eslint/eslint-plugin": "^5.11.0",
+        "@typescript-eslint/parser": "^5.11.0",
+        "eslint": "^7.32.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
+        "prettier": "2.5.1",
+        "semver": "^7.3.5",
+        "typescript": "^4.6.0-dev.20220211",
+        "mocha": "^9.2.1"
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "start": "node ./build/extension.js",
+        "testChanges": "tsc -p && npm start",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "main": "./build/extension.js",
+    "activationEvents": [
+        "onStartupFinished",
+        "*"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "id": "ui-dynamics-purple-urple",
+                "label": "UI Dynamics: Core Theme",
+                "path": "./theme/core-ui-vscode-theme.json",
+                "uiTheme": "vs-dark"
+            },
+            {
+                "id": "ui-dynamics-pro-dark",
+                "label": "UI Dynamics: Pro Dev Dark Theme",
+                "path": "./theme/pro-dev-dark-vscode-theme.json",
+                "uiTheme": "vs-dark"
+            }
+        ]
+    },
+    "engines": {
+        "vscode": "^1.64.0",
+        "node": "^17.0.0",
+        "npm": "^8.0.0"
+    }
 }

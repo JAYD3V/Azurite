@@ -649,16 +649,16 @@
         FUNCTIONS & CLASS-MEMBER FUNCTIONS
         -------------------------------------------------                       */
         "function": {
-            "foreground": "#80C060",
+            "foreground": "#AABB55",
         },
         "function.declaration": {
-            "foreground": "#80C060",
+            "foreground": "#AABB55",
         },
         "method": {
-            "foreground": "#80C060",
+            "foreground": "#AABB55",
         },
         "method.declaration": {
-            "foreground": "#80C060",
+            "foreground": "#AABB55",
         },
         /************************************************
 
@@ -708,11 +708,11 @@
                 "punctuation",
             ],
             "settings": {
-                "foreground": "#808080"
+                "foreground": "#969696"
             }
         },
         {
-            "name": "LANGUAGE | SYNTAX_TYPE",
+            "name": "PUNCTUATION | BRACES ",
             "scope": [
                 "punctuation.definition.parameters",
                 "punctuation.definition.dictionary",
@@ -722,17 +722,17 @@
                 "meta.brace",
             ],
             "settings": {
-                "foreground": "#0066FF",
-                "fontStyle": "bold"
+                "foreground": "#5577DD",
+                "fontStyle": ""
             }
         },
         {
-            "name": "LANGUAGE | SYNTAX_TYPE",
+            "name": "PUNCTUATION | TEMPLATE LITERALS",
             "scope": [
                 "punctuation.definition.template-expression",
             ],
             "settings": {
-                "foreground": "#0077FF",
+                "foreground": "#888888",
                 "fontStyle": ""
             }
         },
@@ -752,7 +752,7 @@
                 "string",
             ],
             "settings": {
-                "foreground": "#EE84E0"
+                "foreground": "#18A048"
             }
         },
         {
@@ -826,7 +826,7 @@
                 "keyword.operator.expression",
             ],
             "settings": {
-                "foreground": "#D04DFF",
+                "foreground": "#CC5CFF",
                 "fontStyle": "italic"
             }
         },
@@ -855,7 +855,7 @@
                 // "constant.language.nan",
             ],
             "settings": {
-                "foreground": "#D04DFF",
+                "foreground": "#CC5CFF",
                 "fontStyle": ""
             }
         },
@@ -923,7 +923,7 @@
                 "entity.name.function"
             ],
             "settings": {
-                "foreground": "#80C060",
+                "foreground": "#AABB55",
                 "fontStyle": ""
             }
         },

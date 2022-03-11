@@ -445,8 +445,8 @@
         "toolbar.activeBackground": "#8833FF",
         "terminal.border": "#8833FF77",
         // |> Cursors
-        "editorCursor.foreground": "#CCFF55AA",
-        "terminalCursor.foreground": "#CCFF55AA",
+        "editorCursor.foreground": "#CCFF55",
+        "terminalCursor.foreground": "#CCFF55",
         "editorCursor.background": "#802CFF",
         "terminalCursor.background": "#802CFF",
         "panelTitle.activeForeground": "#C4C4C4",

@@ -23,21 +23,27 @@
     "contributes": {
         "themes": [
             {
-                "id": "ui-dynamics-purple-urple",
-                "label": "UI Dynamics: Core Theme",
-                "path": "./theme/core-ui-vscode-theme.json",
+                "id": "cordyceps-hypocreales",
+                "label": "Cordyceps: HYPOCREALES",
+                "path": "./theme/cordyceps-alpha-vscode-theme.json",
                 "uiTheme": "vs-dark"
             },
             {
-                "id": "ui-dynamics-pro-dark",
-                "label": "UI Dynamics: Pro Dev Dark Theme",
-                "path": "./theme/pro-dev-dark-vscode-theme.json",
+                "id": "cordyceps-unilateralis",
+                "label": "Cordyceps: UNILATERALIS",
+                "path": "./theme/cordyceps-beta-vscode-theme.json",
                 "uiTheme": "vs-dark"
             },
             {
-                "id": "ui-dynamics-sweet-dream-theme",
-                "label": "UI Dynamics: Sweet Dream Theme",
-                "path": "./theme/pro-dev-sweet-dream-theme-vscode-theme.json",
+                "id": "cordyceps-ignota",
+                "label": "Cordyceps: IGNOTA",
+                "path": "./theme/cordyceps-gamma-vscode-theme.json",
+                "uiTheme": "vs-dark"
+            },
+            {
+                "id": "cordyceps-takaomontana",
+                "label": "Cordyceps: TAKAOMONTANA",
+                "path": "./theme/cordyceps-delta-vscode-theme.json",
                 "uiTheme": "vs-dark"
             }
         ]

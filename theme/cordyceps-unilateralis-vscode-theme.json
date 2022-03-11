@@ -252,7 +252,6 @@
         "activityBar.foreground": "#08AAFF",
         "activityBar.inactiveForeground": "#0077FF80",
         "activityBar.background": "#060913",
-        "activityBarBadge.background": "#020470",
         "window.inactiveBorder": "#444444",
         "inputOption.activeBorder": "#77FF22",
         "window.activeBorder": "#002277",
@@ -329,12 +328,16 @@
         "dropdown.border": "#60708066",
         "pickerGroup.border": "#60708066",
         "editorBracketMatch.border": "#60708066",
-        "badge.background": "#020470",
-        "statusBar.background": "#022270",
-        "banner.background": "#010D68",
-        "button.background": "#010D68",
-        "extensionBadge.remoteBackground": "#020470",
-        "extensionButton.prominentBackground": "#010D68",
+        // StatusBar & Banner
+        "statusBar.background": "#022294",
+        "banner.background": "#022294",
+        // Badges
+        "activityBarBadge.background": "#022294",
+        "badge.background": "#022294",
+        "extensionBadge.remoteBackground": "#022294",
+        "extensionButton.prominentBackground": "#022294",
+        // Buttons
+        "button.background": "#022294",
         "breadcrumb.background": "#071A4A",
         "sideBar.background": "#07132E",
         "editor.background": "#0C101C",
@@ -357,7 +360,7 @@
         /************************************************
 
 
-        SCM Highlighting: 'MODIFIED'
+        SCM Highlighting: 'MODeqIFIED'
         -------------------------------------------------                   */
         "remoteHub.decorations.incomingModifiedForegroundColor": "#FFAA44",
         "gitDecoration.stageModifiedResourceForeground": "#FFAA44",
@@ -439,7 +442,7 @@
         "editorOverviewRuler.rangeHighlightForeground": "#1177FF",
         "minimap.selectionOccurrenceHighlight": "#1177FF",
         "editorWidget.resizeBorder": "#1177FF",
-        "icon.foreground": "#FF7700",
+        "icon.foreground": "#FF7722",
         "interactive.activeCodeBorder": "#1177FF",
         "merge.border": "#1177FF",
         "panelSectionHeader.border": "#1177FF",

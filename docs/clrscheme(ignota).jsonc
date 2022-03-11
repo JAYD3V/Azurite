@@ -1,0 +1,38 @@
+{
+  "SyntaxHighlighting": {
+    "SCM_HIGHLIGHTING_SCHEME": [
+      {
+        "id": "MODIFIED",
+        "base": "#FFA030",
+        "dim": "#FFA030AA"
+      },
+      {
+        "id": "ADDED",
+        "base": "#77D033",
+        "dim": "#77D03399"
+      },
+      {
+        "id": "DELETED",
+        "base": "#EE3399"
+      },
+      {
+        "id": "RENAMED",
+        "base": "#BB55FF"
+      },
+      {
+        "id": "IGNORED",
+        "base": "#FFFFFF66"
+      },
+      {
+        "id": "CONFLICT",
+        "base": "#FFA030",
+        "dim": "#FFA03088"
+      },
+      {
+        "id": "COMMON CONTENT",
+        "color": "#FFA030",
+        "dim": "#FFA03088"
+      }
+    ]
+  }
+}

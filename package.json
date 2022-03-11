@@ -25,25 +25,25 @@
             {
                 "id": "cordyceps-hypocreales",
                 "label": "Cordyceps: HYPOCREALES",
-                "path": "./theme/cordyceps-alpha-vscode-theme.json",
+                "path": "./theme/cordyceps-hypocreales-vscode-theme.json",
                 "uiTheme": "vs-dark"
             },
             {
                 "id": "cordyceps-unilateralis",
                 "label": "Cordyceps: UNILATERALIS",
-                "path": "./theme/cordyceps-beta-vscode-theme.json",
+                "path": "./theme/cordyceps-unilateralis-vscode-theme.json",
                 "uiTheme": "vs-dark"
             },
             {
                 "id": "cordyceps-ignota",
                 "label": "Cordyceps: IGNOTA",
-                "path": "./theme/cordyceps-gamma-vscode-theme.json",
+                "path": "./theme/cordyceps-ignota-vscode-theme.json",
                 "uiTheme": "vs-dark"
             },
             {
                 "id": "cordyceps-takaomontana",
                 "label": "Cordyceps: TAKAOMONTANA",
-                "path": "./theme/cordyceps-delta-vscode-theme.json",
+                "path": "./theme/cordyceps-takaomontana-vscode-theme.json",
                 "uiTheme": "vs-dark"
             }
         ]

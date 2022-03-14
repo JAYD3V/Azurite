@@ -301,7 +301,7 @@
         "tab.activeBackground": "#140233",
         "tab.unfocusedActiveBackground": "#140233",
         "breadcrumb.background": "#140233",
-        "editor.background": "#04040C",
+        "editor.background": "#000000",
         "editorGroupHeader.tabsBackground": "#04040C",
         "tab.inactiveBackground": "#04040C",
         "tab.unfocusedInactiveBackground": "#04040C",
@@ -536,7 +536,7 @@
         "terminal.foreground": "#CCCCCC",
         "testing.message.info.lineBackground": "#55707068",
         "textPreformat.foreground": "#A0C033",
-        "titleBar.activeBackground": "#030F3F",
+        "titleBar.activeBackground": "#0F0030",
         "inputValidation.errorBackground": "#FF113344",
         "inputValidation.errorBorder": "#FF113388",
         "inputValidation.errorForeground": "#FF1133",
@@ -659,16 +659,16 @@
         FUNCTIONS & CLASS-MEMBER FUNCTIONS
         -------------------------------------------------                       */
         "function": {
-            "foreground": "#AABB55",
+            "foreground": "#94B41C",
         },
         "function.declaration": {
-            "foreground": "#AABB55",
+            "foreground": "#94B41C",
         },
         "method": {
-            "foreground": "#AABB55",
+            "foreground": "#94B41C",
         },
         "method.declaration": {
-            "foreground": "#AABB55",
+            "foreground": "#94B41C",
         },
         /************************************************
 
@@ -801,22 +801,13 @@
                 "storage",
                 "keyword.operator.new",
                 "keyword.operator.optional",
-            ],
-            "settings": {
-                "foreground": "#1177FF",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "KEYWORD MODIFIERS & IMPORT/EXPORT KEYWORDS, FUNCTION ARROWS",
-            "scope": [
                 "storage.modifier",
                 "keyword.control.export",
                 "keyword.control.import",
             ],
             "settings": {
-                "foreground": "#1177FF",
-                "fontStyle": "bold italic"
+                "foreground": "#9454FF",
+                "fontStyle": "bold"
             }
         },
         {
@@ -933,7 +924,7 @@
                 "entity.name.function"
             ],
             "settings": {
-                "foreground": "#AABB55",
+                "foreground": "#94B41C",
                 "fontStyle": ""
             }
         },
@@ -1069,7 +1060,7 @@
                 "text.html.markdown punctuation",
             ],
             "settings": {
-                "foreground": "#1177FF",
+                "foreground": "#A04CFF",
                 "fontStyle": "bold"
             }
         },
@@ -1079,7 +1070,7 @@
                 "constant.character.entity.named.nbsp punctuation.definition"
             ],
             "settings": {
-                "foreground": "#1177FFBB",
+                "foreground": "#A04CFFBB",
                 "fontStyle": "bold"
             }
         },
@@ -1116,7 +1107,7 @@
                 "heading.3.markdown entity.name.section.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#1177FF",
+                "foreground": "#A04CFF",
                 "fontStyle": "bold underline"
             }
         },
@@ -1130,7 +1121,7 @@
                 "heading.3.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#1177FF",
+                "foreground": "#A04CFF",
                 "fontStyle": "italic bold underline"
             }
         },
@@ -1142,7 +1133,7 @@
                 "heading.5.markdown entity.name.section.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#1177FF",
+                "foreground": "#A04CFF",
                 "fontStyle": "bold"
             }
         },
@@ -1154,7 +1145,7 @@
                 "heading.5.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#1177FF",
+                "foreground": "#A04CFF",
                 "fontStyle": "bold"
             }
         },

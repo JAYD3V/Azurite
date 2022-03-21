@@ -247,9 +247,9 @@
     "editorSuggestWidget.selectedForeground": "#BEBEBE",
     "editorSuggestWidget.selectedIconForeground": "#AAEE22",
     "editorSuggestWidgetStatus.foreground": "#99FF4C",
-    "editorUnicodeHighlight.border": "#00000000",
-    "editorUnnecessaryCode.border": "#DDFF3344",
-    "editorUnnecessaryCode.opacity": "#000000",
+    "editorUnicodeHighlight.border": "#FF888855",
+    "editorUnnecessaryCode.border": "#00000000",
+    "editorUnnecessaryCode.opacity": "#00000088",
     "editorWarning.background": "#00000000",
     "editorWarning.border": "#00000000",
     "editorWarning.foreground": "#DDFF3366",
@@ -262,7 +262,7 @@
     "extensionButton.prominentBackground": "#3802B0",
     "extensionButton.prominentForeground": "#AAEE22",
     "extensionButton.prominentHoverBackground": "#88ff0066",
-    "extensionIcon.preReleaseForeground": "#117FFF",
+    "extensionIcon.preReleaseForeground": "#77D444",
     "extensionIcon.starForeground": "#DDFF33",
     "extensionIcon.verifiedForeground": "#99FF4C",
     "focusBorder": "#AAEE5580",
@@ -692,17 +692,53 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    // PARAMETERS
-    "parameter.declaration": {
-      "foreground": "#F04080",
+    "class": {
+      "foreground": "#4CBE1E",
       "bold": false,
       "italic": false,
+      "strikethrough": false
+    },
+    "class.declaration": {
+      "foreground": "#4CBE1E",
+      "bold": true,
+      "italic": false,
+      "strikethrough": false
+    },
+    "interface": {
+      "foreground": "#4CBE1E",
+      "bold": false,
+      "italic": false,
+      "strikethrough": false
+    },
+    "interface.declaration": {
+      "foreground": "#4CBE1E",
+      "bold": true,
+      "italic": false,
+      "strikethrough": false
+    },
+    "namespace": {
+      "foreground": "#4CBE1E",
+      "bold": false,
+      "italic": false,
+      "strikethrough": false
+    },
+    "namespace.declaration": {
+      "foreground": "#4CBE1E",
+      "bold": true,
+      "italic": false,
+      "strikethrough": false
+    },
+    // PARAMETERS
+    "parameter.declaration": {
+      "foreground": "#B0CC30",
+      "bold": false,
+      "italic": true,
       "strikethrough": false
     },
 
     // FUNCTIONS
     "function": {
-      "foreground": "#9CC236",
+      "foreground": "#009FFF",
       "italic": false,
       "bold": false,
       "underline": false,
@@ -710,48 +746,56 @@
     },
 
     "function.declaration": {
-      "foreground": "#9CC236F0",
-      "italic": false,
+      "foreground": "#009FFF",
       "bold": true,
+      "italic": false,
       "underline": false,
       "strikethrough": false
     },
 
     // METHODS
     "method": {
-      "foreground": "#9CC236",
+      "foreground": "#009FFF",
       "italic": false,
       "bold": false,
       "underline": false,
       "strikethrough": false
     },
     "method.declaration": {
-      "foreground": "#9CC236F0",
-      "italic": false,
+      "foreground": "#009FFFF0",
       "bold": true,
+      "italic": false,
       "underline": false,
       "strikethrough": false
     },
 
     "type": {
-      "foreground": "#118822",
-      "italic": false,
+      "foreground": "#4CBE1E99",
       "bold": false,
+      "italic": true,
       "underline": false,
       "strikethrough": false
     },
     "type.declaration": {
-      "foreground": "#118822",
+      "foreground": "#4CBE1E",
+      "bold": false,
       "italic": false,
-      "bold": true,
       "underline": false,
       "strikethrough": false
     },
 
     "typeParameter": {
-      "foreground": "#A8A018",
+      "foreground": "#7070FF",
+      "bold": true,
       "italic": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    "property.declaration": {
+      "foreground": "#EE9955",
       "bold": false,
+      "italic": false,
       "underline": false,
       "strikethrough": false
     }
@@ -817,7 +861,7 @@
     {
       "scope": ["string"],
       "settings": {
-        "foreground": "#2DAACC" //#90CC68
+        "foreground": "#5CB0C0" //#90CC68
       }
     },
 
@@ -825,7 +869,7 @@
       "name": "STRING TEMPLATE EMBEDDED VARIABLES",
       "scope": ["string.template meta.embedded"],
       "settings": {
-        "foreground": "#77BB55",
+        "foreground": "#4CBE1E99",
         "fontStyle": ""
       }
     },
@@ -834,7 +878,7 @@
       "name": "{TS} TYPES | PRIMITIVES",
       "scope": ["support.type.primitive.ts", "support.type.builtin"],
       "settings": {
-        "foreground": "#118822",
+        "foreground": "#4CBE1E99",
         "fontStyle": "italic"
       }
     },
@@ -843,7 +887,7 @@
       "name": "{TS} TYPES | TYPE-PARAMETERS",
       "scope": ["meta.type.parameters.ts entity.name.type.ts"],
       "settings": {
-        "foreground": "#A8A018",
+        "foreground": "#7070FF",
         "fontStyle": ""
       }
     },
@@ -852,7 +896,7 @@
       "name": "{TS} TYPES | TYPE-PARAMETERS",
       "scope": ["meta.type.parameters.ts punctuation.definition.typeparameters"],
       "settings": {
-        "foreground": "#0068FF",
+        "foreground": "#4CBE1E99",
         "fontStyle": "bold"
       }
     },
@@ -897,16 +941,8 @@
       "name": "OPERATORS",
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#117FFF",
+        "foreground": "#F84428",
         "fontStyle": ""
-      }
-    },
-    {
-      "name": "VALUE MODIFIER",
-      "scope": ["storage.modifier"],
-      "settings": {
-        "foreground": "#117FFF",
-        "fontStyle": "italic bold"
       }
     },
     {
@@ -918,30 +954,50 @@
       }
     },
     {
+      "name": "OPERATORS WHOSE SYNTAX IS COMPRISED FROM ONE OR MORE WORDS",
+      // NOTE: These are standard operators not Control OR (Control-flow) keywords.
+      // (i.e. new, typeof, instanceof...)
+      // (ie. the words for, do, do-while, forEach, are native method calls,
+      // and control-flow keywords, and not a traditional operator) Hence why
+      // they fall under keyword.control.${foobar.foofoo.head}
       "scope": [
         "keyword.operator.expression",
         "keyword.operator.new",
-        "keyword.operator.optional"
+        "keyword.operator.optional",
+        "storage.modifier"
       ],
       "settings": {
-        "foreground": "#2098FF",
+        "foreground": "#4CBE1E",
         "fontStyle": "italic"
       }
     },
     {
+      // TYPESCRIPT SPECIFIC
+      "name": "TYPESCRIPT OPERATORS FOR ANNOTATING TYPES",
       "scope": [
-        "keyword.operator.type.annotation",
-        "punctuation.separator.key-value",
-        "keyword.operator.type",
-        "keyword.operator.optional",
-        "keyword.operator.ternary",
-        "punctuation.accessor",
-        "keyword.operator.relational",
-        "keyword.operator.assignment",
-        "keyword.operator.arithmetic"
+        "keyword.operator.optional.ts",
+        "keyword.operator.definiteassignment.ts",
+        "keyword.operator.type.annotation.ts"
       ],
       "settings": {
-        "foreground": "#117FFF",
+        "foreground": "#EE3E18",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "scope": [
+        "punctuation.separator.key-value",
+        "keyword.operator.type",
+        "keyword.operator.ternary",
+        "punctuation.accessor",
+        "punctuation.definition.section.case-statement"
+        // "keyword.operator.relational",
+        // "keyword.operator.assignment",
+        // "keyword.operator.arithmetic"
+      ],
+      "settings": {
+        "foreground": "#F84428",
         "fontStyle": "bold"
       }
     },
@@ -960,11 +1016,29 @@
         CONSTANTS
         -------------------------------------------------   */
     {
-      "name": "CONSTANT (standard)",
-      "scope": ["constant"],
+      "name": "CONSTANT (default)",
+      "scope": ["constant.language"],
       "settings": {
-        "foreground": "#EE5533",
-        "fontStyle": "italic"
+        "foreground": "#FF4090",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "CONSTANT | LANGUAGE",
+      "scope": ["constant.language"],
+      "settings": {
+        "foreground": "#FF4090",
+        "fontStyle": "italic bold"
+      }
+    },
+
+    {
+      "name": "CONSTANT | CHARACTERS (escaped)",
+      "scope": ["constant.character", "punctuation.definition.template-expression"],
+      "settings": {
+        "foreground": "#FF4090",
+        "fontStyle": "bold"
       }
     },
 
@@ -972,16 +1046,16 @@
       "name": "CONSTANT | NUMBERS",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#60CC70",
-        "fontStyle": ""
+        "foreground": "#11BB22",
+        "fontStyle": "bold"
       }
     },
 
     {
       "name": "VARIABLE | PROPERTY",
-      "scope": ["variable.other.property"],
+      "scope": ["source variable.other.property"],
       "settings": {
-        "foreground": "#BEBEBE",
+        "foreground": "#EE9955",
         "fontStyle": ""
       }
     },
@@ -989,7 +1063,7 @@
       "name": "VARIABLE | OBJECT",
       "scope": ["variable.other.object"],
       "settings": {
-        "foreground": "#18CC88",
+        "foreground": "#4CBE1E",
         "fontStyle": ""
       }
     },
@@ -998,19 +1072,11 @@
       "name": "VARIABLE | LANGUAGE",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#18CC88",
+        "foreground": "#4CBE1E",
         "fontStyle": "italic"
       }
     },
 
-    {
-      "name": "CONSTANT | CHARACTERS (escaped)",
-      "scope": ["constant.character", "punctuation.definition.template-expression"],
-      "settings": {
-        "foreground": "#FF7090",
-        "fontStyle": ""
-      }
-    },
     {
       "name": "VARIABLE | ALIAS",
       "scope": ["variable.other.readwrite.alias"],
@@ -1032,7 +1098,7 @@
     {
       "scope": ["entity.name.function", "storage.type.function.arrow"],
       "settings": {
-        "foreground": "#9CC236",
+        "foreground": "#009FFF",
         "fontStyle": ""
       }
     },

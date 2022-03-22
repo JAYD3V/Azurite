@@ -10,7 +10,7 @@
 
   "BORDERS": {
     "STATIC": {
-      "": ""
+      "Default Workbench": "#3C6CFF44"
     },
     "HIGHLIGHTS": {
       "": ""
@@ -23,7 +23,7 @@
     },
 
     "HIGHLIGHTS": {
-      "": ""
+      "FOCUS": "#3C6CFF66"
     }
   },
 

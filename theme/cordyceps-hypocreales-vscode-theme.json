@@ -29,8 +29,8 @@
     // Links
     "editorLink.activeForeground": "#88FF44",
     "textLink.activeForeground": "#88FF44",
-    "notificationLink.foreground": "#90AFFF",
-    "textLink.foreground": "#90AFFF",
+    "notificationLink.foreground": "#8DADFF",
+    "textLink.foreground": "#8DADFF",
     /************************************************
 
 
@@ -501,7 +501,7 @@
     "terminal.ansiMagenta": "#FF22BB",
     "terminal.ansiRed": "#BB2233",
     "terminal.ansiYellow": "#eec844",
-    "terminal.foreground": "#90AFFF",
+    "terminal.foreground": "#8DADFF",
     "terminalCommandDecoration.defaultBackground": "#8855ff",
     "terminalCommandDecoration.errorBackground": "#FF4040",
     "terminalCommandDecoration.successBackground": "#8855ff",
@@ -1192,7 +1192,7 @@
     {
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#FFC222"
+        "foreground": "#8DADFF"
       }
     },
     {

@@ -29,8 +29,8 @@
     // Links
     "editorLink.activeForeground": "#88FF44",
     "textLink.activeForeground": "#88FF44",
-    "notificationLink.foreground": "#80A0FF",
-    "textLink.foreground": "#80A0FF",
+    "notificationLink.foreground": "#90AFFF",
+    "textLink.foreground": "#90AFFF",
     /************************************************
 
 
@@ -501,7 +501,7 @@
     "terminal.ansiMagenta": "#FF22BB",
     "terminal.ansiRed": "#BB2233",
     "terminal.ansiYellow": "#eec844",
-    "terminal.foreground": "#9FB5FF",
+    "terminal.foreground": "#90AFFF",
     "terminalCommandDecoration.defaultBackground": "#8855ff",
     "terminalCommandDecoration.errorBackground": "#FF4040",
     "terminalCommandDecoration.successBackground": "#8855ff",

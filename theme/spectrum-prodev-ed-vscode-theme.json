@@ -520,44 +520,44 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "class": {
-      "foreground": "#44BB40",
+      "foreground": "#42C444",
       "bold": false,
       "italic": false,
       "strikethrough": false
     },
     "class.declaration": {
-      "foreground": "#44BB40",
+      "foreground": "#42C444",
       "bold": true,
       "italic": false,
       "strikethrough": false
     },
     "interface": {
-      "foreground": "#44BB40",
+      "foreground": "#42C444",
       "bold": false,
       "italic": false,
       "strikethrough": false
     },
     "interface.declaration": {
-      "foreground": "#44BB40",
+      "foreground": "#42C444",
       "bold": true,
       "italic": false,
       "strikethrough": false
     },
     "namespace": {
-      "foreground": "#44BB40",
+      "foreground": "#42C444",
       "bold": false,
       "italic": false,
       "strikethrough": false
     },
     "namespace.declaration": {
-      "foreground": "#44BB40",
+      "foreground": "#42C444",
       "bold": true,
       "italic": false,
       "strikethrough": false
     },
     // PARAMETERS
     "parameter.declaration": {
-      "foreground": "#B8C044",
+      "foreground": "#BBBB33",
       "bold": false,
       "italic": false,
       "strikethrough": false
@@ -802,7 +802,7 @@
       "name": "VARIABLE | OBJECT",
       "scope": ["variable.other.object"],
       "settings": {
-        "foreground": "#44BB40",
+        "foreground": "#42C444",
         "fontStyle": ""
       }
     },
@@ -810,7 +810,7 @@
       "name": "VARIABLE | LANGUAGE",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#44BB40",
+        "foreground": "#42C444",
         "fontStyle": "italic"
       }
     },

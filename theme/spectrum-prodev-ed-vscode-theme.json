@@ -689,15 +689,17 @@
       "name": "COMMENTS | DOUBLE FWD-SLASH LINE COMMENTS & ALL BLOCK-COMMENTS ",
       "scope": ["comment", "comment punctuation.definition"],
       "settings": {
-        "foreground": "#117722",
+        "foreground": "#886633",
         "fontStyle": ""
       }
     },
+    // Hello World
+
     {
       "name": "COMMENTS | HASHTAG-COMMENTS",
       "scope": ["comment.line.number-sign"],
       "settings": {
-        "foreground": "#117722",
+        "foreground": "#886633",
         "fontStyle": "bold"
       }
     },

@@ -713,6 +713,7 @@
     "errorLens.warningBackground": "#00000000",
     "errorLens.errorBackground": "#00000000"
   },
+  "semanticHighlighting": true,
   "semanticTokenColors": {
     "class": {
       "foreground": "#42C444",
@@ -884,18 +885,17 @@
       "name": "COMMENTS | DOUBLE FWD-SLASH LINE COMMENTS & ALL BLOCK-COMMENTS ",
       "scope": ["comment", "comment punctuation.definition"],
       "settings": {
-        "foreground": "#886633",
+        "foreground": "#884444",
         "fontStyle": ""
       }
     },
     // Hello World
-
     {
       "name": "COMMENTS | HASHTAG-COMMENTS",
       "scope": ["comment.line.number-sign"],
       "settings": {
-        "foreground": "#886633",
-        "fontStyle": "bold"
+        "foreground": "#884444",
+        "fontStyle": ""
       }
     },
     {
@@ -904,7 +904,7 @@
         "foreground": "#3CC3C3"
       }
     },
-
+    /** */
     {
       "name": "{TS} TYPES | PRIMITIVES",
       "scope": ["support.type.primitive.ts", "support.type.builtin"],
@@ -913,6 +913,7 @@
         "fontStyle": "italic"
       }
     },
+
     {
       "name": "{TS} TYPES | TYPE-PARAMETERS",
       "scope": ["meta.type.parameters.ts entity.name.type.ts"],
@@ -921,6 +922,7 @@
         "fontStyle": "bold"
       }
     },
+
     {
       "name": "{TS} TYPES | TYPE-PARAMETERS",
       "scope": ["meta.type.parameters.ts punctuation.definition.typeparameters"],
@@ -929,9 +931,6 @@
         "fontStyle": "bold"
       }
     },
-    /*
-
-    */
     {
       "scope": ["storage"],
       "settings": {
@@ -1300,7 +1299,7 @@
     {
       "scope": "source.ignore",
       "settings": {
-        "foreground": "#73C353",
+        "foreground": "#44C455",
         "fontStyle": ""
       }
     },

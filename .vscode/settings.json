@@ -1,5 +1,6 @@
 {
-  "cSpell.words": ["Unilateralis", "urple"],
-  "editor.minimap.scale": 2,
-  "editor.minimap.size": "proportional"
+    "files.exclude": {
+        "**/.git": true,
+        "LICENSE": true
+    }
 }

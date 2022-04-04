@@ -23,33 +23,33 @@
   "contributes": {
     "themes": [
       {
-        "id": "spectrum-ultraviolet-ed",
-        "label": "Spectrum: UltraViolet Edition (HC/Dark Hybrid: Vlt/Blk)",
-        "path": "./theme/spectrum-ultraviolet-ed-vscode-theme.json",
+        "id": "digital-dye-pro-devz-ed",
+        "label": "Digital Dye: Pro Developers Ed. (Dark | Blue)",
+        "path": "./theme/digital-dye-pro-devz-ed-vscode-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "spectrum-prodev-ed",
-        "label": "Spectrum: Pro Developer Edition (Dark @Blu/Grn)",
-        "path": "./theme/spectrum-prodev-ed-vscode-theme.json",
+        "id": "digital-dye-overclocked-ed",
+        "label": "Digital Dye: Overclocked Ed. (Dark | Cyan)",
+        "path": "./theme/digital-dye-overclocked-ed-vscode-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "cordyceps-unilateralis",
-        "label": "Cordyceps: UNILATERALIS",
-        "path": "./theme/cordyceps-unilateralis-vscode-theme.json",
+        "id": "digital-dye-many-worlds-ed",
+        "label": "Digital Dye: Many Worlds Ed. (SemiDark | Orange)",
+        "path": "./theme/digital-dye-many-worlds-ed-vscode-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "cordyceps-ignota",
-        "label": "Cordyceps: IGNOTA",
-        "path": "./theme/cordyceps-ignota-vscode-theme.json",
+        "id": "digital-dye-seppuku-ed",
+        "label": "Digital Dye: Seppuku Ed. (Dark | Red",
+        "path": "./theme/digital-dye-seppuku-ed-vscode-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "cordyceps-takaomontana",
-        "label": "Cordyceps: TAKAOMONTANA",
-        "path": "./theme/cordyceps-takaomontana-vscode-theme.json",
+        "id": "digital-dye-ultra-violet-ed",
+        "label": "Digital Dye: UltraViolet Edition (HC-Dark-Hybrid | Violet)",
+        "path": "./theme/digital-dye-ultra-violet-ed-vscode-theme.json",
         "uiTheme": "vs-dark"
       }
     ]

@@ -1,0 +1,10 @@
+{
+    "Background": {
+        "Editor/Sidebar-bg": "#080D17"
+    },
+
+    "Foreground": {},
+    "Borders": {},
+    "Status": {},
+    "SCM": {}
+}

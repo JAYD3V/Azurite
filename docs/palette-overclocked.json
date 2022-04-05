@@ -1,10 +1,18 @@
 {
-    "Background": {
-        "Editor/Sidebar-bg": "#080D17"
+    "BACKGROUND": {
+        "Op | STATIC": {
+            "Editor/Sidebar-bg": "#080D17"
+        },
+
+        "TP | SELECTION": {
+            "active": "#0FF0F044",
+            "default": "#0FF0F030",
+            "inactive": "#FFFFFF1A"
+        }
     },
 
-    "Foreground": {},
-    "Borders": {},
-    "Status": {},
+    "FOREGROUND": {},
+    "BORDERS": {},
+    "STATUS": {},
     "SCM": {}
 }

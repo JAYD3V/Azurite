@@ -3,4 +3,6 @@
         "**/.git": true,
         "LICENSE": true
     }
+
+    // "workbench.colorTheme": "digital-dye-pro-devz-ed"
 }

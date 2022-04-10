@@ -1,8 +1,8 @@
 {
-    "files.exclude": {
-        "**/.git": true,
-        "LICENSE": true
-    }
+  "files.exclude": {
+    "**/.git": true,
+    "LICENSE": true
+  },
 
-    // "workbench.colorTheme": "digital-dye-pro-devz-ed"
+  "workbench.colorTheme": "digital-dye-many-worlds-ed"
 }

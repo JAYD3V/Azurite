@@ -1,0 +1,22 @@
+{
+  "1": {
+    "STATIC-ITEMS": {
+      "Editor": "#0C0701",
+      "Sidebar": ""
+    },
+
+    "SELECTION": {
+      "Active": "#",
+      "Default": "#",
+      "inactive": "#"
+    }
+  },
+  "FOREGROUND": {},
+  "BORDERS": {
+    "Active Borders": {
+      "color": "#50E525"
+    }
+  },
+  "STATUS": {},
+  "SCM": {}
+}

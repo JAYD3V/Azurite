@@ -186,9 +186,9 @@
     "tab.lastPinnedBorder": "#3C6CFF44",
     "tab.border": "#3C6CFF44",
     "tab.hoverForeground": "#1cc0ff",
-    "tab.inactiveBackground": "#0A0A14",
+    "tab.inactiveBackground": "#0B082E",
     // "tab.unfocusedHoverForeground": "#1cc0ff",
-    // "tab.unfocusedInactiveBackground": "#0A0A14",
+    // "tab.unfocusedInactiveBackground": "#0B082E",
     // "tab.unfocusedActiveForeground": "#FFFFFF",
     "tab.activeForeground": "#FFFFFF",
     "tab.activeBorderTop": "#00000000",
@@ -333,13 +333,13 @@
     "activityBar.inactiveForeground": "#5566FF",
     "activityBar.border": "#3344FF55",
     "activityBar.activeFocusBorder": "#A0FF11",
-    "activityBar.background": "#0A0A14",
+    "activityBar.background": "#0B082E",
     "activityBar.dropBorder": "#20F080",
     "activityBarBadge.foreground": "#BBFF33",
     "breadcrumb.background": "#0F103C",
     "breadcrumb.foreground": "#6699FF",
     "button.background": "#010d68",
-    "button.border": "#0A0A14cc",
+    "button.border": "#0B082Ecc",
     "button.foreground": "#c0d0ff",
     "button.secondaryForeground": "#c0d0ff",
     "charts.red": "#FF4040",
@@ -361,13 +361,13 @@
     "debugTokenExpression.value": "#c277ff",
     "debugToolBar.background": "#000000",
     "debugView.exceptionLabelBackground": "#FF404044",
-    "diffEditor.diagonalFill": "#0A0A14",
+    "diffEditor.diagonalFill": "#0B082E",
     "diffEditor.insertedTextBackground": "#20F08027",
     "diffEditor.insertedTextBorder": "#20F08055",
     "diffEditor.removedTextBackground": "#ff55ee27",
     "diffEditor.removedTextBorder": "#ff55ee55",
     "dropdown.border": "#60708066",
-    "editor.background": "#0D0E27",
+    "editor.background": "#0A0C20",
     "editor.findMatchBackground": "#00000044",
     "editor.findMatchBorder": "#bbff22",
     "editor.findMatchHighlightBackground": "#00000044",
@@ -429,7 +429,7 @@
     "editorGroup.emptyBackground": "#280480",
     "editorGroupHeader.border": "#050200",
     "editorGroupHeader.noTabsBackground": "#242A3D",
-    "editorGroupHeader.tabsBackground": "#0A0A14",
+    "editorGroupHeader.tabsBackground": "#0B082E",
     "editorGroupHeader.tabsBorder": "#FFFF7728",
     "editorGutter.addedBackground": "#20F080",
     "editorGutter.deletedBackground": "#ff55eecc",
@@ -503,7 +503,7 @@
     "notificationsErrorIcon.foreground": "#FF4040",
     "notificationsInfoIcon.foreground": "#66dd44",
     "notificationsWarningIcon.foreground": "#FFF030",
-    "panel.background": "#0A0A14",
+    "panel.background": "#0B082E",
     "panel.border": "#B4B4B455",
     "peekViewEditor.background": "#0D0E38",
     "peekViewEditorGutter.background": "#060b1b",
@@ -925,7 +925,9 @@
 
     {
       "name": "{TS} TYPES | TYPE-PARAMETERS",
-      "scope": ["meta.type.parameters.ts punctuation.definition.typeparameters"],
+      "scope": [
+        "meta.type.parameters.ts punctuation.definition.typeparameters"
+      ],
       "settings": {
         "foreground": "#6C88FF",
         "fontStyle": "bold"
@@ -1104,7 +1106,10 @@
       }
     },
     {
-      "scope": ["markup.bold markup.italic.markdown", "markup.italic.markdown markup.bold"],
+      "scope": [
+        "markup.bold markup.italic.markdown",
+        "markup.italic.markdown markup.bold"
+      ],
       "settings": {
         "foreground": "#73C353",
         "fontStyle": "italic bold"

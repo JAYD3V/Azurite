@@ -2,7 +2,5 @@
   "files.exclude": {
     "**/.git": true,
     "LICENSE": true
-  },
-
-  "workbench.colorTheme": "digital-dye-many-worlds-ed"
+  }
 }

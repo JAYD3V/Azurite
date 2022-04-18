@@ -1,0 +1,9 @@
+{
+  "BG": {
+    "STATIC-BG": {
+      "editor": "#071027", // Version of primary that is more readable when displaying text
+      "primary": "#000C2C",
+      "secondary": "#0A2148"
+    }
+  }
+}

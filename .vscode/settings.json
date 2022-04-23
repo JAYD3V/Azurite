@@ -5,4 +5,5 @@
         "package-lock.json": true
     },
     "editor.minimap.enabled": false,
+    "window.zoomLevel": 0.625
 }

@@ -238,7 +238,7 @@
         "editorBracketHighlight.foreground4": "#0099FFcc",
         "editorGroup.focusedEmptyBorder": "#0099FF",
         "editorIndentGuide.activeBackground": "#0099FF",
-        "editorLineNumber.foreground": "#0099FFaa",
+        "editorLineNumber.foreground": "#083294",
         "editorOverviewRuler.bracketMatchForeground": "#0099FF",
         "editorOverviewRuler.wordHighlightForeground": "#0099FF",
         "editorSuggestWidget.highlightForeground": "#0099FF",
@@ -428,7 +428,7 @@
         "diffEditor.removedTextBorder": "#ff449955",
         "dropdown.background": "#00086c",
         "dropdown.border": "#62603877",
-        "editor.background": "#071027",
+        "editor.background": "#060C20",
         "editor.findMatchBackground": "#00086c",
         "editor.findMatchBorder": "#55ee4488",
         "editor.findRangeHighlightBackground": "#440D82FF",
@@ -454,7 +454,7 @@
         "editorGutter.deletedBackground": "#e03070cc",
         "editorHoverWidget.statusBarBackground": "#001A6C",
         "editorIndentGuide.background": "#021224",
-        "editorInlayHint.foreground": "#00aaff",
+        "editorInlayHint.foreground": "#1896FF",
         "editorInlayHint.parameterForeground": "#a0ffa0cc",
         "editorInlayHint.typeForeground": "#6c3cff",
         "editorMarkerNavigationError.headerBackground": "#580000",
@@ -601,37 +601,37 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "class": {
-            "foreground": "#44AE99",
+            "foreground": "#70AA5E",
             "bold": false,
             "italic": false,
             "strikethrough": false
         },
         "class.declaration": {
-            "foreground": "#44AE99",
+            "foreground": "#70AA5E",
             "bold": true,
             "italic": false,
             "strikethrough": false
         },
         "interface": {
-            "foreground": "#44AE99",
+            "foreground": "#70AA5E",
             "bold": false,
             "italic": false,
             "strikethrough": false
         },
         "interface.declaration": {
-            "foreground": "#44AE99",
+            "foreground": "#70AA5E",
             "bold": true,
             "italic": false,
             "strikethrough": false
         },
         "namespace": {
-            "foreground": "#44AE99",
+            "foreground": "#70AA5E",
             "bold": false,
             "italic": false,
             "strikethrough": false
         },
         "namespace.declaration": {
-            "foreground": "#44AE99",
+            "foreground": "#70AA5E",
             "bold": true,
             "italic": false,
             "strikethrough": false
@@ -644,14 +644,14 @@
             "strikethrough": false
         },
         "parameter": {
-            "foreground": "#ADADAD",
+            "foreground": "#B0B0B0",
             "italic": false,
             "bold": false,
             "underline": false,
             "strikethrough": false
         },
         "variable": {
-            "foreground": "#ADADAD",
+            "foreground": "#B0B0B0",
             "italic": false,
             "bold": false,
             "underline": false,
@@ -659,14 +659,14 @@
         },
         // FUNCTIONS
         "function": {
-            "foreground": "#44AAFF",
+            "foreground": "#1896FF",
             "italic": false,
             "bold": false,
             "underline": false,
             "strikethrough": false
         },
         "function.declaration": {
-            "foreground": "#44AAFFE5",
+            "foreground": "#1896FFE0",
             "bold": true,
             "italic": false,
             "underline": false,
@@ -674,42 +674,42 @@
         },
         // METHODS
         "method": {
-            "foreground": "#44AAFF",
+            "foreground": "#1896FF",
             "italic": false,
             "bold": false,
             "underline": false,
             "strikethrough": false
         },
         "method.declaration": {
-            "foreground": "#44AAFFE5",
+            "foreground": "#1896FFE0",
             "bold": true,
             "italic": false,
             "underline": false,
             "strikethrough": false
         },
         "type": {
-            "foreground": "#7766FF",
+            "foreground": "#0F700A",
             "bold": false,
             "italic": false,
             "underline": false,
             "strikethrough": false
         },
         "type.declaration": {
-            "foreground": "#7766FF",
+            "foreground": "#0F700A",
             "bold": false,
             "italic": false,
             "underline": false,
             "strikethrough": false
         },
         "typeParameter": {
-            "foreground": "#7766FF",
+            "foreground": "#0F700A",
             "bold": false,
             "italic": false,
             "underline": false,
             "strikethrough": false
         },
         "typeParameter.declaration": {
-            "foreground": "#7766FF",
+            "foreground": "#0F700A",
             "bold": false,
             "italic": false,
             "underline": false,
@@ -723,7 +723,7 @@
                 "source"
             ],
             "settings": {
-                "foreground": "#ADADAD"
+                "foreground": "#B0B0B0"
             }
         },
         {
@@ -731,7 +731,7 @@
                 "punctuation"
             ],
             "settings": {
-                "foreground": "#999999",
+                "foreground": "#AAAAAA",
                 "fontStyle": ""
             }
         },
@@ -746,7 +746,7 @@
                 "meta.brace"
             ],
             "settings": {
-                "foreground": "#999999",
+                "foreground": "#AAAAAA",
                 "fontStyle": ""
             }
         },
@@ -766,7 +766,7 @@
                 "string.template meta.embedded"
             ],
             "settings": {
-                "foreground": "#ADADAD",
+                "foreground": "#B0B0B0",
                 "fontStyle": ""
             }
         },
@@ -798,7 +798,7 @@
                 "punctuation.definition.string"
             ],
             "settings": {
-                "foreground": "#D0A880"
+                "foreground": "#E08C90"
             }
         },
         {
@@ -807,7 +807,7 @@
                 "entity.name.type"
             ],
             "settings": {
-                "foreground": "#7766FF",
+                "foreground": "#0F700A",
                 "fontStyle": ""
             }
         },
@@ -818,7 +818,7 @@
                 "support.type.builtin"
             ],
             "settings": {
-                "foreground": "#7766FF",
+                "foreground": "#0F700A",
                 "fontStyle": "italic"
             }
         },
@@ -828,7 +828,7 @@
                 "meta.type.parameters.ts entity.name.type.ts"
             ],
             "settings": {
-                "foreground": "#7766FF",
+                "foreground": "#0F700A",
                 "fontStyle": ""
             }
         },
@@ -852,7 +852,7 @@
                 // "keyword.operator.decrement"
             ],
             "settings": {
-                "foreground": "#0C82FF",
+                "foreground": "#A060FF",
                 "fontStyle": "bold"
             }
         },
@@ -865,7 +865,7 @@
                 // "case-clause.expr keyword.control.switch"
             ],
             "settings": {
-                "foreground": "#CC5294",
+                "foreground": "#DD7755",
                 "fontStyle": ""
             }
         },
@@ -875,7 +875,7 @@
                 "keyword.control.export"
             ],
             "settings": {
-                "foreground": "#CC5294",
+                "foreground": "#DD7755",
                 "fontStyle": "italic"
             }
         },
@@ -885,7 +885,7 @@
                 "constant"
             ],
             "settings": {
-                "foreground": "#E05CFF",
+                "foreground": "#EE5566",
                 "fontStyle": ""
             }
         },
@@ -895,18 +895,8 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#E05CFF",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "NUMERIC LITERALS",
-            "scope": [
-                "constant.numeric"
-            ],
-            "settings": {
-                "foreground": "#44CC00",
-                "fontStyle": ""
+                "foreground": "#EE5566",
+                "fontStyle": "italic"
             }
         },
         {
@@ -915,7 +905,7 @@
                 "variable.other.object"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": ""
             }
         },
@@ -925,7 +915,7 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "italic"
             }
         },
@@ -935,7 +925,7 @@
                 "variable.other.readwrite.alias"
             ],
             "settings": {
-                "foreground": "#ADADAD",
+                "foreground": "#B0B0B0",
                 "fontStyle": "bold"
             }
         },
@@ -944,7 +934,7 @@
                 "entity.name.function"
             ],
             "settings": {
-                "foreground": "#44AAFF",
+                "foreground": "#1896FF",
                 "fontStyle": ""
             }
         },
@@ -1005,7 +995,7 @@
                 "punctuation.definition.string.end.json"
             ],
             "settings": {
-                "foreground": "#C0C8B0",
+                "foreground": "#E89099",
                 "fontStyle": ""
             }
         },
@@ -1014,20 +1004,20 @@
                 "text.html.markdown"
             ],
             "settings": {
-                "foreground": "#AEAEAE"
+                "foreground": "#B0B0B0"
             }
         },
         {
             "scope": "text.html.markdown markup.bold.markdown",
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "bold"
             }
         },
         {
             "scope": "text.html.markdown markup.italic.markdown",
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "italic"
             }
         },
@@ -1037,7 +1027,7 @@
                 "markup.italic.markdown markup.bold"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "italic bold"
             }
         },
@@ -1169,7 +1159,7 @@
                 "heading.2 entity.name.section markup.italic"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "italic underline"
             }
         },
@@ -1179,7 +1169,7 @@
                 "heading.2 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "italic bold underline"
             }
         },
@@ -1189,7 +1179,7 @@
                 "heading.4 entity.name.section markup.bold"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "bold"
             }
         },
@@ -1199,7 +1189,7 @@
                 "heading.4 entity.name.section markup.italic"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "italic"
             }
         },
@@ -1209,7 +1199,7 @@
                 "heading.2 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "italic bold"
             }
         },
@@ -1219,7 +1209,7 @@
                 "heading.4 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#44AE99",
+                "foreground": "#70AA5E",
                 "fontStyle": "italic bold"
             }
         },
@@ -1258,7 +1248,7 @@
         {
             "scope": "token.debug-token",
             "settings": {
-                "foreground": "#9070FFDD"
+                "foreground": "#A060FFDD"
             }
         },
         {

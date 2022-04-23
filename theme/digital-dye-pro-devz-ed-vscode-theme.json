@@ -601,44 +601,44 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "class": {
-            "foreground": "#70AA5E",
+            "foreground": "#50AD94",
             "bold": false,
             "italic": false,
             "strikethrough": false
         },
         "class.declaration": {
-            "foreground": "#70AA5E",
+            "foreground": "#50AD94",
             "bold": true,
             "italic": false,
             "strikethrough": false
         },
         "interface": {
-            "foreground": "#70AA5E",
+            "foreground": "#50AD94",
             "bold": false,
             "italic": false,
             "strikethrough": false
         },
         "interface.declaration": {
-            "foreground": "#70AA5E",
+            "foreground": "#50AD94",
             "bold": true,
             "italic": false,
             "strikethrough": false
         },
         "namespace": {
-            "foreground": "#70AA5E",
+            "foreground": "#50AD94",
             "bold": false,
             "italic": false,
             "strikethrough": false
         },
         "namespace.declaration": {
-            "foreground": "#70AA5E",
+            "foreground": "#50AD94",
             "bold": true,
             "italic": false,
             "strikethrough": false
         },
         // PARAMETERS
         "parameter.declaration": {
-            "foreground": "#99BB66",
+            "foreground": "#D5B447",
             "bold": false,
             "italic": true,
             "strikethrough": false
@@ -688,28 +688,28 @@
             "strikethrough": false
         },
         "type": {
-            "foreground": "#0F700A",
+            "foreground": "#006666",
             "bold": false,
             "italic": false,
             "underline": false,
             "strikethrough": false
         },
         "type.declaration": {
-            "foreground": "#0F700A",
+            "foreground": "#006666",
             "bold": false,
             "italic": false,
             "underline": false,
             "strikethrough": false
         },
         "typeParameter": {
-            "foreground": "#0F700A",
+            "foreground": "#006666",
             "bold": false,
             "italic": false,
             "underline": false,
             "strikethrough": false
         },
         "typeParameter.declaration": {
-            "foreground": "#0F700A",
+            "foreground": "#006666",
             "bold": false,
             "italic": false,
             "underline": false,
@@ -798,7 +798,7 @@
                 "punctuation.definition.string"
             ],
             "settings": {
-                "foreground": "#E08C90"
+                "foreground": "#008020"
             }
         },
         {
@@ -807,7 +807,7 @@
                 "entity.name.type"
             ],
             "settings": {
-                "foreground": "#0F700A",
+                "foreground": "#006666",
                 "fontStyle": ""
             }
         },
@@ -818,7 +818,7 @@
                 "support.type.builtin"
             ],
             "settings": {
-                "foreground": "#0F700A",
+                "foreground": "#006666",
                 "fontStyle": "italic"
             }
         },
@@ -828,7 +828,7 @@
                 "meta.type.parameters.ts entity.name.type.ts"
             ],
             "settings": {
-                "foreground": "#0F700A",
+                "foreground": "#006666",
                 "fontStyle": ""
             }
         },
@@ -836,47 +836,67 @@
             "name": "STORAGE TYPES (VARIABLE TYPES) & OPERATORS",
             "scope": [
                 "storage",
-                "keyword",
-                "punctuation.accessor",
-                "punctuation.separator.key-value",
-                "punctuation.definition.section.case-statement",
-                "meta.type.parameters.ts punctuation.definition.typeparameters",
-                "storage.type.function.arrow"
-                // "keyword.operator.logical",
-                // "keyword.operator.spread",
-                // "keyword.operator.rest",
-                // "keyword.operator.type.annotation",
-                // "keyword.operator.optional",
-                // "keyword.operator.arithmetic",
-                // "keyword.operator.increment",
-                // "keyword.operator.decrement"
+                "case-clause.expr keyword.control.switch"
             ],
             "settings": {
-                "foreground": "#A060FF",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "CONTROL FLOW",
-            "scope": [
-                "keyword.control",
-                "keyword.operator.expression",
-                "keyword.operator.new",
-                // "case-clause.expr keyword.control.switch"
-            ],
-            "settings": {
-                "foreground": "#DD7755",
+                "foreground": "#AA77FF",
                 "fontStyle": ""
             }
         },
         {
-            "name": "EXPORT KEYWORD",
+            "name": "KEYWORDS/OPERATORS: Control Flow",
             "scope": [
-                "keyword.control.export"
+                "keyword",
             ],
             "settings": {
-                "foreground": "#DD7755",
+                "foreground": "#E88050",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "KEYWORDS/OPERATORS: Unary Expression Operators & Export Keyword",
+            "scope": [
+                "keyword.operator.new",
+                "keyword.control.export",
+                "keyword.operator.expression",
+            ],
+            "settings": {
+                "foreground": "#E88050",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "KEYWORDS/OPERATORS: Assignment/Assignment-compound, Arithmetic, Comparison, Relational, Logical, Ternary, incrementing/decrementing, bitwise/bitwise-shift",
+            "scope": [
+                "keyword.operator.assignment",
+                "keyword.operator.assignment.compound",
+                "keyword.operator.arithmetic",
+                "keyword.operator.comparison",
+                "keyword.operator.relational",
+                "keyword.operator.logical",
+                "keyword.operator.ternary",
+                "keyword.operator.increment",
+                "keyword.operator.decrement",
+                "keyword.operator.bitwise",
+                "keyword.operator.bitwise.shift"
+            ],
+            "settings": {
+                "foreground": "#F86018",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "KEYWORDS/OPERATORS: Accessors, Separators & Delimiters",
+            "scope": [
+                "punctuation.accessor",
+                "punctuation.separator.key-value",
+                "punctuation.definition.section.case-statement",
+                "meta.type.parameters.ts punctuation.definition.typeparameters",
+                "keyword.operator.type.annotation"
+            ],
+            "settings": {
+                "foreground": "#F86018",
+                "fontStyle": "bold"
             }
         },
         {
@@ -885,7 +905,7 @@
                 "constant"
             ],
             "settings": {
-                "foreground": "#EE5566",
+                "foreground": "#E56060",
                 "fontStyle": ""
             }
         },
@@ -895,8 +915,18 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#EE5566",
+                "foreground": "#EE6677",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CONSTANT | LANGUAGE",
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#EE4455",
+                "fontStyle": ""
             }
         },
         {
@@ -905,7 +935,7 @@
                 "variable.other.object"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": ""
             }
         },
@@ -915,7 +945,7 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "italic"
             }
         },
@@ -1010,14 +1040,14 @@
         {
             "scope": "text.html.markdown markup.bold.markdown",
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "bold"
             }
         },
         {
             "scope": "text.html.markdown markup.italic.markdown",
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "italic"
             }
         },
@@ -1027,7 +1057,7 @@
                 "markup.italic.markdown markup.bold"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "italic bold"
             }
         },
@@ -1159,7 +1189,7 @@
                 "heading.2 entity.name.section markup.italic"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "italic underline"
             }
         },
@@ -1169,7 +1199,7 @@
                 "heading.2 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "italic bold underline"
             }
         },
@@ -1179,7 +1209,7 @@
                 "heading.4 entity.name.section markup.bold"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "bold"
             }
         },
@@ -1189,7 +1219,7 @@
                 "heading.4 entity.name.section markup.italic"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "italic"
             }
         },
@@ -1199,7 +1229,7 @@
                 "heading.2 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "italic bold"
             }
         },
@@ -1209,7 +1239,7 @@
                 "heading.4 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#70AA5E",
+                "foreground": "#50AD94",
                 "fontStyle": "italic bold"
             }
         },
@@ -1248,7 +1278,7 @@
         {
             "scope": "token.debug-token",
             "settings": {
-                "foreground": "#A060FFDD"
+                "foreground": "#AA77FFDD"
             }
         },
         {

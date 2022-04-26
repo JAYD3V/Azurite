@@ -609,9 +609,6 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         /* 
-        
-
-
         __________ DECLARATION SELECTORS __________ */
         "class.declaration": {
             "foreground": "#60B040",

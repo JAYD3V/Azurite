@@ -608,121 +608,63 @@
     },
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "class": {
-            "foreground": "#60B040",
-            "bold": false,
-            "italic": false,
-            "strikethrough": false
-        },
+        /* 
+        
+
+
+        __________ DECLARATION SELECTORS __________ */
         "class.declaration": {
             "foreground": "#60B040",
             "bold": true,
-            "italic": false,
-            "strikethrough": false
-        },
-        "interface": {
-            "foreground": "#60B040",
-            "bold": false,
-            "italic": false,
-            "strikethrough": false
         },
         "interface.declaration": {
             "foreground": "#60B040",
             "bold": true,
-            "italic": false,
-            "strikethrough": false
-        },
-        "namespace": {
-            "foreground": "#60B040",
-            "bold": false,
-            "italic": false,
-            "strikethrough": false
         },
         "namespace.declaration": {
             "foreground": "#60B040",
             "bold": true,
-            "italic": false,
-            "strikethrough": false
-        },
-        // PARAMETERS
-        "parameter.declaration": {
-            "foreground": "#D5B447",
-            "bold": false,
-            "italic": true,
-            "strikethrough": false
-        },
-        "parameter": {
-            "foreground": "#B2B2B2",
-            "italic": false,
-            "bold": false,
-            "underline": false,
-            "strikethrough": false
-        },
-        "variable": {
-            "foreground": "#B2B2B2",
-            "italic": false,
-            "bold": false,
-            "underline": false,
-            "strikethrough": false
-        },
-        // FUNCTIONS
-        "function": {
-            "foreground": "#22AAFF",
-            "italic": false,
-            "bold": false,
-            "underline": false,
-            "strikethrough": false
         },
         "function.declaration": {
             "foreground": "#229DFFE0",
             "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false
-        },
-        // METHODS
-        "method": {
-            "foreground": "#22AAFF",
-            "italic": false,
-            "bold": false,
-            "underline": false,
-            "strikethrough": false
         },
         "method.declaration": {
             "foreground": "#229DFFE0",
             "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false
         },
+        "parameter.declaration": {
+            "foreground": "#AACC44",
+            "italic": true
+        },
+        "*.readonly": "#CC3366",
+        "*.readonly.declaration": "#BBBBBB",
+        /* 
+
+
+
+        __________ STANDARD SELECTORS __________ */
+        "class": "#60B040",
+        "interface": "#60B040",
+        "namespace": "#60B040",
+        "function": "#22AAFF",
+        "method": "#22AAFF",
+        "parameter": "#BBBBBB",
+        "property": "#BBBBBB",
+        "variable": "#BBBBBB",
+        /*
+        
+        
+
+        ________ TypeScript's Type-annotations ________ */
         "type": {
-            "foreground": "#006666",
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false
-        },
-        "type.declaration": {
-            "foreground": "#006666",
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false
+            "foreground": "#008C3C",
+            "italic": true,
         },
         "typeParameter": {
-            "foreground": "#006666",
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false
+            "foreground": "#008C3C",
+            "bold": true
         },
-        "typeParameter.declaration": {
-            "foreground": "#006666",
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false
-        }
     },
     "tokenColors": [
         {
@@ -731,7 +673,7 @@
                 "source"
             ],
             "settings": {
-                "foreground": "#B2B2B2"
+                "foreground": "#BBBBBB"
             }
         },
         {
@@ -776,7 +718,7 @@
                 "string.template meta.embedded"
             ],
             "settings": {
-                "foreground": "#B2B2B2",
+                "foreground": "#BBBBBB",
                 "fontStyle": ""
             }
         },
@@ -803,12 +745,13 @@
             }
         },
         {
+            "name": "STRINGS: Double Quotes, Single Quotes, Templates & Literals",
             "scope": [
                 "string",
                 "punctuation.definition.string"
             ],
             "settings": {
-                "foreground": "#22AABB",
+                "foreground": "#1AA0A0",
                 "fontStyle": ""
             }
         },
@@ -853,30 +796,21 @@
                 "string.regexp keyword.operator"
             ],
             "settings": {
-                "foreground": "#EC8448",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "TYPES, TYPE PARAMETERS & CUSTOM BUILT TYPES (TypeScript)",
-            "scope": [
-                "entity.name.type",
-                "meta.type.parameters.ts entity.name.type.ts"
-            ],
-            "settings": {
-                "foreground": "#006666",
+                "foreground": "#E89858",
                 "fontStyle": ""
             }
         },
         {
             "name": "TYPES: Primitive {TS}",
             "scope": [
-                "support.type.primitive",
-                "support.type.builtin"
+                "entity.type",
+                "support.type",
+                "entity.name.type",
+                "meta.type",
             ],
             "settings": {
-                "foreground": "#006666",
-                "fontStyle": "italic"
+                "foreground": "#008C3C",
+                "fontStyle": ""
             }
         },
         {
@@ -907,7 +841,7 @@
                 "keyword",
             ],
             "settings": {
-                "foreground": "#EC8448",
+                "foreground": "#E89858",
                 "fontStyle": ""
             }
         },
@@ -919,7 +853,7 @@
                 "keyword.operator.expression",
             ],
             "settings": {
-                "foreground": "#EC8448",
+                "foreground": "#E89858",
                 "fontStyle": "italic"
             }
         },
@@ -939,7 +873,7 @@
                 "keyword.operator.bitwise.shift"
             ],
             "settings": {
-                "foreground": "#EC8448",
+                "foreground": "#E89858",
                 "fontStyle": ""
             }
         },
@@ -953,7 +887,7 @@
                 "keyword.operator.type.annotation"
             ],
             "settings": {
-                "foreground": "#EC8448",
+                "foreground": "#E89858",
                 "fontStyle": "bold"
             }
         },
@@ -978,13 +912,12 @@
             }
         },
         {
-            "name": "LANGUAGE | SYNTAX_TYPE",
+            "name": "NEW KEY DECLARATIONS",
             "scope": [
-                "meta.object-literal.key",
+                "meta.var.expr meta.object.member meta.object-literal.key",
             ],
             "settings": {
-                "foreground": "#CC77BB",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -1013,7 +946,7 @@
                 "variable.other.readwrite.alias"
             ],
             "settings": {
-                "foreground": "#B2B2B2",
+                "foreground": "#BBBBBB",
                 "fontStyle": "bold"
             }
         },
@@ -1088,7 +1021,7 @@
                 "punctuation.definition.string.end.json"
             ],
             "settings": {
-                "foreground": "#B2B2B2",
+                "foreground": "#BBBBBB",
                 "fontStyle": ""
             }
         },
@@ -1097,7 +1030,7 @@
                 "text.html.markdown"
             ],
             "settings": {
-                "foreground": "#B2B2B2"
+                "foreground": "#BBBBBB"
             }
         },
         {

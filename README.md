@@ -1,2 +1,0 @@
-# UI-Dynamics
-One of the things that has been developed for VSCode, that there's a big gap for, is a customizable theme. Somthing inbetween a fully custom configured environment (which is basicly the development of your own theme), and using somone elses theme as they have built it. This repositories project delivers  a VSC theme that takes advantage of the VSCode extensable API, and impliments into it, the Native JSON Parsing features included in JavaScript. The result is a theme that you cust customize, and make look good, with just a couple a clicks.

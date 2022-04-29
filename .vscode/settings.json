@@ -4,6 +4,7 @@
         "LICENSE": true,
         "package-lock.json": true
     },
-    "editor.minimap.enabled": false,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.enabled": true,
     "window.zoomLevel": 0.35
 }

@@ -1,14 +1,8 @@
 {
     "BACKGROUND": {
-        "Op | STATIC": {
-            "Editor/Sidebar-bg": "#080D17"
-        },
-
-        "TP | SELECTION": {
-            "active": "#0FF0F044",
-            "default": "#0FF0F030",
-            "inactive": "#FFFFFF1A"
-        }
+        "1: Widgets/Menus":"#0E101A",
+        "2: Sidebars":"#121930",
+        "3 Panels/ActivityBar":"#0A0E1C"
     },
 
     "FOREGROUND": {},

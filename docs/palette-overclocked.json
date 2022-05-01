@@ -10,6 +10,7 @@
             "drop-bg": "#11FF0040"
         }
     },
+
     "BORDERS": {
         "STATIC": {
             "common-bdr": "#00446666",
@@ -21,13 +22,16 @@
             "Drop BDER": "#11FF00"
         }
     },
+
     "FOREGROUND": {
         "HIGHLIGHTS": {
             "Text Input": "#00FFFF"
         }
     },
+
     "STATUS": {
         "error": "#FF9999"
     },
+
     "SCM": {}
 }

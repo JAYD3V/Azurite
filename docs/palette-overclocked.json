@@ -1,12 +1,33 @@
 {
     "BACKGROUND": {
-        "1: Widgets/Menus":"#0E101A",
-        "2: Sidebars":"#121930",
-        "3 Panels/ActivityBar":"#0A0E1C"
-    },
+        "|1| Menus & Widgets": "#0E101A",
+        "|2| Sidebars (L & R)": "#051C32",
+        "|3| Panels & Activitybar": "#0A0D15",
+        "|4| Editor-bg": "#0C131F",
+        "|5| Terminal-bg": "#000D21",
 
-    "FOREGROUND": {},
-    "BORDERS": {},
-    "STATUS": {},
+        "HIGHLIGHTS": {
+            "drop-bg": "#11FF0040"
+        }
+    },
+    "BORDERS": {
+        "STATIC": {
+            "common-bdr": "#00446666",
+            "common-bdr-secondary": "#00040CCC"
+        },
+        "HIGHLIGHTS": {
+            "focus-bdr": "#FF3300AA",
+            "active-bdr": "#FF3300",
+            "Drop BDER": "#11FF00"
+        }
+    },
+    "FOREGROUND": {
+        "HIGHLIGHTS": {
+            "Text Input": "#00FFFF"
+        }
+    },
+    "STATUS": {
+        "error": "#FF9999"
+    },
     "SCM": {}
 }

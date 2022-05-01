@@ -6,4 +6,7 @@
     },
     "editor.minimap.showSlider": "always",
     "editor.minimap.enabled": true,
+    "cSpell.words": [
+        "BDER"
+    ],
 }

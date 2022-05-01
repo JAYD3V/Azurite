@@ -425,21 +425,21 @@
         /************************************************
 
 
-    SCM HIGHLIGHTING: MODIFIED
-    -------------------------------------------------                   */
-        "settings.modifiedItemIndicator": "#AADD44",
-        "editorGutter.modifiedBackground": "#AADD44aa",
-        "editorOverviewRuler.modifiedForeground": "#AADD44",
-        "gitDecoration.modifiedResourceForeground": "#AADD44",
-        "gitDecoration.stageModifiedResourceForeground": "#AADD44",
-        "minimapGutter.modifiedBackground": "#AADD44aa",
-        "peekViewTitleDescription.foreground": "#AADD44",
-        "remoteHub.decorations.incomingModifiedForegroundColor": "#AADD44",
-        "remoteHub.decorations.modifiedForegroundColor": "#AADD44",
-        "tab.activeModifiedBorder": "#AADD44",
-        "tab.inactiveModifiedBorder": "#AADD44",
-        "tab.unfocusedActiveModifiedBorder": "#AADD44",
-        "tab.unfocusedInactiveModifiedBorder": "#AADD44",
+        SCM HIGHLIGHTING: MODIFIED
+        -------------------------------------------------                   */
+        "settings.modifiedItemIndicator": "#A8DE50",
+        "editorGutter.modifiedBackground": "#A8DE50aa",
+        "editorOverviewRuler.modifiedForeground": "#A8DE50",
+        "gitDecoration.modifiedResourceForeground": "#A8DE50",
+        "gitDecoration.stageModifiedResourceForeground": "#A8DE50",
+        "minimapGutter.modifiedBackground": "#A8DE50aa",
+        "peekViewTitleDescription.foreground": "#A8DE50",
+        "remoteHub.decorations.incomingModifiedForegroundColor": "#A8DE50",
+        "remoteHub.decorations.modifiedForegroundColor": "#A8DE50",
+        "tab.activeModifiedBorder": "#A8DE50",
+        "tab.inactiveModifiedBorder": "#A8DE50",
+        "tab.unfocusedActiveModifiedBorder": "#A8DE50",
+        "tab.unfocusedInactiveModifiedBorder": "#A8DE50",
         /************************************************
 
 

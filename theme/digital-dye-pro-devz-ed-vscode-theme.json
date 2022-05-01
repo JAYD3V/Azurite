@@ -10,7 +10,6 @@
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
     "colors": {
-
         // SPECIALIZED PROPERTIES
         "foreground": "#C8C8C8",
         "focusBorder": "#00FF009C",
@@ -132,7 +131,6 @@
         "settings.focusedRowBackground": "#00FF0022",
         "settings.headerForeground": "#4499ee",
         "settings.rowHoverBackground": "#33CCFF08",
-        "settings.modifiedItemIndicator": "#FFA010",
         "settings.focusedRowBorder": "#00FF0088",
         "settings.checkboxBorder": "#11558888",
         "settings.dropdownBorder": "#11558888",
@@ -168,7 +166,6 @@
         // WHITE
         "breadcrumb.activeSelectionForeground": "#00FF00",
         "debugTokenExpression.string": "#E8E8E8",
-
         "editorOverviewRuler.findMatchForeground": "#E8E8E8",
         "editorSuggestWidget.selectedForeground": "#E8E8E8",
         "panelTitle.activeForeground": "#00FF66",
@@ -272,13 +269,8 @@
         "editor.selectionHighlightBackground": "#00005555",
         "editor.selectionBackground": "#0033FF6C",
         "menubar.selectionBackground": "#22FFFF14",
-
-
-
         "editorHoverWidget.border": "#00F07088",
         "editor.wordHighlightStrongBorder": "#00F07088",
-
-
         "editorOverviewRuler.rangeHighlightForeground": "#00F07088",
         "editorOverviewRuler.selectionHighlightForeground": "#00F07088",
         "peekViewEditor.matchHighlightBorder": "#00F07088",
@@ -309,8 +301,6 @@
         "tree.indentGuidesStroke": "#144EE2",
         //
         "editor.wordHighlightBorder": "#11EEFFaa",
-
-
         "editorGroup.focusedEmptyBorder": "#11EEFF",
         "editorIndentGuide.activeBackground": "#144EE2",
         "editorLineNumber.foreground": "#1D3DA7",
@@ -374,7 +364,6 @@
         "debugIcon.stopForeground": "#ff2430",
         "debugTokenExpression.error": "#ff2430",
         "debugView.exceptionLabelBackground": "#ff243044",
-
         "editorMarkerNavigationError.background": "#ff243099",
         "editorOverviewRuler.errorForeground": "#ff2430",
         "editorWhitespace.foreground": "#ff243077",
@@ -419,37 +408,38 @@
 
     STATUS HIGHLIGHTING: INFO/HINT/LIGHTBULB
     -------------------------------------------------                   */
-        "editorLightBulb.foreground": "#AAFF55",
-        "editorLightBulbAutoFix.foreground": "#AAFF55",
-        "debugConsole.infoForeground": "#AAFF55",
-        "debugTokenExpression.number": "#AAFF55",
-        "editorHint.foreground": "#AAFF55",
-        "editorMarkerNavigationInfo.background": "#AAFF55",
-        "editorOverviewRuler.infoForeground": "#AAFF55",
-        "errorLens.hintForeground": "#AAFF55",
-        "errorLens.infoForeground": "#AAFF55",
-        "errorLens.statusBarHintForeground": "#AAFF55",
-        "errorLens.statusBarInfoForeground": "#AAFF55",
-        "notificationsInfoIcon.foreground": "#AAFF55",
-        "problemsInfoIcon.foreground": "#AAFF55",
-        "testing.message.info.decorationForeground": "#AAFF55",
+        "editorLightBulb.foreground": "#60E850",
+        "editorLightBulbAutoFix.foreground": "#60E850",
+        "debugConsole.infoForeground": "#60E850",
+        "debugTokenExpression.number": "#60E850",
+        "editorHint.foreground": "#60E850",
+        "editorMarkerNavigationInfo.background": "#60E850",
+        "editorOverviewRuler.infoForeground": "#60E850",
+        "errorLens.hintForeground": "#60E850",
+        "errorLens.infoForeground": "#60E850",
+        "errorLens.statusBarHintForeground": "#60E850",
+        "errorLens.statusBarInfoForeground": "#60E850",
+        "notificationsInfoIcon.foreground": "#60E850",
+        "problemsInfoIcon.foreground": "#60E850",
+        "testing.message.info.decorationForeground": "#60E850",
         /************************************************
 
 
     SCM HIGHLIGHTING: MODIFIED
     -------------------------------------------------                   */
-        "editorGutter.modifiedBackground": "#FFA010aa",
-        "editorOverviewRuler.modifiedForeground": "#FFA010",
-        "gitDecoration.modifiedResourceForeground": "#FFA010",
-        "gitDecoration.stageModifiedResourceForeground": "#FFA010",
-        "minimapGutter.modifiedBackground": "#FFA010aa",
-        "peekViewTitleDescription.foreground": "#FFA010",
-        "remoteHub.decorations.incomingModifiedForegroundColor": "#FFA010",
-        "remoteHub.decorations.modifiedForegroundColor": "#FFA010",
-        "tab.activeModifiedBorder": "#FFA010",
-        "tab.inactiveModifiedBorder": "#FFA010",
-        "tab.unfocusedActiveModifiedBorder": "#FFA010",
-        "tab.unfocusedInactiveModifiedBorder": "#FFA010",
+        "settings.modifiedItemIndicator": "#AADD44",
+        "editorGutter.modifiedBackground": "#AADD44aa",
+        "editorOverviewRuler.modifiedForeground": "#AADD44",
+        "gitDecoration.modifiedResourceForeground": "#AADD44",
+        "gitDecoration.stageModifiedResourceForeground": "#AADD44",
+        "minimapGutter.modifiedBackground": "#AADD44aa",
+        "peekViewTitleDescription.foreground": "#AADD44",
+        "remoteHub.decorations.incomingModifiedForegroundColor": "#AADD44",
+        "remoteHub.decorations.modifiedForegroundColor": "#AADD44",
+        "tab.activeModifiedBorder": "#AADD44",
+        "tab.inactiveModifiedBorder": "#AADD44",
+        "tab.unfocusedActiveModifiedBorder": "#AADD44",
+        "tab.unfocusedInactiveModifiedBorder": "#AADD44",
         /************************************************
 
 
@@ -484,7 +474,6 @@
         "editor.inlineValuesForeground": "#626038ee",
         "editor.lineHighlightBackground": "#041133",
         "editor.lineHighlightBorder": "#000028",
-
         "editor.snippetFinalTabstopHighlightBackground": "#041133",
         "editor.snippetFinalTabstopHighlightBorder": "#ff33cc99",
         "editor.snippetTabstopHighlightBackground": "#041133",
@@ -613,13 +602,13 @@
         "tab.lastPinnedBorder": "#50FFFF20",
         // TAB (active)
         "tab.activeForeground": "#FFFFFF",
-        "tab.activeBackground": "#090B49",
+        "tab.activeBackground": "#030618",
         "tab.inactiveBackground": "#030618",
         "tab.inactiveForeground": "#FFFFFF66",
         // TAB (unfocused)
         // TAB (unfocused/active)
         "tab.unfocusedActiveForeground": "#C8C8C8",
-        "tab.unfocusedActiveBackground": "#090B49",
+        "tab.unfocusedActiveBackground": "#030618",
         // TAB (unfocused/inactive)
         "tab.unfocusedInactiveForeground": "#FFFFFF66",
         "tab.unfocusedInactiveBackground": "#030618",

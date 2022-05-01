@@ -75,7 +75,7 @@
 
     MINIMAP
     -------------------------------------------------                   */
-    "minimapGutter.modifiedBackground": "#FFC22299",
+    "minimapGutter.modifiedBackground": "#DDCC4499",
     "minimapSlider.activeBackground": "#AAFF3344",
     "minimapSlider.hoverBackground": "#3C6CFF33",
     "minimapSlider.background": "#FFFFFF1C",
@@ -90,14 +90,14 @@
 
     SCM DECORATIONS (Modified)
     -------------------------------------------------                   */
-    "settings.modifiedItemIndicator": "#FFC222",
+    "settings.modifiedItemIndicator": "#DDCC44",
 
-    "editorOverviewRuler.modifiedForeground": "#FFC222",
-    "gitDecoration.modifiedResourceForeground": "#FFC222",
-    "gitDecoration.stageModifiedResourceForeground": "#FFC222",
-    "remoteHub.decorations.modifiedForegroundColor": "#FFC222",
-    "remoteHub.decorations.incomingModifiedForegroundColor": "#FFC222",
-    "editorGutter.modifiedBackground": "#FFC22299",
+    "editorOverviewRuler.modifiedForeground": "#DDCC44",
+    "gitDecoration.modifiedResourceForeground": "#DDCC44",
+    "gitDecoration.stageModifiedResourceForeground": "#DDCC44",
+    "remoteHub.decorations.modifiedForegroundColor": "#DDCC44",
+    "remoteHub.decorations.incomingModifiedForegroundColor": "#DDCC44",
+    "editorGutter.modifiedBackground": "#DDCC4499",
     /************************************************
 
 
@@ -169,10 +169,10 @@
     "activityBarBadge.background": "#1C078C",
     "activityBar.activeBackground": "#1C078CDD",
     "banner.background": "#1C078CDD",
-    "tab.activeModifiedBorder": "#FFC222",
-    "tab.inactiveModifiedBorder": "#FFC222",
-    // "tab.unfocusedActiveModifiedBorder": "#FFC222",
-    // "tab.unfocusedInactiveModifiedBorder": "#FFC222",
+    "tab.activeModifiedBorder": "#DDCC44",
+    "tab.inactiveModifiedBorder": "#DDCC44",
+    // "tab.unfocusedActiveModifiedBorder": "#DDCC44",
+    // "tab.unfocusedInactiveModifiedBorder": "#DDCC44",
     "tab.hoverBorder": "#AAFF00",
     "tab.activeBorder": "#BBEE33",
     // "tab.unfocusedActiveBorder": "#BBEE33",
@@ -629,6 +629,7 @@
     "breadcrumb.activeSelectionForeground": "#F0F0F0",
 
     "inputOption.activeForeground": "#88FF44",
+    // Foo Test
     "panelTitle.activeForeground": "#F0F0F0",
     "titleBar.activeForeground": "#F0F0F0",
 
@@ -1146,7 +1147,7 @@
     {
       "scope": ["meta.separator.markdown", "string.other.link.description"],
       "settings": {
-        "foreground": "#FFC222",
+        "foreground": "#DDCC44",
         "fontStyle": "bold"
       }
     },
@@ -1231,7 +1232,7 @@
     {
       "scope": "markup.underline.link.markdown",
       "settings": {
-        "foreground": "#FFC222"
+        "foreground": "#DDCC44"
       }
     },
     {

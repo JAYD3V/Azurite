@@ -1,37 +1,48 @@
 {
+    "HIGHLIGHTING": {
+        "Primary-HL": "#33EE11",
+        "Secondary-HL": "#FF4010"
+    },
     "BACKGROUND": {
-        "|1| Menus & Widgets": "#0E101A",
-        "|2| Sidebars (L & R)": "#051C32",
-        "|3| Panels & Activitybar": "#0A0D15",
-        "|4| Editor-bg": "#0C131F",
-        "|5| Terminal-bg": "#000D21",
+        "|1| Editor Bg": "#0C111A",
+        "|2| Panel/Activitybar Bg": "#0B0F17",
+        "|3| Sidebar Bg": "#061C30",
+        "|4| Menu/Widget Bg": "#131313",
+        "|5| TAB Bg (Inactive)":"#0D0D0D",
+        "|6| Terminal/Input Bg": "#001023",
 
         "HIGHLIGHTS": {
             "drop-bg": "#11FF0040"
         }
     },
-
     "BORDERS": {
         "STATIC": {
             "common-bdr": "#00446666",
             "common-bdr-secondary": "#00040CCC"
         },
         "HIGHLIGHTS": {
-            "focus-bdr": "#FF3300AA",
-            "active-bdr": "#FF3300",
+            "focus-bdr": "#FF4010AA",
+            "active-bdr": "#FF4010",
             "Drop BDER": "#11FF00"
         }
     },
-
     "FOREGROUND": {
         "HIGHLIGHTS": {
             "Text Input": "#00FFFF"
         }
     },
-
     "STATUS": {
-        "error": "#FF9999"
+        "Error/Invalid": {
+            "foreground/squiggle": "#FF4455",
+            "background": "#240004",
+            "border": "#FF4455AA"
+        },
+        "Warning/Notification": {
+            "foreground/squiggle": "#FFDD33",
+            "background": "#FFD00020",
+            "border": "#FFDD3377"
+        },
+        "Info/Hint":"#66EE77"
     },
-
     "SCM": {}
 }

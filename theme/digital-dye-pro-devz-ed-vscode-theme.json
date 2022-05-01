@@ -82,8 +82,8 @@
         "errorLens.warningBackground": "#ABCDEF00",
         // TRUE 100% BLACK
         "titleBar.border": "#283850",
-        "window.activeBorder": "#000000",
-        "window.inactiveBorder": "#000000",
+        "window.activeBorder": "#003D44",
+        "window.inactiveBorder": "#333333",
         "list.filterMatchBackground": "#000000",
         "button.border": "#000000CC",
         "minimap.foregroundOpacity": "#000000CC",
@@ -603,13 +603,13 @@
         "tab.lastPinnedBorder": "#50FFFF20",
         // TAB (active)
         "tab.activeForeground": "#FFFFFF",
-        "tab.activeBackground": "#030618",
+        "tab.activeBackground": "#05064C",
         "tab.inactiveBackground": "#030618",
         "tab.inactiveForeground": "#FFFFFF66",
         // TAB (unfocused)
         // TAB (unfocused/active)
         "tab.unfocusedActiveForeground": "#C8C8C8",
-        "tab.unfocusedActiveBackground": "#030618",
+        "tab.unfocusedActiveBackground": "#05064C",
         // TAB (unfocused/inactive)
         "tab.unfocusedInactiveForeground": "#FFFFFF66",
         "tab.unfocusedInactiveBackground": "#030618",
@@ -619,7 +619,7 @@
         "testing.message.info.lineBackground": "#55707068",
         "textCodeBlock.background": "#0878A570",
         "textPreformat.foreground": "#ae64ff",
-        "titleBar.activeBackground": "#09093D",
+        "titleBar.activeBackground": "#0D0D0D",
         "toolbar.activeBackground": "#00A0C0DD",
         "toolbar.hoverBackground": "#144EE258",
         "toolbar.hoverOutline": "#00FF009C",

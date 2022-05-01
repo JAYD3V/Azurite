@@ -167,7 +167,7 @@
     "extensionButton.prominentBackground": "#1C078C",
     "statusBar.background": "#1C078C",
     "activityBarBadge.background": "#1C078C",
-    "activityBar.activeBackground": "#1C078CDD",
+
     "banner.background": "#1C078CDD",
     "tab.activeModifiedBorder": "#DDCC44",
     "tab.inactiveModifiedBorder": "#DDCC44",
@@ -328,13 +328,20 @@
 
     ACTIVITY-BAR
     -------------------------------------------------       */
-    "activityBar.foreground": "#BBFF33",
-    "activityBar.activeBorder": "#BBFF33",
-    "activityBar.inactiveForeground": "#5566FF",
-    "activityBar.border": "#3344FF55",
-    "activityBar.activeFocusBorder": "#A0FF11",
-    "activityBar.background": "#0B082E",
-    "activityBar.dropBorder": "#20F080",
+    "activityBar.activeBackground": "#1C078CDD",
+"activityBar.foreground": "#BBFF33",
+"activityBar.activeBorder": "#BBFF33",
+"activityBar.inactiveForeground": "#5566FF",
+"activityBar.border": "#3344FF55",
+"activityBar.activeFocusBorder": "#A0FF11",
+"activityBar.background": "#0B082E",
+"activityBar.dropBorder": "#20F080",
+
+
+
+
+
+
     "activityBarBadge.foreground": "#BBFF33",
     "breadcrumb.background": "#0F103C",
     "breadcrumb.foreground": "#6699FF",

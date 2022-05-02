@@ -44,5 +44,11 @@
         },
         "Info/Hint":"#66EE77"
     },
-    "SCM": {}
+    "SCM": {
+        "Added (untracked)":"#60D440",
+        "Added (staged)": "#60D440",
+        "Modified":"#99EE44",
+        "Modified (staged)": "#99EE44",
+        "Deleted":"#FF11AA"
+    }
 }

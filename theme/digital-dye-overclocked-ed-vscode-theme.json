@@ -40,16 +40,13 @@
         "terminalCursor.foreground": "#00EE11",
         "editorCursor.background": "#FF2E05",
         "editorCursor.foreground": "#00EE11",
-        // BRIGHT COLORS
-        "terminal.ansiBrightCyan": "#77EEEE",
-        "terminal.ansiBrightMagenta": "#EE99DD",
-        "terminal.ansiBrightGreen": "#99EE88",
-        "terminal.ansiBrightRed": "#FF4455",
-        "terminal.ansiBrightYellow": "#EECC88",
-        "terminal.ansiBrightBlue": "#66BBFF",
-        "terminal.ansiBrightWhite": "#EEEEEE",
-        "terminal.ansiBrightBlack": "#444444",
-        // STANDARD COLORS
+        /*
+
+
+
+        ANSI CONTROL-CHAR COLORS
+
+        (1st) "SET of 8": Standard Colors */
         "terminal.ansiWhite": "#CCCCCC",
         "terminal.ansiRed": "#FF4422",
         "terminal.ansiYellow": "#EEBB11",
@@ -58,6 +55,49 @@
         "terminal.ansiMagenta": "#EE11AA",
         "terminal.ansiCyan": "#00CCAA",
         "terminal.ansiBlack": "#444444",
+        // (2nd) "SET of 8": Bold & Bright Colors
+        "terminal.ansiBrightCyan": "#77EEEE",
+        "terminal.ansiBrightMagenta": "#EE99DD",
+        "terminal.ansiBrightGreen": "#99EE88",
+        "terminal.ansiBrightRed": "#FF4455",
+        "terminal.ansiBrightYellow": "#EECC88",
+        "terminal.ansiBrightBlue": "#66BBFF",
+        "terminal.ansiBrightWhite": "#EEEEEE",
+        "terminal.ansiBrightBlack": "#444444",
+        /*
+
+
+
+        GIT & GITLENS DECORATION HIGHLIGHTING */
+        // Modified/Staged
+        "gitlens.decorations.modifiedForegroundColor": "#AAEE44",
+        "gitDecoration.stageModifiedResourceForeground": "#AAEE44",
+        "gitDecoration.modifiedResourceForeground": "#AAEE44",
+        "gitlens.decorations.worktreeView.hasUncommittedChangesForegroundColor": "#AAEE44",
+        // Added/Untracked
+        "gitDecoration.addedResourceForeground": "#FF5500",
+        "gitDecoration.conflictingResourceForeground": "#FF5500",
+        "gitDecoration.untrackedResourceForeground": "#FF5500",
+        "gitlens.decorations.addedForegroundColor": "#FF5500",
+        "gitlens.decorations.untrackedForegroundColor": "#FF5500",
+        // Deleted
+        "gitlens.decorations.deletedForegroundColor": "#FF11AA",
+        "gitDecoration.deletedResourceForeground": "#FF11AA",
+        "gitDecoration.stageDeletedResourceForeground": "#FF11AA",
+        // Renamed
+        "gitlens.decorations.renamedForegroundColor": "#D070FF",
+        "gitDecoration.renamedResourceForeground": "#D070FF",
+        // Ignored/Submodule
+        "gitDecoration.ignoredResourceForeground": "#FFFFFF55",
+        "gitlens.decorations.ignoredForegroundColor": "#FFFFFF55",
+        "gitDecoration.submoduleResourceForeground": "#66CCFF99",
+        // UP TO DATE
+        "gitlens.decorations.branchUpToDateForegroundColor": "#E0E0E0",
+        /*
+
+        *-----------------------------------------------------------*
+        	* USER-INPUTS (i.e. text-boxes, checkboxes & drop-downs)
+        *-----------------------------------------------------------*/
         "dropdown.listBackground": "#001023",
         "inputValidation.infoBackground": "#000000CC",
         "input.placeholderForeground": "#FFFFFF66",
@@ -326,7 +366,6 @@
         "errorLens.errorForeground": "#FF4455bb",
         "errorLens.statusBarErrorForeground": "#FF4455",
         "errorLens.statusBarIconErrorForeground": "#FF4455",
-        "gitDecoration.conflictingResourceForeground": "#FF4455",
         "list.errorForeground": "#FF4455",
         "list.invalidItemForeground": "#FF4455cc",
         "listFilterWidget.noMatchesOutline": "#FF4455",
@@ -384,8 +423,6 @@
         -------------------------------------------------                */
         "editorGutter.modifiedBackground": "#99EE44aa",
         "editorOverviewRuler.modifiedForeground": "#99EE44",
-        "gitDecoration.modifiedResourceForeground": "#99EE44",
-        "gitDecoration.stageModifiedResourceForeground": "#99EE44",
         "minimapGutter.modifiedBackground": "#99EE44aa",
         "peekViewTitleDescription.foreground": "#99EE44",
         "remoteHub.decorations.incomingModifiedForegroundColor": "#99EE44",
@@ -401,8 +438,6 @@
     -------------------------------------------------                   */
         "editorGutter.addedBackground": "#60D440",
         "editorOverviewRuler.addedForeground": "#60D440",
-        "gitDecoration.addedResourceForeground": "#60D440",
-        "gitDecoration.untrackedResourceForeground": "#60D440",
         "remoteHub.decorations.addedForegroundColor": "#60D440",
         "remoteHub.decorations.incomingAddedForegroundColor": "#60D440",
         "breadcrumb.foreground": "#10B07C",
@@ -444,7 +479,6 @@
         "editorGroupHeader.tabsBackground": "#0D0D0D",
         "editorGroupHeader.tabsBorder": "#4499ee44",
         "editorGutter.commentRangeForeground": "#11AABB",
-        "gitlens.decorations.modifiedForegroundColor": "#ffaa00",
         "editorGutter.deletedBackground": "#e03070cc",
         "editorHoverWidget.statusBarBackground": "#001A6C",
         "editorIndentGuide.background": "#120400",
@@ -464,11 +498,6 @@
         "editorWidget.resizeBorder": "#1a4074",
         "errorLens.hintMessageBackground": "#02102a",
         "errorLens.infoMessageBackground": "#02102a",
-        "gitDecoration.deletedResourceForeground": "#e03070",
-        "gitDecoration.ignoredResourceForeground": "#607890",
-        "gitDecoration.renamedResourceForeground": "#cc66ff",
-        "gitDecoration.stageDeletedResourceForeground": "#e03070",
-        "gitDecoration.submoduleResourceForeground": "#8b949e",
         "issues.closed": "#FF55CC",
         "issues.newIssueDecoration": "#00FF33",
         "issues.open": "#70E850",
@@ -971,7 +1000,7 @@ _________________________________________________________________________
         {
             "scope": "source.json meta meta meta meta meta meta meta meta meta string support.type.property-name",
             "settings": {
-                "foreground": "#0AA5FF",
+                "foreground": "#22AAFF",
                 "fontStyle": ""
             }
         },
@@ -985,7 +1014,7 @@ _________________________________________________________________________
         {
             "scope": "source.json meta meta meta meta meta string support.type.property-name",
             "settings": {
-                "foreground": "#0AA5FF",
+                "foreground": "#22AAFF",
                 "fontStyle": ""
             }
         },
@@ -1001,7 +1030,7 @@ _________________________________________________________________________
                 "source.json meta string support.type.property-name"
             ],
             "settings": {
-                "foreground": "#0AA5FF",
+                "foreground": "#22AAFF",
                 "fontStyle": ""
             }
         },

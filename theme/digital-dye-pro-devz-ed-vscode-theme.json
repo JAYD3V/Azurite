@@ -419,9 +419,6 @@
         "merge.border": "#22FFFFaa",
         "welcomePage.progress.foreground": "#22FFFF",
         //
-        //
-        //
-        //
         "diffEditor.diagonalFill": "#080F2C",
         "editorMarkerNavigation.background": "#080F2C",
         "keybindingTable.headerBackground": "#080F2C",
@@ -442,13 +439,12 @@
         "breadcrumb.background": "#0C1C3C",
         "keybindingLabel.background": "#050D2B",
         "welcomePage.progress.background": "#050D2B",
-
         "textBlockQuote.border": "#050D2B",
         /************************************************
 
 
-    STATUS HIGHLIGHTING: ERRONEOUS
-    -------------------------------------------------                   */
+        STATUS HIGHLIGHTING: ERRONEOUS
+        -------------------------------------------------                   */
         "debugConsole.errorForeground": "#ff2430",
         "debugIcon.breakpointCurrentStackframeForeground": "#ff2430",
         "debugIcon.breakpointDisabledForeground": "#ff243088",
@@ -480,7 +476,7 @@
         "testing.message.error.lineBackground": "#ff243088",
         "editorError.foreground": "#ff2430",
         "editorWarning.foreground": "#ffff00",
-"editorCommentsWidget.rangeActiveBorder": "#ff0000",
+        "editorCommentsWidget.rangeActiveBorder": "#ff0000",
         /************************************************
 
 

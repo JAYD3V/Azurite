@@ -1,9 +1,29 @@
 {
-  "BG": {
-    "STATIC-BG": {
-      "editor": "#071027", // Version of primary that is more readable when displaying text
-      "primary": "#000C2C",
-      "secondary": "#0A2148"
+    "STATIC-COLORS": {
+        "BG": {
+            "1": "#000000",
+            "2": "#000000",
+            "3": "#000000",
+            "4": "#000000",
+            "5": "#000000",
+            "6": "#000000",
+            "7": "#000000",
+            "8": "#000000"
+        },
+        "BDR": {
+            "1 Common Border": {
+                "RGB": "#002A20",
+                "DESC": "Borders for bars and panels. Transparency is only used to lighten the color, but not to make it dynamic or to produce an effect"
+            },
+            "2": "#000000",
+            "3": "#000000",
+            "4": "#000000"
+        },
+        "FG": {
+            "1": "#000000",
+            "2": "#000000",
+            "3": "#000000",
+            "4": "#000000"
+        }
     }
-  }
 }

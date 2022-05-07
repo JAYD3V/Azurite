@@ -196,29 +196,21 @@
         *> GIT DECORATIONS (includes gitlens decorations)
        *----------------------------------------------------*/
         // Modified/Staged
-        "gitlens.decorations.modifiedForegroundColor": "#FF9922",
         "gitDecoration.stageModifiedResourceForeground": "#FF9922",
         "gitDecoration.modifiedResourceForeground": "#FF9922",
-        "gitlens.decorations.worktreeView.hasUncommittedChangesForegroundColor": "#FF9922",
         // Added/Untracked
         "gitDecoration.addedResourceForeground": "#10D840",
         "gitDecoration.untrackedResourceForeground": "#10D840",
-        "gitlens.decorations.addedForegroundColor": "#10D840",
-        "gitlens.decorations.untrackedForegroundColor": "#10D840",
         // Deleted
-        "gitlens.decorations.deletedForegroundColor": "#FF11AA",
         "gitDecoration.deletedResourceForeground": "#FF11AA",
         "gitDecoration.stageDeletedResourceForeground": "#FF11AA",
         // Renamed
-        "gitlens.decorations.renamedForegroundColor": "#D070FF",
         "gitDecoration.renamedResourceForeground": "#D070FF",
         // IGNORED
         "gitDecoration.ignoredResourceForeground": "#FFFFFF55",
-        "gitlens.decorations.ignoredForegroundColor": "#FFFFFF55",
         // MISCELLANEOUS GIt-DECORATIONS (one-offs)
         "gitDecoration.submoduleResourceForeground": "#66CCFF99",
         "gitDecoration.conflictingResourceForeground": "#ff2430",
-        "gitlens.decorations.branchUpToDateForegroundColor": "#E0E0E0",
         /*
 
         *-----------------------------------------------------------*
@@ -611,7 +603,6 @@
         "editorOverviewRuler.currentContentForeground": "#14c0e8aa",
         "editorOverviewRuler.deletedForeground": "#FF11AA",
         "editorOverviewRuler.incomingContentForeground": "#00EECCee",
-        "gitlens.lineHighlightOverviewRulerColor": "#00FF00",
         "editorRuler.foreground": "#00BBAA08",
         "editorUnicodeHighlight.border": "#660011",
         "errorLens.hintMessageBackground": "#02102a",
@@ -619,21 +610,7 @@
         "issues.closed": "#FF55CC",
         "issues.newIssueDecoration": "#00FF33",
         "issues.open": "#70E850",
-        /*
 
-
-
-     */
-        /************************************************
-
-
-
-    -------------------------------------------------                   */
-        /*
-
-
-
-     */
         "merge.currentContentBackground": "#ff44BB22",
         "merge.currentHeaderBackground": "#ff44BB44",
         "merge.incomingContentBackground": "#00EECC1F",
@@ -668,7 +645,7 @@
         "statusBarItem.errorBackground": "#330000",
         "statusBarItem.warningBackground": "#FFEE2233",
         "statusBarItem.warningForeground": "#FFFF11",
-        /************************************************
+    /************************************************
 
 
     TAB PROPERTIES

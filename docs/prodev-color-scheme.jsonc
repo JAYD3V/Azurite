@@ -1,29 +1,105 @@
 {
-    "STATIC-COLORS": {
-        "BG": {
-            "1": "#000000",
-            "2": "#000000",
-            "3": "#000000",
-            "4": "#000000",
-            "5": "#000000",
-            "6": "#000000",
-            "7": "#000000",
-            "8": "#000000"
-        },
-        "BDR": {
-            "1 Common Border": {
-                "RGB": "#002A20",
-                "DESC": "Borders for bars and panels. Transparency is only used to lighten the color, but not to make it dynamic or to produce an effect"
+    "BG": {
+        "STATIC": {
+            "EditorBG": {
+                "rgb": "#12151C",
+                "targets": "editor.background"
             },
-            "2": "#000000",
-            "3": "#000000",
-            "4": "#000000"
-        },
-        "FG": {
-            "1": "#000000",
-            "2": "#000000",
-            "3": "#000000",
-            "4": "#000000"
+            "SideBar": {
+                "rgb": "#091939",
+                "desc": "used for sidebar & widgets",
+                "targets": "sideBar.background"
+            },
+            "Panels & Bars": {
+                "rgb": "#030D2A",
+                "desc": "Bg color for dark items, usually a panel or bar.",
+                "targets": "'panel.bg', 'activityBar.bg', 'menu.bg', 'keybindingLabel.background'"
+            },
+            "BG-Highlight": {
+                "rgb": "#002260",
+                "desc": "Active & Prominent bgs",
+                "targets": "statusBar.bg, tab.activeBg"
+            },
+            "Black": {
+                "rgb": "#111111",
+                "desc": "Black Color, Targets Bdr & BG props",
+                "targets": "titleBar.activeBg"
+            },
+            "Midnight Blue": {
+                "rgb": "#03030E",
+                "desc": "#Themes darkest color that isn't #000",
+                "targets": "terminal.bg, editorGroupHdr.bg, SectionHeader.bg"
+            },
+            "SelectionBG": {
+                "rgb": {
+                    "inactiveSelection": "#00FFFF22",
+                    "selection & activeSelection": "##00FFFF33"
+                },
+                "desc": "This color is used at different levels of transparency for highlighting selected text. The transparency value is continegent on the status of what is being highlighted.",
+                "targets": "editor.selectionBg, menu.selectionBg, list.selectionBg(active&Inactive), selection.background"
+            },
+            "DropBg": "#EEFF0040",
+            "8": "#000000"
         }
+    },
+    "BDR": {
+        "Common Border": {
+            "rgb": "#00244C",
+            "desc": "Borders for bars and panels. Transparency is only used to lighten the color, but not to make it dynamic or to produce an effect"
+        },
+        "SectionHeaderBorders": {
+            "rgb": "#003868"
+        },
+        "Border Selection": {
+            "rgb": "#33FFCC77. #33FFCC88, #33FFCC99",
+            "desc": "Highlights Border around selected text. Transparency is contengent on IDK",
+            "targets": "menu.selectionBdr, list.active/inactiveSelectioNBdr, editor.selectionHLBdr"
+        },
+        "Border -> HOVER": {
+            "rgb": "#11FF11",
+            "desc": "Highlights borders onHover, and active borders",
+            "targets": "toolbar.HvrBdr, tab.HvrBdr, tab.unfocusHvrBdr, sash.HvrBdr, activityBar.actvFocus"
+        },
+        "DropBdr": {
+            "rgb": "#EEFF00EE",
+            "desc": "Colors borders that apear during the dragging and dropping of an item",
+            "targets": "activityBar.dropBdr, panel.dropBdr"
+        }
+    },
+    "FG": {
+        "Common Fg": {
+            "rgb": "#C2C2C2",
+            "desc": "",
+            "targets": ""
+        },
+        "Prominent": {
+            "rgb": "#DDDDDD",
+            "desc": "Highlights properties that should be noticable, as to make them easy to find when looked for, but shouldn't be so bright that they alert the user",
+            "targets": "list.inactiveSelectFg"
+        },
+        "MenuForeground": {
+            "rgb": "#90E0FF",
+            "desc": "Alternate text color used for drop downs menus widgets etc...",
+            "targets": "menu.fg, quick-input.fg, editorWidget.fg"
+        },
+        "Foreground: Selection & Focus": {
+            "rgb": {
+                "ActiveSelection": "#33FFCC",
+                "keybindingLabel": "#33FFCCBB"
+            },
+            "desc": "Highlights selected foreground, focused foreground & active foreground",
+            "targets": "'*.activeSelection', 'keybindingLabel.fg'"
+        },
+        "Foreground: Icon-default & Icon-inactive-selection in focus": {
+            "rgb": "#FF7000",
+            "desc": "Default color for icons",
+            "targets": "icon.foreground, list.inactiveSelectionIcon, symbolIcon.*"
+        },
+        "Foreground: Icons Active-selection & Focused-on": {
+            "rgb": "#00FF00",
+            "desc": "Highlights active icons, and icons in focus",
+            "targets": "list.activeSelectionIconFg"
+        },
+        "4": "#000000"
     }
 }

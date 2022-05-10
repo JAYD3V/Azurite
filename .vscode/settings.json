@@ -5,6 +5,7 @@
         "package-lock.json": true
     },
     "editor.minimap.showSlider": "always",
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
 
 }
+//—

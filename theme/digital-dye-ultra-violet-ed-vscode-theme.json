@@ -13,6 +13,7 @@
     "widget.shadow": "#050200",
     "editorUnnecessaryCode.opacity": "#00000094",
     "minimap.foregroundOpacity": "#000000DD",
+    "charts.blue": "#CC50C0",
     /************************************************
 
 
@@ -329,18 +330,13 @@
     ACTIVITY-BAR
     -------------------------------------------------       */
     "activityBar.activeBackground": "#1C078CDD",
-"activityBar.foreground": "#BBFF33",
-"activityBar.activeBorder": "#BBFF33",
-"activityBar.inactiveForeground": "#5566FF",
-"activityBar.border": "#3344FF55",
-"activityBar.activeFocusBorder": "#A0FF11",
-"activityBar.background": "#0B082E",
-"activityBar.dropBorder": "#20F080",
-
-
-
-
-
+    "activityBar.foreground": "#BBFF33",
+    "activityBar.activeBorder": "#BBFF33",
+    "activityBar.inactiveForeground": "#5566FF",
+    "activityBar.border": "#3344FF55",
+    "activityBar.activeFocusBorder": "#A0FF11",
+    "activityBar.background": "#0B082E",
+    "activityBar.dropBorder": "#20F080",
 
     "activityBarBadge.foreground": "#BBFF33",
     "breadcrumb.background": "#0F103C",
@@ -396,27 +392,27 @@
     "editorBracketMatch.border": "#00000000",
     // -------------------------------------------------------------------------
     // BRACKET PAIR HIGHLIGHT (Foreground)
-    "editorBracketHighlight.foreground1": "#9933FF",
-    "editorBracketHighlight.foreground2": "#1188FF",
-    "editorBracketHighlight.foreground3": "#9933FF",
-    "editorBracketHighlight.foreground4": "#1188FF",
-    "editorBracketHighlight.foreground5": "#9933FF",
-    "editorBracketHighlight.foreground6": "#1188FF",
+    "editorBracketHighlight.foreground1": "#AAFF11",
+    "editorBracketHighlight.foreground2": "#AAFF11",
+    "editorBracketHighlight.foreground3": "#AAFF11",
+    "editorBracketHighlight.foreground4": "#AAFF11",
+    "editorBracketHighlight.foreground5": "#AAFF11",
+    "editorBracketHighlight.foreground6": "#AAFF11",
     "editorBracketHighlight.unexpectedBracket.foreground": "#FF4040",
     // -------------------------------------------------------------------------
     // BRACKET PAIR GUIDE (Active Bg)
-    "editorBracketPairGuide.activeBackground1": "#EE2288",
-    "editorBracketPairGuide.activeBackground2": "#EE2288",
-    "editorBracketPairGuide.activeBackground3": "#EE2288",
-    "editorBracketPairGuide.activeBackground4": "#EE2288",
-    "editorBracketPairGuide.activeBackground5": "#EE2288",
-    "editorBracketPairGuide.activeBackground6": "#EE2288",
-    "editorBracketPairGuide.background1": "#77CC33",
-    "editorBracketPairGuide.background2": "#77CC33",
-    "editorBracketPairGuide.background3": "#77CC33",
-    "editorBracketPairGuide.background4": "#77CC33",
-    "editorBracketPairGuide.background5": "#77CC33",
-    "editorBracketPairGuide.background6": "#77CC33",
+    "editorBracketPairGuide.activeBackground1": "#FF4499",
+    "editorBracketPairGuide.activeBackground2": "#CC88FF",
+    "editorBracketPairGuide.activeBackground3": "#FF8010",
+    "editorBracketPairGuide.activeBackground4": "#00DDEE",
+    "editorBracketPairGuide.activeBackground5": "#88DD33",
+    "editorBracketPairGuide.activeBackground6": "#50A0FF",
+    "editorBracketPairGuide.background1": "#BB3388",
+    "editorBracketPairGuide.background2": "#9944EE",
+    "editorBracketPairGuide.background3": "#CC6622",
+    "editorBracketPairGuide.background4": "#22BBBB",
+    "editorBracketPairGuide.background5": "#55BB33",
+    "editorBracketPairGuide.background6": "#3377EE",
     // -------------------------------------------------------------------------
     "editorCodeLens.foreground": "#88bbff80",
     "editorCursor.background": "#FF0099",
@@ -492,9 +488,6 @@
     "inputValidation.warningBackground": "#000000",
     "inputValidation.warningBorder": "#FFF030",
     "inputValidation.warningForeground": "#FFF030",
-    "issues.closed": "#ff77ee99",
-    "issues.newIssueDecoration": "#FF22BB",
-    "issues.open": "#ff77ee",
     "keybindingLabel.background": "#000850",
     "keybindingLabel.border": "#B4B4B455",
     "keybindingTable.rowsBackground": "#00000044",

@@ -95,15 +95,15 @@
     "tab.unfocusedInactiveModifiedBorder": "#FFAA00",
     "tab.activeBorderTop": "#0070FF",
     "tab.unfocusedActiveBorderTop": "#0070FF",
-    "tab.activeBorder": "#0F1D40",
-    "tab.unfocusedActiveBorder": "#0F1D40",
+    "tab.activeBorder": "#131B4A",
+    "tab.unfocusedActiveBorder": "#131B4A",
     "tab.activeForeground": "#EEEEEE",
 
-    "tab.activeBackground": "#0F1D40",
+    "tab.activeBackground": "#131B4A",
     "tab.inactiveBackground": "#030423",
     "tab.inactiveForeground": "#FFFFFF66",
     "tab.unfocusedActiveForeground": "#CCCCCC",
-    "tab.unfocusedActiveBackground": "#0F1D40",
+    "tab.unfocusedActiveBackground": "#131B4A",
     "tab.unfocusedInactiveForeground": "#FFFFFF66",
     "tab.unfocusedInactiveBackground": "#030423",
     /*
@@ -509,7 +509,7 @@
     "banner.background": "#023C8C",
     "button.secondaryBackground": "#023C8C",
     "extensionButton.prominentBackground": "#023C8C",
-    "breadcrumb.background": "#0F1D40",
+    "breadcrumb.background": "#131B4A",
     "welcomePage.progress.background": "#040D27",
     /************************************************
 
@@ -616,27 +616,27 @@
     "editor.snippetTabstopHighlightBackground": "#080824",
     "editor.snippetTabstopHighlightBorder": "#ff33cc99",
     // BRACKET PAIR HIGHLIGHT (Foreground)
-    "editorBracketHighlight.foreground1": "#DD1177",
-    "editorBracketHighlight.foreground2": "#8844FF",
-    "editorBracketHighlight.foreground3": "#FF5500",
-    "editorBracketHighlight.foreground4": "#99CC33",
-    "editorBracketHighlight.foreground5": "#00CC88",
-    "editorBracketHighlight.foreground6": "#0077FF",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#FF2C34",
+    "editorBracketHighlight.foreground1": "#88CC44EE",
+    "editorBracketHighlight.foreground2": "#FF6622EE",
+    "editorBracketHighlight.foreground3": "#FF3399EE",
+    "editorBracketHighlight.foreground4": "#88CC44EE",
+    "editorBracketHighlight.foreground5": "#FF6622EE",
+    "editorBracketHighlight.foreground6": "#FF3399EE",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#DD100C",
     // -------------------------------------------------------------------------
     // BRACKET PAIR GUIDE (Active Bg)
-    "editorBracketPairGuide.activeBackground1": "#DD1177",
-    "editorBracketPairGuide.activeBackground2": "#8844FF",
-    "editorBracketPairGuide.activeBackground3": "#FF5500",
-    "editorBracketPairGuide.activeBackground4": "#99CC33",
-    "editorBracketPairGuide.activeBackground5": "#00CC88",
-    "editorBracketPairGuide.activeBackground6": "#0077FF",
-    "editorBracketPairGuide.background1": "#C41060",
-    "editorBracketPairGuide.background2": "#5544DD",
-    "editorBracketPairGuide.background3": "#CC6622",
-    "editorBracketPairGuide.background4": "#779428",
-    "editorBracketPairGuide.background5": "#009944",
-    "editorBracketPairGuide.background6": "#1155DD",
+    "editorBracketPairGuide.activeBackground1": "#88CC44",
+    "editorBracketPairGuide.activeBackground2": "#FF6622",
+    "editorBracketPairGuide.activeBackground3": "#FF3399",
+    "editorBracketPairGuide.activeBackground4": "#88CC44",
+    "editorBracketPairGuide.activeBackground5": "#FF6622",
+    "editorBracketPairGuide.activeBackground6": "#FF3399",
+    "editorBracketPairGuide.background1": "#88CC44BB",
+    "editorBracketPairGuide.background2": "#FF6622BB",
+    "editorBracketPairGuide.background3": "#FF3399BB",
+    "editorBracketPairGuide.background4": "#88CC44BB",
+    "editorBracketPairGuide.background5": "#FF6622BB",
+    "editorBracketPairGuide.background6": "#FF3399BB",
     "editorBracketMatch.background": "#000020",
     "editorCodeLens.foreground": "#626038ee",
     "sideBySideEditor.horizontalBorder": "#1133AADD",
@@ -646,7 +646,7 @@
     "editorGroupHeader.tabsBorder": "#40FF8033",
     "editorGutter.commentRangeForeground": "#11AABB",
     "editorGutter.deletedBackground": "#FF11AAcc",
-    "editorIndentGuide.background": "#0F1D40",
+    "editorIndentGuide.background": "#131B4A",
 
     "editorMarkerNavigationError.headerBackground": "#580000",
     "editorMarkerNavigationInfo.headerBackground": "#02102a",
@@ -672,11 +672,11 @@
     "panelTitle.inactiveForeground": "#4488FF",
     "pickerGroup.foreground": "#3794ff",
     "progressBar.background": "#0e70c0",
-    "quickInputTitle.background": "#0F1D40",
+    "quickInputTitle.background": "#131B4A",
     "remoteHub.decorations.deletedForegroundColor": "#FF11AA",
     "remoteHub.decorations.incomingDeletedForegroundColor": "#FF11AA",
     "remoteHub.decorations.incomingRenamedForegroundColor": "#b060ff",
-    "sideBar.background": "#0F1D40",
+    "sideBar.background": "#131B4A",
     "sideBar.foreground": "#BFBFBF",
     "sideBarSectionHeader.background": "#050011CC",
     "sideBarSectionHeader.foreground": "#4488FF",
@@ -693,8 +693,8 @@
     "statusBarItem.prominentForeground": "#FFFFFF",
     "statusBarItem.remoteForeground": "#FFFFFF",
     "statusBarItem.activeBackground": "#FFFFFF33",
-    "statusBar.debuggingBorder": "#0F1D40",
-    "statusBar.noFolderBorder": "#0F1D40",
+    "statusBar.debuggingBorder": "#131B4A",
+    "statusBar.noFolderBorder": "#131B4A",
     "statusBar.noFolderBackground": "#040D27",
     "statusBarItem.remoteBackground": "#037030",
     "errorLens.statusBarErrorForeground": "#ff2430",
@@ -725,7 +725,7 @@
     "testing.message.info.lineBackground": "#55707068",
     "textCodeBlock.background": "#0878A570",
     "textPreformat.foreground": "#ae64ff",
-    "toolbar.activeBackground": "#0F1D40",
+    "toolbar.activeBackground": "#131B4A",
     "welcomePage.tileBackground": "#001133"
   },
   "semanticHighlighting": true,
@@ -1121,10 +1121,33 @@
         "fontStyle": "italic"
       }
     },
+    /*
+
+    *-----------------------------------------------------------*
+    	* HTML / MARKUP *
+    *-----------------------------------------------------------*/
     {
-      "scope": ["text.html.markdown"],
+      "scope": ["text.html"],
       "settings": {
-        "foreground": "#B2B2B2"
+        "foreground": "#CCCCCC"
+      }
+    },
+
+    {
+      "name": "HTML | PUNCTUATION ",
+      "scope": ["text.html punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#0088ff",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "HTML | TAG",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#33AA44",
+        "fontStyle": ""
       }
     },
     {

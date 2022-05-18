@@ -2,61 +2,61 @@
   "name": "ui-dynamics",
   "version": "1.0.0",
   "publisher": "Ajay Chambers (jD3V)",
+  "displayName": "Dark Theme-pack for Professionals",
+  "description": "Thoroughly developed \"Dark Theme\" pack designed for professionals.",
+  "preview": true,
   "license": "MIT",
-  "description": "One of the things that has been developed for VSCode, that there's a big gap for, is a customizable theme. Something between a fully custom configured environment (which is basically the development of your own theme), and using someone elses theme as they have built it. This repositories project delivers  a VSC theme that takes advantage of the VSCode extensible API, and implements into it, the Native JSON Parsing features included in JavaScript. The result is a theme that is customizable, and looks better than any other theme available, all with just a couple of clicks.",
+  "galleryBanner": {
+    "color": "#5522AA",
+    "theme": "dark"
+  },
   "repository": "git+https://github.com/W3Dojo/UI-Dynamics.git",
   "bugs": "https://github.com/W3Dojo/UI-Dynamics/issues",
-  "homepage": "https://github.com/W3Dojo/UI-Dynamics#readme",
-  "devDependencies": {},
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "start": "node ./build/extension.js",
-    "testChanges": "tsc -p && npm start",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./"
+  "engines": {
+    "vscode": "^1.50.0"
   },
-  "main": "./build/extension.js",
-  "activationEvents": [
-    "onStartupFinished",
-    "*"
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "github",
+    "dark",
+    "high-contrast"
   ],
   "contributes": {
     "themes": [
       {
-        "id": "digital-dye-pro-devz-ed",
-        "label": "Digital Dye: Pro Developers Ed. (Dark | Blue)",
-        "path": "./theme/digital-dye-pro-devz-ed-vscode-theme.json",
-        "uiTheme": "vs-dark"
+        "label": "TECH PRO | 4 Ever Typed Ed.",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tech-pro-4ever-typed-edition-vscode-theme.json"
       },
       {
-        "id": "digital-dye-overclocked-ed",
-        "label": "Digital Dye: Overclocked Ed. (Dark | Cyan)",
-        "path": "./theme/digital-dye-overclocked-ed-vscode-theme.json",
-        "uiTheme": "vs-dark"
+        "label": "TECH PRO | Many Worlds Ed.",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tech-pro-many-worlds-edition-vscode-theme.json"
       },
       {
-        "id": "digital-dye-many-worlds-ed",
-        "label": "Digital Dye: Many Worlds Ed. (SemiDark | Orange)",
-        "path": "./theme/digital-dye-many-worlds-ed-vscode-theme.json",
-        "uiTheme": "vs-dark"
+        "label": "TECH PRO | Overclocked Ed.",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tech-pro-overclocked-edition-vscode-theme.json"
       },
       {
-        "id": "digital-dye-seppuku-ed",
-        "label": "Digital Dye: Seppuku Ed. (Dark | Red",
-        "path": "./theme/digital-dye-seppuku-ed-vscode-theme.json",
-        "uiTheme": "vs-dark"
+        "label": "TECH PRO | Seppuku Ed.",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tech-pro-seppuku-edition-vscode-theme.json"
       },
       {
-        "id": "digital-dye-ultra-violet-ed",
-        "label": "Digital Dye: UltraViolet Edition (HC-Dark-Hybrid | Violet)",
-        "path": "./theme/digital-dye-ultra-violet-ed-vscode-theme.json",
-        "uiTheme": "vs-dark"
+        "label": "TECH PRO | Ultraviolet Ed.",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tech-pro-ultraviolet-edition-vscode-theme.json"
       }
     ]
   },
-  "engines": {
-    "vscode": "^1.64.0",
-    "node": "^17.0.0",
-    "npm": "^8.0.0"
+  "devDependencies": {
+    "vsce": "^2.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

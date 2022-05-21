@@ -2,7 +2,7 @@
   "name": "ui-dynamics",
   "version": "1.0.0",
   "publisher": "Ajay Chambers (jD3V)",
-  "displayName": "Dark Theme-pack for Professionals",
+  "displayName": "JAYD3V Theme pack",
   "description": "Thoroughly developed \"Dark Theme\" pack designed for professionals.",
   "preview": true,
   "license": "MIT",
@@ -24,6 +24,7 @@
     "dark",
     "high-contrast"
   ],
+
   "contributes": {
     "themes": [
       {

@@ -1,0 +1,114 @@
+/*
+ACRONYMS & ABBREVIATIONS
+-----------------------------------
+  * Bg        - "Background"
+  * Fg        - "Foreground"
+  * Bdr       - "Border"
+  * HL        - "HIGHLIGHT
+  * TP        - "Transparent"
+  * Opq       - "Opaque/Opacity"
+  * Std       - "Standard/Normal/Regular"
+  * xxx       - ""
+  * xxx       - ""
+  * xxx       - ""
+  * xxx       - ""
+  * xxx       - ""
+
+COLOR GROUPING ______________________________________________________________________________
+  STD (*)   - "Denotes that there is at least one other version of this color"
+  STD (-)   - "Denotes that this ver is slightly darker/dimmer/transparent than the std hue"
+  STD (+)   - "Denotes that this ver is slightly brighter/saturated/opaque than the std hue"
+ */
+{
+  "BACKGROUND": {
+    "Static": {
+      "A__": "",
+      "B |": "",
+      "C |": "",
+      "D |": "",
+      "E |": ""
+    },
+    "Highlights": {
+      "A| HOVER": {
+        "standard": ["#1840FF", "#1840FF", "#1028FF"],
+        "Extra Tp": ["#1028FF", "#1028FF77"]
+      },
+      "B| ": "",
+      "C| ": "",
+      "D| ": "",
+      "E| ": ""
+    }
+  },
+  "FOREGROUND": {
+    "Static": {
+      "A |": "",
+      "B |": "",
+      "C |": "",
+      "D |": "",
+      "E |": ""
+    },
+    "Highlights": {
+      "A |": "",
+      "B |": "",
+      "C |": "",
+      "D |": "",
+      "E |": ""
+    }
+  },
+  "BORDER": {
+    "Static": {
+      "A | Primary Borders": {
+          "STD (-)": "#DDDDDD11",
+          "STD (*)": "#DDDDDD22",
+          "STD (+)": "#DDDDDD33",
+      },
+      "B | #090000": "Shadow/Very Dark Bg",
+      "C |": "",
+      "D |": "",
+      "E |": ""
+    },
+    "Highlights": {
+      "A | Focus Bdr HL": "#22EE66",
+      "B |": "",
+      "C |": "",
+      "D |": "",
+      "E |": ""
+    }
+  },
+  "SYNTAX_HIGHLIGHTING": {
+    "A__Classes-Namespace-Struct-Object-Virtual": "#33BB66",
+    "B__Operators": "#FF7733",
+    "C__": "",
+    "D__": "",
+    "E__": "",
+    "F__": "",
+    "G__": "",
+    "H__": "",
+    "I__": "",
+    "J__": ""
+  },
+  "SCM_HIGHLIGHTING": {
+    "A__": "",
+    "B__": "",
+    "C__": "",
+    "D__": "",
+    "E__": "",
+    "F__": "",
+    "G__": "",
+    "H__": "",
+    "I__": "",
+    "J__": ""
+  },
+  "STATUS_HIGHLIGHTING": {
+    "A__": "",
+    "B__": "",
+    "C__": "",
+    "D__": "",
+    "E__": "",
+    "F__": "",
+    "G__": "",
+    "H__": "",
+    "I__": "",
+    "J__": ""
+  }
+}

@@ -22,11 +22,11 @@ COLOR GROUPING _________________________________________________________________
 {
     "BACKGROUND": {
         "Static": {
-            "A |": "",
-            "B |Sidebar/Breadcrumb/Tab(active)": "#111A4A",
-            "C |Panel/ActivityBar": "#070A2C",
-            "D | Widget/Menus Bg": "#081030",
-            "E |Dark Bg": ""
+            "(A) - Editor Bg": "#0F1021",
+            "(B) - Sidebar/Breadcrumb/Tab(active)": "#111A4A",
+            "(C) - Panel/ActivityBar": "#070A2C",
+            "(D) - Widget/Menus Bg": "#081030",
+            "(E) - Dark Bg": ""
         },
         "Highlights": {
             "A| HOVER": {

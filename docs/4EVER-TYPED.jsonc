@@ -15,17 +15,17 @@ ACRONYMS & ABBREVIATIONS
   * xxx       - ""
 
 COLOR GROUPING ______________________________________________________________________________
-  STD (*)   - "Denotes that there is at least one other version of this color"
-  STD (-)   - "Denotes that this ver is slightly darker/dimmer/transparent than the std hue"
-  STD (+)   - "Denotes that this ver is slightly brighter/saturated/opaque than the std hue"
+  (*)   - "Denotes that there is at least one other version of this color"
+  (-)   - "Denotes that this ver is slightly darker/dimmer/transparent than the std hue"
+  (+)   - "Denotes that this ver is slightly brighter/saturated/opaque than the std hue"
  */
 {
   "BACKGROUND": {
     "Static": {
-      "A__": "",
+      "A |": "",
       "B |": "",
       "C |": "",
-      "D |": "",
+      "D | Widget/Menus Bg": "#070D2D",
       "E |": ""
     },
     "Highlights": {
@@ -41,11 +41,12 @@ COLOR GROUPING _________________________________________________________________
   },
   "FOREGROUND": {
     "Static": {
-      "A |": "",
-      "B |": "",
-      "C |": "",
-      "D |": "",
-      "E |": ""
+      "A | Std-Fg (++)": "#EEEEEE",
+      "B | Std-Fg (+)": "#DDDDDD",
+      "C | Std-Fg (*)": "#CCCCCC",
+      "D | Std-Fg (-)": "#BBBBBB",
+      "E |": "",
+      "F |": ""
     },
     "Highlights": {
       "A |": "",
@@ -68,7 +69,7 @@ COLOR GROUPING _________________________________________________________________
       "E |": ""
     },
     "Highlights": {
-      "A | Focus Bdr HL": "#22EE66",
+      "A | Focus Bdr HL": "#11FF33BB",
       "B |": "",
       "C |": "",
       "D |": "",

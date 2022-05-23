@@ -8,16 +8,18 @@
 *-------------------------------------------*
 
     PRIMARY COLOR: "AZURE/BLUE"
-        01)  #3388FF
-        02)  #2277FF
-        03)  #1166FF
-        04)  #0055FF
-        05)  #0044FF
-        06)  #1133DD
-        07)  #09154D
-        08)  #091645 (sidebar)
-        09)  #05092C (Activity-bar & Panels)
-        10)  #040848 (Small-Bg HiL)
+        01)  #70A5FF
+        02)  #5599FF
+        03)  #3388FF
+        04)  #2277FF
+        05)  #1166FF
+        06)  #0055FF
+        07)  #0044FF
+        08)  #1133DD
+        09)  #09154D
+        10)  #091645 (sidebar)
+        11)  #05092C (Activity-bar & Panels)
+        12)  #080855 (Small-Bg HiL)
 *-------------------------------------------*
 
     SECONDARY COLOR: "GREEN"
@@ -248,14 +250,6 @@
         "testing.message.info.decorationForeground": "#77EE22",
         "inputValidation.infoForeground": "#77EE22",
         "inputValidation.infoBorder": "#77EE22AA",
-        // #FFFFFF
-        "keybindingLabel.foreground": "#FFFFFF",
-        "activityBar.foreground": "#FFFFFF",
-        /************************************************
-
-
-        SETTINGS
-        -------------------------------------------------                   */
         /************************************************
 
 
@@ -310,6 +304,8 @@
         "button.secondaryForeground": "#FFFFFF",
         "statusBar.debuggingForeground": "#FFFFFF",
         "statusBar.foreground": "#FFFFFF",
+        "keybindingLabel.foreground": "#FFFFFF",
+        "activityBar.foreground": "#FFFFFF",
         "scrollbarSlider.hoverBackground": "#FFFFFFCC",
         "scrollbarSlider.activeBackground": "#FFFFFF",
         "scrollbarSlider.background": "#FFFFFF77",
@@ -601,14 +597,17 @@
         "toolbar.activeBackground": "#091645",
         "sideBar.background": "#091645",
         // SMALL BACKGROUNDS (OR text bg highlighting)
-        "editorHoverWidget.background": "#040848",
-        "keybindingLabel.background": "#040848",
-        "editorGroup.dropIntoPromptBackground": "#040848",
-        "peekViewResult.matchHighlightBackground": "#040848",
-        "editorBracketMatch.background": "#040848",
-        "editor.snippetFinalTabstopHighlightBackground": "#040848",
-        "editor.snippetTabstopHighlightBackground": "#040848",
-        "welcomePage.progress.background": "#040848",
+        "editorHoverWidget.background": "#080855",
+        "keybindingLabel.background": "#080855",
+        "editorGroup.dropIntoPromptBackground": "#080855",
+        "peekViewResult.matchHighlightBackground": "#080855",
+        "editorBracketMatch.background": "#080855",
+        "editor.snippetFinalTabstopHighlightBackground": "#080855",
+        "editor.snippetTabstopHighlightBackground": "#080855",
+        "welcomePage.progress.background": "#080855",
+        "checkbox.background": "#080855",
+        "dropdown.background": "#080855",
+        "input.background": "#080855",
         // #05092C
         "tab.inactiveBackground": "#05092C",
         "tab.unfocusedInactiveBackground": "#05092C",
@@ -625,35 +624,32 @@
         "welcomePage.tileBackground": "#05092C",
         "activityBar.background": "#05092C",
         "panel.background": "#05092C",
-        // #09085A
-        "checkbox.background": "#09085A",
-        "dropdown.background": "#09085A",
-        "input.background": "#09085A",
-        "dropdown.listBackground": "#021336E0",
-        "editorWidget.background": "#021336E0",
-        // #77AADD (Inactive/Ignored Foregrounds)
-        "sideBarSectionHeader.foreground": "#77AADD",
-        "breadcrumb.foreground": "#77AADDEE",
-        "panelSectionHeader.foreground": "#77AADDEE",
-        "panelTitle.inactiveForeground": "#77AADDCC",
-        "gitDecoration.ignoredResourceForeground": "#77AADDCC",
-        "statusBar.noFolderForeground": "#77AADD99",
-        "activityBar.inactiveForeground": "#77AADD99",
-        "tab.inactiveForeground": "#77AADD99",
-        "tab.unfocusedInactiveForeground": "#77AADD99",
-        "titleBar.inactiveForeground": "#77AADD99",
-        //
-        "keybindingLabel.border": "#4499FF88",
-        "statusBar.border": "#4499FF33",
-        "checkbox.border": "#4499FF33",
-        "dropdown.border": "#4499FF33",
-        "input.border": "#4499FF33",
-        "panel.border": "#4499FF33",
-        "panelSectionHeader.border": "#4499FF33",
-        "sideBarSectionHeader.border": "#4499FF33",
-        "keybindingLabel.bottomBorder": "#4499FF33",
-        "debugExceptionWidget.border": "#4499FF55",
-        "editorGroupHeader.tabsBorder": "#4499FF33",
+        // #080855
+        "dropdown.listBackground": "#04143AEC",
+        "editorWidget.background": "#04143AEC",
+        // #70A5FF (Inactive/Ignored Foregrounds)
+        "sideBarSectionHeader.foreground": "#70A5FF",
+        "breadcrumb.foreground": "#70A5FFEE",
+        "panelSectionHeader.foreground": "#70A5FFEE",
+        "panelTitle.inactiveForeground": "#70A5FFCC",
+        "gitDecoration.ignoredResourceForeground": "#70A5FFCC",
+        "statusBar.noFolderForeground": "#70A5FF99",
+        "activityBar.inactiveForeground": "#70A5FF99",
+        "tab.inactiveForeground": "#70A5FF99",
+        "tab.unfocusedInactiveForeground": "#70A5FF99",
+        "titleBar.inactiveForeground": "#70A5FF99",
+        // #5599FF
+        "keybindingLabel.border": "#5599FF88",
+        "statusBar.border": "#5599FF33",
+        "checkbox.border": "#5599FF33",
+        "dropdown.border": "#5599FF33",
+        "input.border": "#5599FF33",
+        "panel.border": "#5599FF33",
+        "panelSectionHeader.border": "#5599FF33",
+        "sideBarSectionHeader.border": "#5599FF33",
+        "keybindingLabel.bottomBorder": "#5599FF33",
+        "debugExceptionWidget.border": "#5599FF55",
+        "editorGroupHeader.tabsBorder": "#5599FF33",
         "textBlockQuote.border": "#030513",
         "editorWidget.border": "#030513",
         "editorSuggestWidget.border": "#030513",

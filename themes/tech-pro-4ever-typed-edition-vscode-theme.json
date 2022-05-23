@@ -24,7 +24,6 @@
         -------------------------------------------------                   */
         "panelSectionHeader.background": "#00000000",
         "sideBarSectionHeader.background": "#00000000",
-
         /************************************************
 
 
@@ -59,11 +58,27 @@
         "diffEditor.insertedTextBackground": "#55DD005D",
         "diffEditorOverview.insertedForeground": "#55DD00BB",
         "diffEditorGutter.insertedLineBackground": "#55DD0044",
+        "editorOverviewRuler.currentContentForeground": "#14c0e8aa",
+        "editorOverviewRuler.incomingContentForeground": "#00EECCee",
+        "merge.currentContentBackground": "#ff44BB30",
+        "merge.currentHeaderBackground": "#ff44BB50",
+        "merge.incomingContentBackground": "#44CCAA30",
+        "merge.incomingHeaderBackground": "#44CCAA50",
         /************************************************
 
 
         DELETED & REMOVED (SCM/DIFF Decorations)
         -------------------------------------------------                   */
+
+
+
+
+
+
+
+
+
+
         "diffEditor.border": "#FF005544",
         "diffEditor.removedTextBackground": "#FF005570",
         "diffEditor.removedLineBackground": "#FF005510",
@@ -108,38 +123,38 @@
         STATUS HIGHLIGHTING
         -------------------------------------------------                   */
         // ERROR PROPERTIES
-        "listFilterWidget.noMatchesOutline": "#FF3830",
-        "gitDecoration.conflictingResourceForeground": "#FF3830",
-        "debugConsole.errorForeground": "#FF3830",
-        "debugTokenExpression.error": "#FF3830",
-        "debugView.exceptionLabelBackground": "#FF383044",
-        "editorMarkerNavigationError.background": "#FF383099",
-        "editorOverviewRuler.errorForeground": "#FF3830",
-        "editorWhitespace.foreground": "#FF383077",
-        "errorForeground": "#FF3830",
-        "errorLens.errorForeground": "#FF3830bb",
-        "list.errorForeground": "#FF3830",
-        "list.invalidItemForeground": "#FF3830cc",
-        "notificationsErrorIcon.foreground": "#FF3830",
-        "problemsErrorIcon.foreground": "#FF3830",
-        "testing.iconErrored": "#FF3830",
-        "testing.iconFailed": "#FF3830",
-        "testing.message.error.decorationForeground": "#FF3830",
-        "testing.message.error.lineBackground": "#FF383088",
-        "editorError.foreground": "#FF3830",
-        "errorLens.statusBarErrorForeground": "#FF3830",
-        "errorLens.statusBarIconErrorForeground": "#FF3830",
-        "statusBarItem.errorForeground": "#FF3830",
-        "debugIcon.breakpointCurrentStackframeForeground": "#FF3830",
-        "debugIcon.breakpointDisabledForeground": "#FF383088",
-        "debugIcon.breakpointForeground": "#FF3830",
-        "debugIcon.breakpointStackframeForeground": "#FF3830bb",
-        "debugIcon.breakpointUnverifiedForeground": "#FF3830bb",
-        "debugIcon.disconnectForeground": "#FF3830",
-        "debugIcon.stopForeground": "#FF3830",
-        "inputValidation.errorBorder": "#FF3830AA",
-        "inputValidation.errorForeground": "#FF3830",
-        "terminalCommandDecoration.defaultBackground": "#FF3830",
+        "listFilterWidget.noMatchesOutline": "#FF2222",
+        "gitDecoration.conflictingResourceForeground": "#FF2222",
+        "debugConsole.errorForeground": "#FF2222",
+        "debugTokenExpression.error": "#FF2222",
+        "debugView.exceptionLabelBackground": "#FF222244",
+        "editorMarkerNavigationError.background": "#FF222299",
+        "editorOverviewRuler.errorForeground": "#FF2222",
+        "editorWhitespace.foreground": "#FF222277",
+        "errorForeground": "#FF2222",
+        "errorLens.errorForeground": "#FF2222bb",
+        "list.errorForeground": "#FF2222",
+        "list.invalidItemForeground": "#FF2222cc",
+        "notificationsErrorIcon.foreground": "#FF2222",
+        "problemsErrorIcon.foreground": "#FF2222",
+        "testing.iconErrored": "#FF2222",
+        "testing.iconFailed": "#FF2222",
+        "testing.message.error.decorationForeground": "#FF2222",
+        "testing.message.error.lineBackground": "#FF222288",
+        "editorError.foreground": "#FF2222",
+        "errorLens.statusBarErrorForeground": "#FF2222",
+        "errorLens.statusBarIconErrorForeground": "#FF2222",
+        "statusBarItem.errorForeground": "#FF2222",
+        "debugIcon.breakpointCurrentStackframeForeground": "#FF2222",
+        "debugIcon.breakpointDisabledForeground": "#FF222288",
+        "debugIcon.breakpointForeground": "#FF2222",
+        "debugIcon.breakpointStackframeForeground": "#FF2222bb",
+        "debugIcon.breakpointUnverifiedForeground": "#FF2222bb",
+        "debugIcon.disconnectForeground": "#FF2222",
+        "debugIcon.stopForeground": "#FF2222",
+        "inputValidation.errorBorder": "#FF2222AA",
+        "inputValidation.errorForeground": "#FF2222",
+        "terminalCommandDecoration.defaultBackground": "#FF2222",
         "disabledForeground": "#881122",
         "editorUnicodeHighlight.border": "#881122",
         "editorOverviewRuler.rangeHighlightForeground": "#0077FF88",
@@ -288,14 +303,20 @@
         "textBlockQuote.background": "#08000088",
         "statusBarItem.prominentBackground": "#08000088",
         "minimap.background": "#08000088",
-        // EDITOR BACKGROUND COLOR
+        // WORKBENCH BLACK BACKGROUNDS (Terminal & Editor-Tabs-group bg when no tabs are present)
+        "terminal.background": "#04040E",
+        "editorGroupHeader.noTabsBackground": "#04040E",
+        "editorGroupHeader.tabsBackground": "#04040E",
+        "editorMarkerNavigationInfo.headerBackground": "#04040E",
+        "errorLens.infoMessageBackground": "#04040E",
+        // #0E0F1F (Editor's Bg-color)
         "editor.background": "#0E0F1F",
         "editorOverviewRuler.background": "#0E0F1F",
-          /************************************************
+        /******************************************************
 
 
-        WORKBENCH HIGHLIGHTING (Emphasized, Interactive Icons)
-        -------------------------------------------------                   */
+        WORKBENCH HIGHLIGHTING (Emphasis, Icons & Interactive)
+        -------------------------------------------------------                 */
         // ICONS & TEXT LINKS
         "textLink.foreground": "#FF6000",
         "icon.foreground": "#FF6000",
@@ -402,6 +423,14 @@
         "editorSuggestWidget.selectedBackground": "#33FF4414",
         "editorLineNumber.activeForeground": "#33FF44AA",
         "interactive.activeCodeBorder": "#33FF44aa",
+        "editorBracketHighlight.foreground1": "#33FF4488",
+        "editorBracketHighlight.foreground4": "#33FF4488",
+        "editorBracketPairGuide.activeBackground1": "#33FF4488",
+        "editorBracketPairGuide.activeBackground4": "#33FF4488",
+        "editorBracketPairGuide.background1": "#33FF4488",
+        "editorBracketPairGuide.background4": "#33FF4488",
+        "editorOverviewRuler.wordHighlightForeground": "#33FF44",
+        "editor.wordHighlightBorder": "#33FF44aa",
         // #22FF00
         "statusBarItem.focusBorder": "#22FF00BB",
         "focusBorder": "#22FF00BB",
@@ -596,7 +625,7 @@
         "input.placeholderForeground": "#308414",
         "inputValidation.infoForeground": "#33EE77EE",
         "inputValidation.infoBorder": "#33EE7777",
-        "terminal.background": "#04040E",
+
         "window.activeBorder": "#003D44",
         "window.inactiveBorder": "#333333",
         "keybindingLabel.background": "#080830",
@@ -631,37 +660,19 @@
         "banner.background": "#330088",
         "button.secondaryBackground": "#330088",
         // BRACKET PAIR HIGHLIGHT (Foreground)
-        "editorBracketHighlight.foreground1": "#33FF4488",
-        "editorBracketHighlight.foreground4": "#33FF4488",
-        "editorBracketPairGuide.activeBackground1": "#33FF4488",
-        "editorBracketPairGuide.activeBackground4": "#33FF4488",
-        "editorBracketPairGuide.background1": "#33FF4488",
-        "editorBracketPairGuide.background4": "#33FF4488",
         "editorBracketHighlight.unexpectedBracket.foreground": "#DD100C",
         //
         "editor.wordHighlightStrongBackground": "#08000088",
         "editor.wordHighlightBackground": "#08000088",
-        "editorOverviewRuler.wordHighlightForeground": "#33FF44",
-        "editor.wordHighlightBorder": "#33FF44aa",
         "editor.wordHighlightStrongBorder": "#0077FF88",
         "editorOverviewRuler.wordHighlightStrongForeground": "#0077FF55",
         // -------------------------------------------------------------------------
         // BRACKET PAIR GUIDE (Active Bg)
         "editorBracketMatch.background": "#000020",
-        "editorCodeLens.foreground": "#626038ee",
-        "editorGroupHeader.noTabsBackground": "#04040E",
-        "editorGroupHeader.tabsBackground": "#04040E",
-        "editorMarkerNavigationError.headerBackground": "#580000",
-        "editorMarkerNavigationInfo.headerBackground": "#04040E",
-        "editorOverviewRuler.commonContentForeground": "#103864",
-        "editorOverviewRuler.currentContentForeground": "#14c0e8aa",
-        "editorOverviewRuler.incomingContentForeground": "#00EECCee",
-        "errorLens.infoMessageBackground": "#04040E",
-        "merge.currentContentBackground": "#ff44BB22",
-        "merge.currentHeaderBackground": "#ff44BB44",
-        "merge.incomingContentBackground": "#00EECC1F",
-        "merge.incomingHeaderBackground": "#00EECC3D",
-        "sideBar.foreground": "#BFBFBF",
+        "editorCodeLens.foreground": "#008080",
+
+
+        "sideBar.foreground": "#CCCCCC",
         /*
      *-----------------------------------------------------------*
      * STATUS-BAR PROPERTIES *

@@ -16,7 +16,6 @@
 
             UNORGANIZED PROPERTIES
         -------------------------------------------------                   */
-
         "editor.lineHighlightBackground": "#99999909",
         "titleBar.activeBackground": "#0E121F",
         "peekViewTitle.background": "#0E121F",
@@ -29,16 +28,16 @@
         "peekViewEditor.background": "#090D28",
         "peekViewEditor.matchHighlightBackground": "#555500",
         "peekViewResult.background": "#080A14",
-        "peekViewTitleLabel.foreground": "#CCCCCC",
+
         "editorBracketMatch.border": "#030513",
         "editorBracketHighlight.unexpectedBracket.foreground": "#DD100C",
         "editor.wordHighlightStrongBackground": "#0A000088",
         "editor.wordHighlightBackground": "#0A000088",
         "editorCodeLens.foreground": "#008080",
-        "sideBar.foreground": "#CCCCCC",
+
+
         "textCodeBlock.background": "#0878A570",
         "titleBar.inactiveBackground": "#203055",
-
         "gitDecoration.renamedResourceForeground": "#b060ff",
         "remoteHub.decorations.incomingRenamedForegroundColor": "#b060ff",
         "gitDecoration.submoduleResourceForeground": "#99AAEE",
@@ -156,7 +155,7 @@
         "terminal.ansiBrightYellow": "#FFEE77",
         "terminal.ansiBrightBlue": "#55CCFF",
         "terminal.ansiBrightBlack": "#444444",
-        "terminal.ansiBrightWhite": "#DDDDDD",
+        "terminal.ansiBrightWhite": "#EEEEEE",
         /************************************************
 
         STATUS HIGHLIGHTING
@@ -258,7 +257,6 @@
         "editor.selectionForeground": "#EEEEEE",
         "tab.hoverForeground": "#EEEEEE",
         "tab.unfocusedHoverForeground": "#EEEEEE",
-
         "list.activeSelectionForeground": "#EEEEEE",
         "list.inactiveSelectionIconForeground": "#EEEEEE",
         "list.hoverForeground": "#EEEEEE",
@@ -266,7 +264,6 @@
         "banner.foreground": "#DDDDDD",
         "menu.selectionForeground": "#EEEEEE",
         "menu.foreground": "#DDDDDD",
-
         "menu.separatorBackground": "#080000",
         "menu.background": "#021336EA",
         "menu.border": "#030513",
@@ -292,21 +289,24 @@
         "statusBarItem.prominentHoverBackground": "#DDDDDD44",
         "button.hoverBackground": "#DDDDDD44",
         "button.secondaryHoverBackground": "#DDDDDD44",
-        "toolbar.hoverBackground": "#DDDDDD44",
+        "toolbar.hoverBackground": "#D0FF0036",
         "textSeparator.foreground": "#DDDDDD33",
-        "statusBarItem.activeBackground": "#DDDDDD33",
-        "statusBarItem.hoverBackground": "#DDDDDD22",
-        "minimapSlider.hoverBackground": "#DDDDDD22",
-        "inputOption.hoverBackground": "#DDDDDD22",
-        "welcomePage.tileHoverBackground": "#DDDDDD22",
-        "list.hoverBackground": "#DDDDDD22",
+        "statusBarItem.hoverBackground": "#D0FF0036",
+        "minimapSlider.hoverBackground": "#D0FF0036",
+        "inputOption.hoverBackground": "#D0FF0036",
+        "welcomePage.tileHoverBackground": "#D0FF0036",
+        "list.hoverBackground": "#D0FF0036",
+        "extensionButton.prominentHoverBackground": "#D0FF0036",
+        "settings.rowHoverBackground": "#66FF3314",
+        "statusBarItem.activeBackground": "#22FF0044",
+        "settings.focusedRowBackground": "#22FF0026",
+        /*
 
-        "extensionButton.prominentHoverBackground": "#DDDDDD22",
-        "tab.lastPinnedBorder": "#DDDDDD11",
-        "settings.focusedRowBackground": "#DDDDDD11",
-        "errorLens.errorMessageBackground": "#DDDDDD11",
-        "debugToolBar.background": "#DDDDDD11",
-        "settings.rowHoverBackground": "#DDDDDD11",
+        TODO: "change tab borders to a blue color" */
+
+        // #CCCCCC
+        "peekViewTitleLabel.foreground": "#CCCCCC",
+        "foreground": "#CCCCCC",
         /************************************************
 
 
@@ -331,11 +331,11 @@
         "statusBarItem.prominentBackground": "#0A000088",
         "minimap.background": "#0A000088",
         // WORKBENCH BLACK BACKGROUNDS (Terminal & Editor-Tabs-group bg when no tabs are present)
-        "terminal.background": "#04040E",
-        "editorGroupHeader.noTabsBackground": "#04040E",
-        "editorGroupHeader.tabsBackground": "#04040E",
-        "editorMarkerNavigationInfo.headerBackground": "#04040E",
-        "errorLens.infoMessageBackground": "#04040E",
+        "terminal.background": "#050618",
+        "editorGroupHeader.noTabsBackground": "#050618",
+        "editorGroupHeader.tabsBackground": "#050618",
+        "editorMarkerNavigationInfo.headerBackground": "#050618",
+        "errorLens.infoMessageBackground": "#050618",
         // #0E0F1F (Editor's Bg-color)
         "editor.background": "#0E0F1F",
         "editorOverviewRuler.background": "#0E0F1F",
@@ -456,6 +456,7 @@
         -------------------------------------------------                   */
         // #1166FF
         "testing.iconPassed": "#1166FF",
+
         "testing.runAction": "#1166FF",
         "list.filterMatchBorder": "#1166FF",
         "editorIndentGuide.activeBackground": "#1166FF",
@@ -465,8 +466,6 @@
         "debugIcon.restartForeground": "#1166FF",
         "descriptionForeground": "#1166FF",
         "ports.iconRunningProcessForeground": "#1166FF",
-
-
         "list.focusOutline": "#1166FF",
         "list.inactiveFocusOutline": "#1166FF",
         "settings.headerForeground": "#1166FF",
@@ -493,12 +492,14 @@
         "extensionIcon.verifiedForeground": "#0055FFEE",
         "list.activeSelectionBackground": "#0055FF88",
         "quickInputList.focusBackground": "#0055FF88",
-
         "terminal.selectionBackground": "#0055FF66",
         "menubar.selectionBackground": "#0055FF66",
         "list.inactiveSelectionBackground": "#0055FF66",
         "settings.focusedRowBorder": "#0055FF99",
         "peekViewResult.selectionBackground": "#0055FF66",
+        "tab.border": "#0055FF33",
+        "tab.lastPinnedBorder": "#0055FF33",
+        "errorLens.errorMessageBackground": "#0055FF22",
         // #0033FF
         "editor.selectionBackground": "#0033FF99",
         "selection.background": "#0033FF99",
@@ -541,7 +542,6 @@
         // #050A2A
         "tab.inactiveBackground": "#050A2A",
         "tab.unfocusedInactiveBackground": "#050A2A",
-
         "listFilterWidget.background": "#050A2A",
         "debugExceptionWidget.background": "#050A2A",
         "editorSuggestWidget.background": "#050A2A",
@@ -574,7 +574,6 @@
         "tab.inactiveForeground": "#77AADD99",
         "tab.unfocusedInactiveForeground": "#77AADD99",
         "titleBar.inactiveForeground": "#77AADD99",
-
         //
         "keybindingLabel.border": "#4499FF88",
         "statusBar.border": "#4499FF44",
@@ -588,7 +587,6 @@
         "debugExceptionWidget.border": "#4499FF44",
         "editorGroupHeader.tabsBorder": "#4499FF33",
         "textBlockQuote.border": "#030513",
-
         "editorWidget.border": "#030513",
         "editorSuggestWidget.border": "#030513",
         "titleBar.border": "#0A0000",
@@ -598,13 +596,14 @@
         "panelSection.border": "#030513",
         "notifications.border": "#030513",
         "terminal.border": "#030513",
-        "tab.border": "#030513",
+
         "button.border": "#030513",
         "activityBar.border": "#030513",
         "sideBar.border": "#030513",
         "editorGroup.border": "#030513",
         "editorOverviewRuler.border": "#030513",
         "editorHoverWidget.border": "#030513",
+
         /*
 
 

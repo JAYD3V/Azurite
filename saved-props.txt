@@ -1,0 +1,3 @@
+        "breadcrumbPicker.background": "#030920",
+        "debugTokenExpression.value": "#ee9966",
+        "debugView.exceptionLabelForeground": "#FFAACCCC",

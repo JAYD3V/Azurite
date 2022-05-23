@@ -26,3 +26,5 @@ Themes Nebula 2x QUANTIZE
     const Hello=5;
 
 ```
+
+5. Color INFO for 

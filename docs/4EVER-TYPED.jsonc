@@ -66,8 +66,13 @@ COLOR GROUPING _________________________________________________________________
             "F |": ""
         },
         "Highlights": {
-            "A |": "",
             "B |ACTIVE": "#33EE22",
+            "A |INACTIVE/IGNORED": [
+                "#77AADD",
+                "#77AADDEE",
+                "#77AADDcc",
+                "#77AADD99"
+            ],
             "C |EMPHASIS": "#2277FF",
             "D |EMPHASIS": "",
             "E |": ""
@@ -105,6 +110,7 @@ COLOR GROUPING _________________________________________________________________
         "I__": "",
         "J__": ""
     },
+
     "SCM_HIGHLIGHTING": {
         "A__MODIFIED": "#FFAA11",
         "B__ADDED": "#22CC00",
@@ -117,11 +123,29 @@ COLOR GROUPING _________________________________________________________________
         "I__": "",
         "J__": ""
     },
+
     "STATUS_HIGHLIGHTING": {
         "A__ERROR": "#FF3333",
         "B__WARN": "#FFEE22",
         "C__INFO": "#99EE22",
         "D__HINT": "#55EE55",
         "D__": ""
+    },
+
+    "TERMINAL OUTPUT (ANSI Highlighting)": {
+        "ANSI Red": "#CC1111",
+        "ANSI Yellow": "#AAAA22",
+        "ANSI Green": "#11AA11",
+        "ANSI Blue": "#1177FF",
+        "ANSI Magenta": "#EE11AA",
+        "ANSI Cyan": "#22BBBB",
+        "ANSI Black": "#222222",
+        "ANSI Bright Cyan": "#77FFEE",
+        "ANSI Bright Magenta": "#FF88EE",
+        "ANSI Bright Green": "#99FF77",
+        "ANSI Bright Red": "#FF7777",
+        "ANSI Bright Yellow": "#FFEE77",
+        "ANSI Bright Blue": "#55CCFF",
+        "ANSI Bright Black": "#444444",
     }
 }

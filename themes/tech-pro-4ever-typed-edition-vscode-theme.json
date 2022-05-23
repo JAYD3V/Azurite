@@ -58,10 +58,8 @@
         "diffEditor.insertedTextBackground": "#55DD005D",
         "diffEditorOverview.insertedForeground": "#55DD00BB",
         "diffEditorGutter.insertedLineBackground": "#55DD0044",
-        "editorOverviewRuler.currentContentForeground": "#14c0e8aa",
+
         "editorOverviewRuler.incomingContentForeground": "#00EECCee",
-        "merge.currentContentBackground": "#ff44BB30",
-        "merge.currentHeaderBackground": "#ff44BB50",
         "merge.incomingContentBackground": "#44CCAA30",
         "merge.incomingHeaderBackground": "#44CCAA50",
         /************************************************
@@ -92,6 +90,10 @@
         "minimapGutter.deletedBackground": "#FF0055",
         "remoteHub.decorations.deletedForegroundColor": "#FF0055",
         "remoteHub.decorations.incomingDeletedForegroundColor": "#FF0055",
+        // Merge Current
+        "editorOverviewRuler.currentContentForeground": "#14c0e8aa",
+        "merge.currentContentBackground": "#ff44BB30",
+        "merge.currentHeaderBackground": "#ff44BB50",
         /*
 
 

@@ -8,14 +8,14 @@
 *-------------------------------------------*
 
     PRIMARY COLOR: "AZURE/BLUE"
-        01)  #70A5FF
-        02)  #5599FF
-        03)  #3388FF
-        04)  #2277FF
-        05)  #1166FF
-        06)  #0055FF
-        07)  #0044FF
-        08)  #1133DD
+        01)  #60A0FF
+        02)  #2080FF
+        03)  #0077FF
+        04)  #1166FF
+        05)  #0055FF
+        06)  #0044FF
+        07)  #1133DD
+        08)  #0033AA
         09)  #09154D
         10)  #091645 (sidebar)
         11)  #05092C (Activity-bar & Panels)
@@ -165,7 +165,7 @@
         "terminal.ansiRed": "#CC1111",
         "terminal.ansiYellow": "#AAAA22",
         "terminal.ansiGreen": "#11AA11",
-        "terminal.ansiBlue": "#1177FF",
+        "terminal.ansiBlue": "#0077FF",
         "terminal.ansiMagenta": "#EE11AA",
         "terminal.ansiCyan": "#22BBBB",
         "terminal.ansiBlack": "#222222",
@@ -269,9 +269,9 @@
         INTERACTIVE: "FORM STYLE INPUTS"
         -------------------------------------------------                   */
         // SETTINGS: "Static Styling"
-        "settings.headerBorder": "#003399",
-        "settings.sashBorder": "#003399",
-        "settings.headerForeground": "#2288FF",
+        "settings.headerBorder": "#0033AA",
+        "settings.sashBorder": "#0033AA",
+        "settings.headerForeground": "#2080FF",
         // Interactive Highlights (hover/active-selected)
         "settings.rowHoverBackground": "#66FF3314",
         "settings.focusedRowBackground": "#22FF0026",
@@ -283,14 +283,14 @@
         // Drop Down
         "settings.dropdownBackground": "#040850",
         "settings.dropdownForeground": "#33DD11",
-        "settings.dropdownBorder": "#0044CC",
-        "settings.dropdownListBorder": "#0044CC",
+        "settings.dropdownBorder": "#0033AA",
+        "settings.dropdownListBorder": "#0033AA",
         // Number Input
         "settings.numberInputBackground": "#040850",
         "settings.numberInputForeground": "#33DD11",
-        "settings.numberInputBorder": "#0044CC",
+        "settings.numberInputBorder": "#0033AA",
         // Text Input
-        "settings.textInputBorder": "#0044CC",
+        "settings.textInputBorder": "#0033AA",
         "settings.textInputBackground": "#040850",
         "settings.textInputForeground": "#33DD11",
         "statusBarItem.compactHoverBackground": "#FFFFFF11",
@@ -494,8 +494,8 @@
         /************************************************
 
             PRIMARY COLOR: "AZURE/BLUE"
-        1.  #3388FF
-        2.  #2277FF
+        1.  #2080FF
+        2.  #0077FF
         3.  #1166FF
         4.  #0055FF
         5.  #0044FF
@@ -643,28 +643,28 @@
         "menu.separatorBackground": "#080000",
         "menu.background": "#051338EA",
         "menu.border": "#030513",
-        // #70A5FF (Inactive/Ignored Foregrounds)
-        "sideBarSectionHeader.foreground": "#70A5FF",
-        "breadcrumb.foreground": "#70A5FFEE",
-        "panelSectionHeader.foreground": "#70A5FFEE",
-        "panelTitle.inactiveForeground": "#70A5FFCC",
-        "gitDecoration.ignoredResourceForeground": "#70A5FFCC",
-        "statusBar.noFolderForeground": "#70A5FF99",
-        "activityBar.inactiveForeground": "#70A5FF99",
-        "tab.inactiveForeground": "#70A5FF99",
-        "tab.unfocusedInactiveForeground": "#70A5FF99",
-        "titleBar.inactiveForeground": "#70A5FF99",
-        // #5599FF
-        "keybindingLabel.border": "#5599FF88",
-        "statusBar.border": "#5599FF33",
-        "checkbox.border": "#5599FF33",
-        "dropdown.border": "#5599FF33",
-        "input.border": "#5599FF33",
-        "panel.border": "#5599FF33",
-        "panelSectionHeader.border": "#5599FF33",
-        "sideBarSectionHeader.border": "#5599FF33",
-        "keybindingLabel.bottomBorder": "#5599FF33",
-        "editorGroupHeader.tabsBorder": "#5599FF33",
+        // #60A0FF (Inactive/Ignored Foregrounds)
+        "sideBarSectionHeader.foreground": "#60A0FF",
+        "breadcrumb.foreground": "#60A0FFEE",
+        "panelSectionHeader.foreground": "#60A0FFEE",
+        "panelTitle.inactiveForeground": "#60A0FFCC",
+        "gitDecoration.ignoredResourceForeground": "#60A0FFCC",
+        "statusBar.noFolderForeground": "#60A0FF99",
+        "activityBar.inactiveForeground": "#60A0FF99",
+        "tab.inactiveForeground": "#60A0FF99",
+        "tab.unfocusedInactiveForeground": "#60A0FF99",
+        "titleBar.inactiveForeground": "#60A0FF99",
+        // #60A0FF
+        "keybindingLabel.border": "#60A0FF88",
+        "statusBar.border": "#60A0FF33",
+        "checkbox.border": "#60A0FF33",
+        "dropdown.border": "#60A0FF33",
+        "input.border": "#60A0FF33",
+        "panel.border": "#60A0FF33",
+        "panelSectionHeader.border": "#60A0FF33",
+        "sideBarSectionHeader.border": "#60A0FF33",
+        "keybindingLabel.bottomBorder": "#60A0FF33",
+        "editorGroupHeader.tabsBorder": "#60A0FF33",
         "textBlockQuote.border": "#030513",
         "panelInput.border": "#030513",
         "debugToolBar.border": "#030513",
@@ -679,28 +679,7 @@
         /*
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    SYNTAX HIGHLIGHTING
          */
     },
     "semanticHighlighting": true,

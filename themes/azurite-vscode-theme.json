@@ -315,8 +315,6 @@
         "inputValidation.infoBorder": "#44DD22AA",
         "inputValidation.infoBackground": "#080000CC",
         /*
-
-
         WHITE PROPERTIES */
         "statusBarItem.compactHoverBackground": "#FFFFFF11",
         "activityBarBadge.foreground": "#FFFFFF",
@@ -386,7 +384,7 @@
         "statusBarItem.prominentBackground": "#08000088",
         "minimap.background": "#08000088",
         // WORKBENCH BLACK BACKGROUNDS (Terminal & Editor-Tabs-group bg when no tabs are present)
-        "terminal.background": "#020222",
+        "terminal.background": "#0D0F18",
         "editorGroupHeader.noTabsBackground": "#050618",
         "editorGroupHeader.tabsBackground": "#050618",
         "editorMarkerNavigationInfo.headerBackground": "#050618",
@@ -739,7 +737,7 @@
         "editorCursor.background": "#FF6000",
         "editorCursor.foreground": "#33FF44",
         // Editor BG & FG (includes workbench fg)
-        "editor.background": "#0A0D1D",
+        "editor.background": "#0D0F18",
         "editor.foreground": "#DDDDDD",
         "foreground": "#CCCCCC", // Base Fg Setting
         // MISCELLANEOUS (Fold & Hover)
@@ -871,8 +869,7 @@
                 "fontStyle": ""
             }
         },
-        // Hello World! I am a Comment! Yea!!!!!!!!!
-
+        // Hello World! I am a Comment, Oh... Heck Ya!!
         {
             "name": "GENERIC COMMENT SELECTOR",
             "scope": [
@@ -881,7 +878,7 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "#B03070",
+                "foreground": "#A42D5D",
                 "fontStyle": ""
             }
         },
@@ -907,7 +904,7 @@
                 "case-clause.expr keyword.control.switch"
             ],
             "settings": {
-                "foreground": "#1080CC",
+                "foreground": "#0D85FF",
                 "fontStyle": "bold"
             }
         },
@@ -918,7 +915,7 @@
                 "storage.type.class"
             ],
             "settings": {
-                "foreground": "#1080CC",
+                "foreground": "#0D85FF",
                 "fontStyle": "bold"
             }
         },
@@ -1088,7 +1085,7 @@
                 "text.html punctuation.definition.tag"
             ],
             "settings": {
-                "foreground": "#1080CC",
+                "foreground": "#0D85FF",
                 "fontStyle": ""
             }
         },
@@ -1169,7 +1166,7 @@
                 "heading.3.markdown entity.name.section.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#1080CC",
+                "foreground": "#0D85FF",
                 "fontStyle": "bold underline"
             }
         },
@@ -1183,7 +1180,7 @@
                 "heading.3.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#1080CC",
+                "foreground": "#0D85FF",
                 "fontStyle": "italic bold underline"
             }
         },
@@ -1195,7 +1192,7 @@
                 "heading.5.markdown entity.name.section.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#1080CC",
+                "foreground": "#0D85FF",
                 "fontStyle": "bold"
             }
         },
@@ -1207,7 +1204,7 @@
                 "heading.5.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#1080CC",
+                "foreground": "#0D85FF",
                 "fontStyle": "bold"
             }
         },
@@ -1314,6 +1311,20 @@
                 "fontStyle": "bold"
             }
         },
+                {
+            "name": "DATA EXCHANGE FMT | 'Properties' & 'Keys  K/V pairs'",
+            "scope": [
+                "keyword.other.definition.ini",
+                "entity.name.tag.yaml",
+                "string.unquoted.plain.out.yaml",
+                "string.json support.type.property-name.json",
+                "entity.name.tag.localname.xml"
+            ],
+            "settings": {
+                "foreground": "#0D85FF",
+                "fontStyle": "bold"
+            }
+        },
         {
             "name": "DATA INTERCHANGE FORMATS | STRINGS",
             "scope": [
@@ -1374,20 +1385,7 @@
                 "fontStyle": ""
             }
         },
-        {
-            "name": "DATA EXCHANGE FMT | Properties or (Keys in K/V Pairs)",
-            "scope": [
-                "keyword.other.definition.ini",
-                "entity.name.tag.yaml",
-                "string.unquoted.plain.out.yaml",
-                "string.json support.type.property-name.json",
-                "entity.name.tag.localname.xml"
-            ],
-            "settings": {
-                "foreground": "#1080CC",
-                "fontStyle": "bold"
-            }
-        },
+
         // TODO: "Color Tokens using appropriate colors for each token-type"
         {
             "scope": [

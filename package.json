@@ -1,63 +1,53 @@
 {
-  "name": "ui-dynamics",
-  "version": "1.0.0",
-  "publisher": "Ajay Chambers (jD3V)",
-  "displayName": "JAYD3V Theme pack",
-  "description": "Thoroughly developed \"Dark Theme\" pack designed for professionals.",
-  "preview": true,
-  "license": "MIT",
-  "galleryBanner": {
-    "color": "#5522AA",
-    "theme": "dark"
-  },
-  "repository": "git+https://github.com/W3Dojo/UI-Dynamics.git",
-  "bugs": "https://github.com/W3Dojo/UI-Dynamics/issues",
-  "engines": {
-    "vscode": "^1.50.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "github",
-    "dark",
-    "high-contrast"
-  ],
-
-  "contributes": {
-    "themes": [
-      {
-        "label": "TECH PRO | 4 Ever Typed Ed.",
-        "uiTheme": "vs-dark",
-        "path": "./themes/tech-pro-4ever-typed-edition-vscode-theme.json"
-      },
-      {
-        "label": "TECH PRO | Many Worlds Ed.",
-        "uiTheme": "vs-dark",
-        "path": "./themes/tech-pro-many-worlds-edition-vscode-theme.json"
-      },
-      {
-        "label": "TECH PRO | Overclocked Ed.",
-        "uiTheme": "vs-dark",
-        "path": "./themes/tech-pro-overclocked-edition-vscode-theme.json"
-      },
-      {
-        "label": "TECH PRO | Seppuku Ed.",
-        "uiTheme": "vs-dark",
-        "path": "./themes/tech-pro-seppuku-edition-vscode-theme.json"
-      },
-      {
-        "label": "TECH PRO | Ultraviolet Ed.",
-        "uiTheme": "vs-dark",
-        "path": "./themes/tech-pro-ultraviolet-edition-vscode-theme.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "vsce": "^2.7.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "azurite",
+    "version": "0.0.1",
+    "publisher": "J_D3V (Andrew Chambers)",
+    "displayName": "Azurite",
+    "description": "A theme that resembles the blues found in the deep abyssal plains a mile under the ocean's surface.",
+    "preview": true,
+    "license": "MIT",
+    "galleryBanner": {
+        "color": "#0033AA",
+        "theme": "dark"
+    },
+    "repository": "git+https://github.com/W3Dojo/UI-Dynamics.git",
+    "bugs": "https://github.com/W3Dojo/UI-Dynamics/issues",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "blue",
+        "azure",
+        "darkblue",
+        "navy",
+        "oxford",
+        "azurite",
+        "typescript",
+        "javascript",
+        "css",
+        "elegant",
+        "professional",
+        "custom",
+        "fully developed"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Azurite",
+                "uiTheme": "vs-dark",
+                "path": "./themes/azurite-vscode-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^2.7.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

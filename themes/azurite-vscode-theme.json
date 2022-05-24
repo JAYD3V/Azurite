@@ -20,8 +20,8 @@
 
     SYNTAX HIGHLIGHTING COLOR PALETTE WITH DESCRIPTIONS
         - 01.  #BBBDC2 - Variables | Source
-        - 02.  #18ACFF - Func/Method
-        - 03.  #44B255 - Class | Object | Type
+        - 02.  #009FFF - Func/Method
+        - 03.  #2CAD52 - Class | Object | Type
         - 04.  #0077FF - STORAGE
         - 05.  #C0B040 - Parameters
         - 06.  #2CBCC0 - Strings
@@ -33,7 +33,7 @@
 
     PRIMARY COLOR: "AZURE/BLUE"
         01)  #60A0FF1
-        02)  #2080FF
+        02)  #10CCFF
         03)  #0077FF
         04)  #1166FF
         05)  #0055FF
@@ -75,8 +75,8 @@
 
             UNORGANIZED PROPERTIES
         -------------------------------------------------                   */
-        "titleBar.activeBackground": "#0E1020",
-        "peekViewTitle.background": "#0E1020",
+        "titleBar.activeBackground": "#0A0D1D",
+        "peekViewTitle.background": "#0A0D1D",
         "statusBar.background": "#003090",
         "breadcrumbPicker.background": "#040824",
         "peekViewEditor.background": "#090D28",
@@ -278,7 +278,7 @@
         // SETTINGS: "Static Styling"
         "settings.headerBorder": "#003399",
         "settings.sashBorder": "#003399",
-        "settings.headerForeground": "#2080FF",
+        "settings.headerForeground": "#0077FF",
         // INTERACTIVE HIGHLIGHTS
         "settings.rowHoverBackground": "#BBFF221C",
         "settings.focusedRowBackground": "#BBFF222C",
@@ -340,7 +340,7 @@
         // #DDDDDD
         "banner.foreground": "#DDDDDD",
         "tab.activeForeground": "#DDDDDD",
-        "quickInput.foreground": "#DDDDDD",
+        "quickInput.foreground": "#EEEEEE",
         "debugTokenExpression.string": "#DDDDDD",
         "peekViewResult.selectionForeground": "#DDDDDD",
         "terminal.foreground": "#DDDDDD",
@@ -386,13 +386,13 @@
         "statusBarItem.prominentBackground": "#08000088",
         "minimap.background": "#08000088",
         // WORKBENCH BLACK BACKGROUNDS (Terminal & Editor-Tabs-group bg when no tabs are present)
-        "terminal.background": "#000000",
+        "terminal.background": "#020222",
         "editorGroupHeader.noTabsBackground": "#050618",
         "editorGroupHeader.tabsBackground": "#050618",
         "editorMarkerNavigationInfo.headerBackground": "#050618",
         "errorLens.infoMessageBackground": "#050618",
-        // #0E1020 (Editor's Bg-color)
-        "editorOverviewRuler.background": "#0E1020",
+        // #0A0D1D (Editor's Bg-color)
+        "editorOverviewRuler.background": "#0A0D1D",
         /******************************************************
 
 
@@ -492,7 +492,7 @@
         /************************************************
 
             PRIMARY COLOR: "AZURE/BLUE"
-        1.  #2080FF
+        1.  #10CCFF
         2.  #0077FF
         3.  #1166FF
         4.  #0055FF
@@ -570,9 +570,9 @@
         "editorMarkerNavigation.background": "#05092C",
         "keybindingTable.headerBackground": "#05092C",
         "keybindingTable.rowsBackground": "#05092C",
-        "notifications.background": "#05092C",
-        "quickInput.background": "#05092C",
-        "notificationCenterHeader.background": "#05092C",
+        "notifications.background": "#060D2CE7",
+        "quickInput.background": "#060D2CE7",
+        "notificationCenterHeader.background": "#02041CE0",
         "statusBar.noFolderBackground": "#05092C",
         "welcomePage.tileBackground": "#05092C",
         "activityBar.background": "#05092C",
@@ -603,7 +603,7 @@
         "debugToolBar.border": "#030513",
         "panelSection.border": "#030513",
         "notifications.border": "#030513",
-        "terminal.border": "#030513",
+        "terminal.border": "#3366FF2D",
         "button.border": "#030513",
         "activityBar.border": "#030513",
         "sideBar.border": "#030513",
@@ -623,7 +623,7 @@
         "editorWidget.resizeBorder": "#1a4074",
         "editorWidget.foreground": "#DDDDDD",
         "editorWidget.background": "#041133E8",
-        "editorWidget.border": "#030513",
+        "editorWidget.border": "#FFFFFF28",
         // SUGGESTION WIDGET                                              ! TODO
         "editorSuggestWidget.selectedForeground": "#DDDDDD",
         "editorSuggestWidget.foreground": "#DDDDDD",
@@ -633,21 +633,21 @@
         "editorSuggestWidgetStatus.foreground": "#33FF44",
         "editorSuggestWidget.selectedBackground": "#33FF4414",
         "editorSuggestWidget.background": "#05092C",
-        "editorSuggestWidget.border": "#030513",
+        "editorSuggestWidget.border": "#FFFFFF28",
         // HOVER WIDGET                                                   ! TODO
-        "editorHoverWidget.statusBarBackground": "#001A6C",
+        "editorHoverWidget.statusBarBackground": "#081450",
         "editorHoverWidget.foreground": "#DDDDDD",
         "editorHoverWidget.highlightForeground": "#33FF44",
-        "editorHoverWidget.background": "#030760",
-        "editorHoverWidget.border": "#030513",
+        "editorHoverWidget.background": "#040840",
+        "editorHoverWidget.border": "#FFFFFF28",
         // MENUS                                                          ! TODO
-        "menu.background": "#041133EA",
+        "menu.background": "#060D2CE7",
         "menu.selectionBorder": "#0055FF",
         "menu.selectionBackground": "#0055FF88",
         "menu.selectionForeground": "#EEEEEE",
         "menu.foreground": "#DDDDDD",
         "menu.separatorBackground": "#080000",
-        "menu.border": "#030513",
+        "menu.border": "#080000",
         // MENUBAR                                                        ! TODO
         "menubar.selectionBackground": "#0055FF66",
         "menubar.selectionForeground": "#EEEEEE",
@@ -677,8 +677,8 @@
         "list.focusForeground": "#33FF44",
         "quickInputList.focusForeground": "#33FF44",
         "list.filterMatchBorder": "#1166FF",
-        "list.focusOutline": "#2080FF",
-        "list.inactiveFocusOutline": "#2080FF",
+        "list.focusOutline": "#0077FF",
+        "list.inactiveFocusOutline": "#0077FF",
         "list.activeSelectionIconForeground": "#1166FFAA",
         "list.activeSelectionBackground": "#0055FF77",
         "quickInputList.focusBackground": "#0055FF77",
@@ -723,8 +723,8 @@
         // Inline values
         // TODO: "Style inline values while working on a project that I use them in."
         "editor.inlineValuesForeground": "#777777", // ! Unique
-        "editor.inlineValuesBackground": "#0E1020",
-        "editor.inactiveSelectionBackground": "#2080FF30",
+        "editor.inlineValuesBackground": "#0A0D1D",
+        "editor.inactiveSelectionBackground": "#1080FFCC",
         // Word Selection: "Highlighting instances of the word currently selected in editor"
         "editorOverviewRuler.wordHighlightForeground": "#33FF44",
         "editorOverviewRuler.wordHighlightStrongForeground": "#1166FF55",
@@ -739,7 +739,7 @@
         "editorCursor.background": "#FF6000",
         "editorCursor.foreground": "#33FF44",
         // Editor BG & FG (includes workbench fg)
-        "editor.background": "#0E1020",
+        "editor.background": "#0A0D1D",
         "editor.foreground": "#DDDDDD",
         "foreground": "#CCCCCC", // Base Fg Setting
         // MISCELLANEOUS (Fold & Hover)
@@ -758,23 +758,23 @@
         /*
         __________ DECLARATION SELECTORS __________ */
         "class.declaration": {
-            "foreground": "#44B255",
+            "foreground": "#2CAD52",
             "bold": true
         },
         "interface.declaration": {
-            "foreground": "#44B255",
+            "foreground": "#2CAD52",
             "bold": true
         },
         "namespace.declaration": {
-            "foreground": "#44B255",
+            "foreground": "#2CAD52",
             "bold": true
         },
         "function.declaration": {
-            "foreground": "#18ACFF",
+            "foreground": "#009FFF",
             "bold": true
         },
         "method.declaration": {
-            "foreground": "#18ACFF",
+            "foreground": "#009FFF",
             "bold": true
         },
         "property.declaration": {
@@ -788,8 +788,8 @@
 /* *******************************************************
            -------------- SYNTAX COLORING PALETTE --------------
            - 01.  #BBBDC2 - Variables | Source
-           - 02.  #18ACFF - Func/Method
-           - 03.  #44B255 - Class | Object | Type
+           - 02.  #009FFF - Func/Method
+           - 03.  #2CAD52 - Class | Object | Type
            - 04.  #
            - 05.  #C0B040 - Parameters
            - 06.  #AA77FF - Storage
@@ -800,11 +800,11 @@
         ******************************************************* */
         /*
     __________ STANDARD SELECTORS __________ */
-        "class": "#44B255",
-        "interface": "#44B255",
-        "namespace": "#44B255",
-        "function": "#18ACFF",
-        "method": "#18ACFF",
+        "class": "#2CAD52",
+        "interface": "#2CAD52",
+        "namespace": "#2CAD52",
+        "function": "#009FFF",
+        "method": "#009FFF",
         "property": "#BBBDC2",
         "variable": "#BBBDC2",
         "type": {
@@ -834,7 +834,7 @@
             "name": "IGNORE FILES: Text Fg",
             "scope": "source.ignore",
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": ""
             }
         },
@@ -871,6 +871,7 @@
                 "fontStyle": ""
             }
         },
+        // Hello World! I am a Comment! Yea!!!!!!!!!
 
         {
             "name": "GENERIC COMMENT SELECTOR",
@@ -880,7 +881,7 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "#3377BB",
+                "foreground": "#B03070",
                 "fontStyle": ""
             }
         },
@@ -906,7 +907,7 @@
                 "case-clause.expr keyword.control.switch"
             ],
             "settings": {
-                "foreground": "#0077FF",
+                "foreground": "#1080CC",
                 "fontStyle": "bold"
             }
         },
@@ -917,7 +918,7 @@
                 "storage.type.class"
             ],
             "settings": {
-                "foreground": "#0077FF",
+                "foreground": "#1080CC",
                 "fontStyle": "bold"
             }
         },
@@ -1024,7 +1025,7 @@
                 "variable.other.object"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": ""
             }
         },
@@ -1034,7 +1035,7 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "italic"
             }
         },
@@ -1055,7 +1056,7 @@
                 "entity.name.function"
             ],
             "settings": {
-                "foreground": "#18ACFF",
+                "foreground": "#009FFF",
                 "fontStyle": ""
             }
         },
@@ -1065,7 +1066,7 @@
                 "entity.name.type.class"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": ""
             }
         },
@@ -1087,7 +1088,7 @@
                 "text.html punctuation.definition.tag"
             ],
             "settings": {
-                "foreground": "#0077FF",
+                "foreground": "#1080CC",
                 "fontStyle": ""
             }
         },
@@ -1097,21 +1098,21 @@
                 "entity.name.tag"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": ""
             }
         },
         {
             "scope": "text.html.markdown markup.bold.markdown",
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "bold"
             }
         },
         {
             "scope": "text.html.markdown markup.italic.markdown",
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "italic"
             }
         },
@@ -1121,7 +1122,7 @@
                 "markup.italic.markdown markup.bold"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "italic bold"
             }
         },
@@ -1168,7 +1169,7 @@
                 "heading.3.markdown entity.name.section.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#AA77FF",
+                "foreground": "#1080CC",
                 "fontStyle": "bold underline"
             }
         },
@@ -1182,7 +1183,7 @@
                 "heading.3.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#AA77FF",
+                "foreground": "#1080CC",
                 "fontStyle": "italic bold underline"
             }
         },
@@ -1194,7 +1195,7 @@
                 "heading.5.markdown entity.name.section.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#AA77FF",
+                "foreground": "#1080CC",
                 "fontStyle": "bold"
             }
         },
@@ -1206,14 +1207,14 @@
                 "heading.5.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#AA77FF",
+                "foreground": "#1080CC",
                 "fontStyle": "bold"
             }
         },
         {
             "scope": "heading.6.markdown entity.name.section.markdown",
             "settings": {
-                "foreground": "#AA77FF"
+                "foreground": "#108CCF"
             }
         },
 
@@ -1245,7 +1246,7 @@
                 "heading.2 entity.name.section markup.italic"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "italic underline"
             }
         },
@@ -1255,7 +1256,7 @@
                 "heading.2 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "italic bold underline"
             }
         },
@@ -1265,7 +1266,7 @@
                 "heading.4 entity.name.section markup.bold"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "bold"
             }
         },
@@ -1275,7 +1276,7 @@
                 "heading.4 entity.name.section markup.italic"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "italic"
             }
         },
@@ -1285,7 +1286,7 @@
                 "heading.2 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "italic bold"
             }
         },
@@ -1295,21 +1296,21 @@
                 "heading.4 entity.name.section markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#44B255",
+                "foreground": "#2CAD52",
                 "fontStyle": "italic bold"
             }
         },
         {
             "scope": "storage.type.class.jsdoc",
             "settings": {
-                "foreground": "#0077FF99",
-                "fontStyle": "italic bold"
+                "foreground": "#1080FFCC",
+                "fontStyle": "bold"
             }
         },
         {
             "scope": "punctuation.definition.block.tag.jsdoc",
             "settings": {
-                "foreground": "#0055FF",
+                "foreground": "#1166FF",
                 "fontStyle": "bold"
             }
         },
@@ -1344,7 +1345,7 @@
                 "source.ini punctuation.definition"
             ],
             "settings": {
-                "foreground": "#55AAFF",
+                "foreground": "#999999",
                 "fontStyle": ""
             }
         },
@@ -1383,7 +1384,7 @@
                 "entity.name.tag.localname.xml"
             ],
             "settings": {
-                "foreground": "#0077FF",
+                "foreground": "#1080CC",
                 "fontStyle": "bold"
             }
         },

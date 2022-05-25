@@ -32,7 +32,6 @@ async function generateFont() {
 
     console.log(`Font created at ${dest}`);
   } catch (e) {
-      // FIXED ERROR
     console.error('Font creation failed.', e);
   }
 }

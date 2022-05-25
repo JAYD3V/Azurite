@@ -1,0 +1,51 @@
+{
+    /***********************************************************************
+            STATUS HIGHLIGHTING
+    ************************************************************************
+        1. ERROR:
+            1a: Foreground: #FF2222
+            1b: Code-Bg:    #FF222255
+        2. WARN:
+            2a: Foreground: #FFEE00
+            2b: Code-Bg: #FFEE0033
+        3. INFO:
+            2a: Foreground: #44DD22
+            2b: Code-Bg: N/A
+    ***********************************************************************/
+    // ERROR
+    "debugConsole.errorForeground": "#FF2222",
+    "debugTokenExpression.error": "#FF2222",
+    "editorOverviewRuler.errorForeground": "#FF2222",
+    "errorForeground": "#FF2222",
+    "notificationsErrorIcon.foreground": "#FF2222",
+    "problemsErrorIcon.foreground": "#FF2222",
+    "testing.iconErrored": "#FF2222",
+    "testing.message.error.decorationForeground": "#FF2222",
+    "statusBarItem.errorForeground": "#FF2222",
+    "editorMarkerNavigationError.background": "#FF222255",
+    "testing.message.error.lineBackground": "#FF222255",
+    "inputValidation.errorForeground": "#FF2222",
+    "inputValidation.errorBorder": "#FF2222AA",
+    "list.errorForeground": "#FF2222",
+    "editorError.foreground": "#FF2222",
+    // WARN
+    "debugConsole.warningForeground": "#FFEE00",
+    "editorMarkerNavigationWarning.background": "#FFEE0033",
+    "editorOverviewRuler.warningForeground": "#FFEE00",
+    "notificationsWarningIcon.foreground": "#FFEE00",
+    "problemsWarningIcon.foreground": "#FFEE00",
+    "statusBarItem.warningForeground": "#FFEE00",
+    "inputValidation.warningForeground": "#FFEE00",
+    "list.warningForeground": "#FFEE00",
+    "editorWarning.foreground": "#FFEE00",
+    // INFO
+    "debugConsole.infoForeground": "#44DD22",
+    "editorMarkerNavigationInfo.background": "#44DD22",
+    "editorOverviewRuler.infoForeground": "#44DD22",
+    "notificationsInfoIcon.foreground": "#44DD22",
+    "problemsInfoIcon.foreground": "#44DD22",
+    "testing.message.info.decorationForeground": "#44DD22",
+    "inputValidation.infoForeground": "#44DD22",
+    "inputValidation.infoBorder": "#44DD22",
+    "editorInfo.foreground": "#44DD22"
+}

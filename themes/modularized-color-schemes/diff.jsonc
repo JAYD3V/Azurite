@@ -1,0 +1,25 @@
+{
+    /*****************************************************************
+      DIFF EDITOR HIGHLIGHTING
+    *********************************************************************
+         1. INSERTED (generic): "#22DD55"
+                CODE REMOVED:   "#22DD5555"
+                LINE REMOVED:   "#22DD5518"
+
+         2. REMOVED (generic): "#FF2299"
+                CODE REMOVED:  "#FF229944"
+                LINE REMOVED:  "#FF229914"
+
+         3. CODE HIGHLIGHT BORDER: #080000
+    *********************************************************************/
+    "diffEditor.removedTextBackground": "#FF229970",
+    "diffEditor.removedLineBackground": "#FF229914",
+    "diffEditorGutter.removedLineBackground": "#FF229944",
+    "diffEditorOverview.removedForeground": "#FF2299CC",
+    "diffEditor.removedTextBorder": "#080000",
+    "diffEditor.insertedLineBackground": "#22DD5518",
+    "diffEditor.insertedTextBackground": "#22DD5555",
+    "diffEditorGutter.insertedLineBackground": "#22DD5555",
+    "diffEditorOverview.insertedForeground": "#88FF66",
+    "diffEditor.insertedTextBorder": "#080000"
+}

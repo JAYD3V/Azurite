@@ -1,0 +1,42 @@
+{
+    /***************************************************************
+        GIT/SCM DECORATIONS                             X (COMPLETE)
+    ****************************************************************
+
+            1. DELETED          --  #FF2299
+            2. MODIFIED         --  #FFBB00
+            3. ADDED            --  #22DD55
+            4. RENAMED          --  #B060FF
+            5. IGNORED          --  #77BBFFCC
+
+    ***************************************************************/
+    "tab.activeModifiedBorder": "#FFBB00",
+    "tab.inactiveModifiedBorder": "#FFBB00",
+    "tab.unfocusedActiveModifiedBorder": "#FFBB00",
+    "tab.unfocusedInactiveModifiedBorder": "#FFBB00",
+    "gitDecoration.stageModifiedResourceForeground": "#FFBB00",
+    "gitDecoration.modifiedResourceForeground": "#FFBB00",
+    "editorGutter.modifiedBackground": "#FFBB00aa",
+    "settings.modifiedItemIndicator": "#FFBB00",
+    "editorOverviewRuler.modifiedForeground": "#FFBB00",
+    "minimapGutter.modifiedBackground": "#FFBB00aa",
+    "remoteHub.decorations.incomingModifiedForegroundColor": "#FFBB00",
+    "remoteHub.decorations.modifiedForegroundColor": "#FFBB00",
+    "remoteHub.decorations.workspaceRepositoriesView.hasUncommittedChangesForegroundColor": "#FFBB00",
+    "gitDecoration.addedResourceForeground": "#22DD55",
+    "editorGutter.addedBackground": "#22DD55",
+    "editorOverviewRuler.addedForeground": "#22DD55",
+    "minimapGutter.addedBackground": "#22DD55",
+    "remoteHub.decorations.addedForegroundColor": "#22DD55",
+    "remoteHub.decorations.incomingAddedForegroundColor": "#22DD55",
+    "gitDecoration.deletedResourceForeground": "#FF2299",
+    "gitDecoration.stageDeletedResourceForeground": "#FF2299",
+    "editorGutter.deletedBackground": "#FF2299",
+    "editorOverviewRuler.deletedForeground": "#FF2299",
+    "minimapGutter.deletedBackground": "#FF2299",
+    "remoteHub.decorations.deletedForegroundColor": "#FF2299",
+    "remoteHub.decorations.incomingDeletedForegroundColor": "#FF2299",
+    "gitDecoration.renamedResourceForeground": "#B060FF",
+    "remoteHub.decorations.incomingRenamedForegroundColor": "#B060FF",
+    "gitDecoration.ignoredResourceForeground": "#77BBFFCC"
+}

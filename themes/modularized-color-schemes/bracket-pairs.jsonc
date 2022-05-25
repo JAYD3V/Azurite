@@ -1,0 +1,31 @@
+{
+    /*********************************************************************
+        BRACKET HIGHLIGHTING
+    **********************************************************************
+            NOTE: "Colors are assigned to even & odd numbers"
+                EVEN NUMBERS: "#22DD55"
+                ODD NUMBERS: "#FF2299"
+                UNEXPECTED/ERRONEOUS BRACKET PLACEMENT "#DD100C"
+                OVERVIEW RULER HIGHLIGHT BRACKET-PAIR MATCH: "#80FF80"
+    *********************************************************************/
+    "editorBracketHighlight.foreground1": "#FF2299",
+    "editorBracketHighlight.foreground3": "#FF2299",
+    "editorBracketHighlight.foreground5": "#FF2299",
+    "editorBracketPairGuide.activeBackground1": "#FF2299",
+    "editorBracketPairGuide.activeBackground3": "#FF2299",
+    "editorBracketPairGuide.activeBackground5": "#FF2299",
+    "editorBracketPairGuide.background1": "#FF2299",
+    "editorBracketPairGuide.background3": "#FF2299",
+    "editorBracketPairGuide.background5": "#FF2299",
+    "editorBracketHighlight.foreground2": "#22DD55",
+    "editorBracketHighlight.foreground4": "#22DD55",
+    "editorBracketHighlight.foreground6": "#22DD55",
+    "editorBracketPairGuide.activeBackground2": "#22DD55",
+    "editorBracketPairGuide.activeBackground4": "#22DD55",
+    "editorBracketPairGuide.activeBackground6": "#22DD55",
+    "editorBracketPairGuide.background2": "#22DD55",
+    "editorBracketPairGuide.background4": "#22DD55",
+    "editorBracketPairGuide.background6": "#22DD55",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#DD100C",
+    "editorOverviewRuler.bracketMatchForeground": "#80FF80"
+}

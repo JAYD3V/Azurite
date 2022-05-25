@@ -1,0 +1,20 @@
+{
+    /****************************************************
+      ANSI TERMINAL EMULATOR COLORS
+    ****************************************************/
+    "terminal.ansiRed": "#CC1111",
+    "terminal.ansiYellow": "#AAAA22",
+    "terminal.ansiGreen": "#11AA11",
+    "terminal.ansiBlue": "#007FFF",
+    "terminal.ansiMagenta": "#EE11AA",
+    "terminal.ansiCyan": "#22BBBB",
+    "terminal.ansiBlack": "#222222",
+    "terminal.ansiBrightCyan": "#77FFEE",
+    "terminal.ansiBrightMagenta": "#FF88EE",
+    "terminal.ansiBrightGreen": "#99FF77",
+    "terminal.ansiBrightRed": "#FF7777",
+    "terminal.ansiBrightYellow": "#FFEE77",
+    "terminal.ansiBrightBlue": "#55CCFF",
+    "terminal.ansiBrightBlack": "#444444",
+    "terminal.ansiBrightWhite": "#EEEEEE"
+}

@@ -1,0 +1,14 @@
+{
+    "errorLens.statusBarErrorForeground": "#FF2222",
+    "errorLens.statusBarIconErrorForeground": "#FF2222",
+    "errorLens.errorForeground": "#FF2222AA",
+    "errorLens.warningForeground": "#FFEE00aa",
+    "errorLens.statusBarIconWarningForeground": "#FFEE00",
+    "errorLens.statusBarWarningForeground": "#FFEE00",
+    "errorLens.statusBarInfoForeground": "#44DD22",
+    "errorLens.infoForeground": "#44DD22",
+    "errorLens.infoMessageBackground": "#050618",
+    "errorLens.errorMessageBackground": "#0055FF22",
+    "errorLens.hintForeground": "#22DD55",
+    "errorLens.statusBarHintForeground": "#22DD55",
+}

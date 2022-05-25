@@ -27,11 +27,13 @@ async function generateFont() {
       normalize: true,
       sort: false
     });
-    const dest = path.join(__dirname, '..', 'themes', 'vscode-10.woff')
+    const dest = path.join(__dirname, '..', 'themes', 'azurite.woff')
     fs.writeFileSync(dest, result.woff, 'binary');
+
     console.log(`Font created at ${dest}`);
   } catch (e) {
-    console.error('Font creation failed.', error);
+      // FIXED ERROR
+    console.error('Font creation failed.', e);
   }
 }
 

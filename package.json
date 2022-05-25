@@ -38,7 +38,6 @@
     "contributes": {
         "themes": [
             {
-
                 "id": "azurite-dark-theme",
                 "label": "Azurite",
                 "uiTheme": "vs-dark",
@@ -53,10 +52,16 @@
             }
         ]
     },
-    "devDependencies": {
-        "vsce": "^2.7.0"
+    "scripts": {
+        "start": "node ./build/updateFont.js",
+        "see-font": "code ./theme/vscode-10.html"
     },
     "publishConfig": {
         "access": "public"
+    },
+    "devDependencies": {
+        "vsce": "^2.7.0",
+        "open": "^7.0.3",
+        "webfont": "^11.2.4"
     }
 }

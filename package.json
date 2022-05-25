@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "publisher": "J_D3V (Andrew Chambers)",
     "displayName": "Azurite",
-    "description": "A theme that resembles the blues found in the deep abyssal plains a mile under the ocean's surface.",
+    "description": "A blue theme that resembles the Azurite Minerals found deep in the earths crust",
     "preview": true,
     "license": "MIT",
     "galleryBanner": {
@@ -38,9 +38,18 @@
     "contributes": {
         "themes": [
             {
+
+                "id": "azurite-dark-theme",
                 "label": "Azurite",
                 "uiTheme": "vs-dark",
                 "path": "./themes/azurite-vscode-theme.json"
+            }
+        ],
+        "productIconThemes": [
+            {
+                "path": "./themes/azurite-vscode-product-icon-theme.json",
+                "label": "Azurite Product Icons",
+                "id": "azurite-product-icons"
             }
         ]
     },

@@ -554,7 +554,11 @@
         "editorBracketMatch.background": "#030760",
         "welcomePage.progress.background": "#030760",
         "checkbox.background": "#030760",
-        "keybindingLabel.foreground": "#FFBB00",
+
+
+
+        // KEYBINDING EDITOR & KEYBINDING LABELS                   << (COMPLETE)
+        "keybindingLabel.foreground": "#33FF11",
         "keybindingLabel.background": "#001462",
         "keybindingTable.headerBackground": "#081848",
         "keybindingTable.rowsBackground": "#08184888",
@@ -607,35 +611,32 @@
         WIDGETS
         -------------------------------------------------                   */
         "widget.shadow": "#080000",
-        // EXCEPTION WIDGET                                          !TODO
+        // EXCEPTION WIDGET                                       ! (TODO)
         "debugView.exceptionLabelForeground": "#FF8888", //        UNIQUE
         "debugExceptionWidget.background": "#250205", //           UNIQUE
         "debugExceptionWidget.border": "#FF888844", //             UNIQUE
-        // EDITOR WIDGET                                             !TODO
+        // EDITOR WIDGET                                          ! (TODO)
         "editorWidget.resizeBorder": "#1a4074",
         "editorWidget.foreground": "#DDDDDD",
         "editorWidget.background": "#041133E8",
         "editorWidget.border": "#FFFFFF28",
-
-        // SUGGESTION WIDGET                                              ! TODO
+        // SUGGESTION WIDGET                                       << (COMPLETE)
         "editorSuggestWidget.selectedForeground": "#EEEEEE",
         "editorSuggestWidget.selectedIconForeground": "#33FF55",
-        "editorSuggestWidget.foreground": "#77C4FF", //               ! UNIQUE
+        "editorSuggestWidget.foreground": "#77C4FF", //                 UNIQUE
         "editorSuggestWidget.focusHighlightForeground": "#33FF11",
         "editorSuggestWidget.highlightForeground": "#33FF11",
         "editorSuggestWidgetStatus.foreground": "#33FF11",
         "editorSuggestWidget.selectedBackground": "#0055FF6C",
-
         "editorSuggestWidget.background": "#001858E4",
         "editorSuggestWidget.border": "#007FFF",
-        // HOVER WIDGET                                                   ! TODO
+        // HOVER WIDGET                                                ! (TODO)
         "editorHoverWidget.statusBarBackground": "#081848",
         "editorHoverWidget.foreground": "#EEEEEE",
         "editorHoverWidget.highlightForeground": "#33FF55",
         "editorHoverWidget.background": "#011A60E0",
         "editorHoverWidget.border": "#FFFFFF28",
-
-        // MENUS                                                          ! TODO
+        // MENUS                                                       ! (TODO)
         "menu.background": "#060D2CE7",
         "menu.selectionBorder": "#0055FF",
         "menu.selectionBackground": "#0055FF88",
@@ -643,11 +644,11 @@
         "menu.foreground": "#DDDDDD",
         "menu.separatorBackground": "#080000",
         "menu.border": "#080000",
-        // MENUBAR                                                        ! TODO
+        // MENUBAR                                                     ! (TODO)
         "menubar.selectionBackground": "#0055FF66",
         "menubar.selectionForeground": "#EEEEEE",
         "menubar.selectionBorder": "#0055FFCC",
-        // LIST-FILTER WIDGET                                             X DONE
+        // LIST-FILTER WIDGET                                      << (COMPLETE)
         "listFilterWidget.outline": "#0055FF",
         "listFilterWidget.background": "#080000",
         "listFilterWidget.noMatchesOutline": "#FF2222CC",
@@ -711,11 +712,11 @@
         // Snippet Highlighting
         "editor.snippetFinalTabstopHighlightBorder": "#FF6000DD",
         "editor.snippetTabstopHighlightBorder": "#FF6000AA",
-        "editor.snippetFinalTabstopHighlightBackground": "#000028", // ! Unique
-        "editor.snippetTabstopHighlightBackground": "#000028", // ! Unique
+        "editor.snippetFinalTabstopHighlightBackground": "#000028", //   Unique
+        "editor.snippetTabstopHighlightBackground": "#000028", //   Unique
         // Inline values
         // TODO: "Style inline values while working on a project that I use them in."
-        "editor.inlineValuesForeground": "#777777", // ! Unique
+        "editor.inlineValuesForeground": "#777777", //   Unique
         "editor.inlineValuesBackground": "#0A0D1D",
         "editor.inactiveSelectionBackground": "#1080FFCC",
         // Word Selection: "Highlighting instances of the word currently selected in editor"

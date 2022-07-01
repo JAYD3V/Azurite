@@ -1,10 +1,10 @@
 {
   "fonts": [
     {
-      "id": "vscode10",
+      "id": "azurite",
       "src": [
         {
-          "path": "./vscode-10.woff",
+          "path": "./azurite.woff",
           "format": "woff"
         }
       ],
@@ -25,16 +25,15 @@
       "fontCharacter": "\\e002"
     },
 
+    "source-control-view-icon": {
+      "fontCharacter": "\\e003"
+    },
     "extensions-view-icon": {
       "fontCharacter": "\\e004"
     },
 
-    "source-control-view-icon": {
-      "fontCharacter": "\\e003"
-    },
-
-    "tree-item-expanded": {
-      "fontCharacter": "\\e008"
+    "feedback": {
+      "fontCharacter": "\\e005"
     },
 
     "folding-expanded": {
@@ -45,8 +44,8 @@
       "fontCharacter": "\\e007"
     },
 
-    "feedback": {
-      "fontCharacter": "\\e005"
+    "tree-item-expanded": {
+      "fontCharacter": "\\e008"
     }
   }
 }

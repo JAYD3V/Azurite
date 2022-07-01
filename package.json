@@ -1,13 +1,13 @@
 {
     "name": "azurite",
-    "version": "0.0.1",
-    "publisher": "J_D3V (Andrew Chambers)",
+    "version": "0.0.0",
+    "publisher": "JAYD3V (A.J. Chambers)",
     "displayName": "Azurite",
     "description": "A blue theme that resembles the Azurite Minerals found deep in the earths crust",
     "preview": true,
-    "license": "MIT",
+    "license": "Apache-2.0 & CC-4.0 by NC ND",
     "galleryBanner": {
-        "color": "#0033AA",
+        "color": "#113366",
         "theme": "dark"
     },
     "repository": "git+https://github.com/W3Dojo/UI-Dynamics.git",
@@ -15,50 +15,44 @@
     "engines": {
         "vscode": "^1.50.0"
     },
-    "categories": [
-        "Themes"
-    ],
+    "categories": ["Themes"],
     "keywords": [
-        "theme",
-        "dark",
-        "blue",
-        "azure",
-        "darkblue",
-        "navy",
-        "oxford",
-        "azurite",
-        "typescript",
-        "javascript",
-        "css",
-        "elegant",
-        "professional",
-        "custom",
-        "fully developed"
+        "VS Code", "Color", "Theme", "Icon", "Icons", "Product-Icons", "Workbench", "Color-customizations", "Dark", "Blue", "Grey", "Silver", "Azure", "Azurite", "Titanium", "Metalic", "Navy", "Onyx", "Oxford", "Theme-Pack", "Color & Icon", "JAYD3V", "jD3V", "JAYDEV", "jDev"
     ],
     "contributes": {
         "themes": [
             {
-                "id": "azurite-dark-theme",
-                "label": "Azurite",
+                "id": "azurite-vscode-theme",
+                "label": "VSC THEME — AZURITE",
                 "uiTheme": "vs-dark",
-                "path": "./themes/azurite-vscode-theme.json"
+                "path": "./vscode-theme/azurite-vscode-theme.json"
+            },
+            {
+                "id": "titanium-vscode-theme",
+                "label": "VSC THEME — TITANIUM",
+                "uiTheme": "vs-dark",
+                "path": "./vscode-theme/titanium-vscode-theme.json"
             }
         ],
+
         "productIconThemes": [
             {
-                "path": "./themes/azurite-vscode-product-icon-theme.json",
+                "path": "./themes/azurite-product-icon-theme.json",
                 "label": "Azurite Product Icons",
-                "id": "azurite-product-icons"
+                "id": "azurite"
             }
         ]
     },
+
     "scripts": {
         "start": "node ./build/updateFont.js",
         "see-font": "code ./theme/vscode-10.html"
     },
+
     "publishConfig": {
         "access": "public"
     },
+
     "devDependencies": {
         "vsce": "^2.7.0",
         "open": "^7.0.3",

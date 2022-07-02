@@ -37,7 +37,7 @@ error CS1056: Unexpected character '�'
         07)  #1830DD
         08)  #115566
         09)  #09154D
-        10)  #1A1E2D (sidebar)
+        10)  #1C2030 (sidebar)
         11)  #111422 (activity-bar & panels)
         12)  #00142C (small-bg hil)
         13)  #16171A (editor-bg)
@@ -192,13 +192,13 @@ error CS1056: Unexpected character '�'
           "statusBarItem.prominentForeground": "#88BBEE",
           "statusBarItem.focusBorder": "#33DDFFCC",
           "statusBar.focusBorder": "#33DDFFCC",
-          "statusBar.noFolderBorder": "#1A1E2D",
+          "statusBar.noFolderBorder": "#1C2030",
           "statusBar.noFolderBackground": "#111422",
           "statusBar.noFolderForeground": "#77BBFF99",
           "statusBar.border": "#FFFFFF22",
           "statusBar.debuggingBackground": "#500090",
           "statusBar.debuggingForeground": "#FFFFFF",
-          "statusBar.debuggingBorder": "#1A1E2D",
+          "statusBar.debuggingBorder": "#1C2030",
           //  INPUT VALIDATION
           /*
         WHITE PROPERTIES */
@@ -379,25 +379,26 @@ error CS1056: Unexpected character '�'
           "activityBarBadge.background": "#CC4200",
           "badge.background": "#1830DD",
           "editorRuler.foreground": "#1830DD33",
-          // #1A1E2D
-          "tab.activeBorder": "#1A1E2D",
-          "tab.unfocusedActiveBorder": "#1A1E2D",
-          "tab.activeBackground": "#1A1E2D",
-          "tab.hoverBackground": "#1A1E2D",
-          "tab.unfocusedHoverBackground": "#1A1E2D",
-          "tab.unfocusedActiveBackground": "#1A1E2D",
-          "breadcrumb.background": "#1A1E2D",
-          "editorIndentGuide.background": "#1A1E2D",
-          "quickInputTitle.background": "#1A1E2D",
-          "toolbar.activeBackground": "#1A1E2D",
-          "sideBar.background": "#1A1E2D",
+          // #1C2030
+          "tab.activeBorder": "#1C2030",
+          "tab.unfocusedActiveBorder": "#1C2030",
+          "tab.activeBackground": "#1C2030",
+          "tab.hoverBackground": "#1C2030",
+          "tab.unfocusedHoverBackground": "#1C2030",
+          "tab.unfocusedActiveBackground": "#1C2030",
+          "breadcrumb.background": "#1C2030",
+          "editorIndentGuide.background": "#1C2030",
+          "quickInputTitle.background": "#1C2030",
+          "toolbar.activeBackground": "#1C2030",
+          "sideBar.background": "#1C2030",
+          "quickInput.background": "#1C2030",
           // SMALL BACKGROUNDS (OR text bg highlighting)
           "editorGroup.dropIntoPromptBackground": "#00142C",
           "welcomePage.progress.background": "#00142C",
           // KEYBINDING EDITOR & KEYBINDING LABELS                   << (COMPLETE)
           "keybindingLabel.foreground": "#88BBEE",
           "keybindingLabel.background": "#001462",
-          "keybindingTable.headerBackground": "#1A1E2D",
+          "keybindingTable.headerBackground": "#1C2030",
           "keybindingTable.rowsBackground": "#1A1E2D88",
           "keybindingLabel.border": "#77BBFF55",
           "keybindingLabel.bottomBorder": "#1188BBEE",
@@ -406,7 +407,7 @@ error CS1056: Unexpected character '�'
           "tab.unfocusedInactiveBackground": "#040B1B",
           "editorMarkerNavigation.background": "#111422",
           "notifications.background": "#060D2CE7",
-          "quickInput.background": "#060D2CE7",
+
           "notificationCenterHeader.background": "#02041CE0",
           "welcomePage.tileBackground": "#111422",
           "activityBar.background": "#111422",
@@ -471,7 +472,7 @@ error CS1056: Unexpected character '�'
           "editorSuggestWidget.selectedBackground": "#002090F0",
           // HOVER WIDGET                                            << (COMPLETE)
           "editorHoverWidget.highlightForeground": "#55FF33",
-          "editorHoverWidget.statusBarBackground": "#1A1E2D",
+          "editorHoverWidget.statusBarBackground": "#1C2030",
           // LIST-FILTER WIDGET                                      << (COMPLETE)
           "listFilterWidget.background": "#0A0F1AEE",
           "listFilterWidget.outline": "#11A0CC",

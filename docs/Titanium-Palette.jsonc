@@ -1,10 +1,42 @@
 {
-    "Greens":{
+    "NUETRALS (Blacks & Whites)":{
+        "1":"",
+        "2":"",
+        "3":""
+    },
+    "METALIC": {
+        "1 | TextEditor BG":"#13151D",
+        "2 | ActivityBar & Panels BG":"#0E121E",
+        "3 | SideBar & Friends BG":"1A1E2D",
+        "4":"",
+        "5":""
+    },
+    "GREENS":{
+        "1":"",
+        "2":"#A0E080", // *
+        "3":"#60D880",
+        "4":"#55EE77",
+        "5":""
+    },
+    "BLUE-GREENS":{ // Typically having low brightness
+        "1":"",
+        "2":"",
+        "3":"#22DDFF",
+        "4":"",
+        "5":""
+    },
+    "BLUES": {
+        "1":"#224466", // Contrast Border
+        "2":"",
+        "3":"#22DDFF",
+        "4":"",
+        "5":""
+    },
+    "":{
         "1":"",
         "2":"",
         "3":"",
-        "4":"#60D880",
-        "5":"#55EE77",
-        "6":"#00FF44"
+        "4":"",
+        "5":""
     }
 }

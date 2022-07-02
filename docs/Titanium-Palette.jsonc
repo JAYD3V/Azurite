@@ -9,11 +9,11 @@
                 "5": ""
             },
             "BLUE-GREEN BG": {
-                "1": "#050F1F",
-                "2": "",
-                "3": "",
-                "4": "",
-                "5": ""
+                "1. BG | Inputs & Dropdowns": "#050F1F",
+                "2. BG | TabsGroup & InactiveTabs": "#060D24",
+                "3. BG | ": "",
+                "4. BG | ": "",
+                "5. BG | ": ""
             },
             "NUETRALS (Blacks & Whites)": {
                 "1": "",
@@ -30,7 +30,12 @@
             "4. BDR | ": ""
         },
 
-        "GENERIC FOREGROUND COLORING": {}
+        "STANDARD FG COLORING": {
+         "1. FG | Generic Foreground": "#CCCCCC",
+         "2. FG | d": "#B2AC9C",
+         "3. FG | ": "",
+         "4. FG | ": ""
+        }
     },
     /******************************************************
 
@@ -40,7 +45,7 @@
     ******************************************************/
     "HIGHLIGHTING": {
         "FOCUS": {
-            "1. BDR | FocusBorder": "#FF330099",
+            "1. BDR | FocusBorder": ["#E0D1B7", "#E0D1B7CC"],
             "2. BDR | FocusBackground": "#01031377"
         },
         "EMPHASIZED FOREGROUNDS & BORDERS": {

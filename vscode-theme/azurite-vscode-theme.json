@@ -223,14 +223,36 @@ error CS1056: Unexpected character '�'
       "scrollbarSlider.background": "#FFFFFF77",
       // #EEEEEE
       "breadcrumb.activeSelectionForeground": "#EEEEEE",
-      "tab.hoverForeground": "#FFFFFF",
-      "tab.unfocusedHoverForeground": "#FFFFFF",
+
+
       // #DDDDDD
       "banner.foreground": "#DDDDDD",
-      "tab.activeForeground": "#DDDDDD",
+
       "quickInput.foreground": "#EEEEEE",
       "terminal.foreground": "#DDDDDD",
-      "tab.unfocusedActiveForeground": "#FFFFFFC8",
+      "tab.hoverForeground": "#FFFFFF",
+"tab.unfocusedHoverForeground": "#FFFFFF",
+"tab.activeForeground": "#DDDDDD",
+"tab.unfocusedActiveForeground": "#FFFFFFC8",
+"tab.activeBorderTop": "#44FF44",
+"tab.unfocusedActiveBorderTop": "#44FF44",
+"tab.border": "#0055FF33",
+"tab.lastPinnedBorder": "#0055FF33",
+"tab.activeBorder": "#0A1A46",
+"tab.unfocusedActiveBorder": "#0A1A46",
+"tab.activeBackground": "#0A1A46",
+"tab.hoverBackground": "#0A1A46",
+"tab.unfocusedHoverBackground": "#0A1A46",
+"tab.unfocusedActiveBackground": "#0A1A46",
+"tab.inactiveBackground": "#010B2F",
+"tab.unfocusedInactiveBackground": "#010B2F",
+"tab.inactiveForeground": "#77BBFF99",
+"tab.unfocusedInactiveForeground": "#77BBFF99",
+"tab.activeModifiedBorder": "#FFBB00",
+"tab.inactiveModifiedBorder": "#FFBB00",
+"tab.unfocusedActiveModifiedBorder": "#FFBB00",
+"tab.unfocusedInactiveModifiedBorder": "#FFBB00",
+
       "terminal.ansiWhite": "#DDDDDD",
       "notifications.foreground": "#DDDDDD",
       "titleBar.activeForeground": "#EEEEEEEE",
@@ -338,8 +360,8 @@ error CS1056: Unexpected character '�'
       "interactive.activeCodeBorder": "#44FF44AA",
       "minimapSlider.background": "#44FF4433",
       "inputOption.activeBorder": "#44FF44",
-      "tab.activeBorderTop": "#44FF44",
-      "tab.unfocusedActiveBorderTop": "#44FF44",
+
+
       "activityBar.activeBorder": "#44FF44",
       "terminal.tab.activeBorder": "#44FF44",
       "panelTitle.activeBorder": "#44FF44",
@@ -373,8 +395,8 @@ error CS1056: Unexpected character '�'
       "sideBySideEditor.verticalBorder": "#1166FF55",
       // #0055FF
       "terminal.selectionBackground": "#0055FF66",
-      "tab.border": "#0055FF33",
-      "tab.lastPinnedBorder": "#0055FF33",
+
+
       // #0044FF
       "selection.background": "#0044FF99",
       "terminal.dropBackground": "#0044FF33",
@@ -388,12 +410,12 @@ error CS1056: Unexpected character '�'
       "badge.background": "#1830DD",
       "editorRuler.foreground": "#1830DD33",
       // #0A1A46
-      "tab.activeBorder": "#0A1A46",
-      "tab.unfocusedActiveBorder": "#0A1A46",
-      "tab.activeBackground": "#0A1A46",
-      "tab.hoverBackground": "#0A1A46",
-      "tab.unfocusedHoverBackground": "#0A1A46",
-      "tab.unfocusedActiveBackground": "#0A1A46",
+
+
+
+
+
+
       "breadcrumb.background": "#0A1A46",
       "editorIndentGuide.background": "#0A1A46",
       "quickInputTitle.background": "#0A1A46",
@@ -411,8 +433,8 @@ error CS1056: Unexpected character '�'
       "keybindingLabel.border": "#77BBFF55",
       "keybindingLabel.bottomBorder": "#1144FF44",
       // #010B2F
-      "tab.inactiveBackground": "#010B2F",
-      "tab.unfocusedInactiveBackground": "#010B2F",
+
+
       "editorMarkerNavigation.background": "#010B2F",
       "notifications.background": "#060D2CE7",
       "quickInput.background": "#060D2CE7",
@@ -426,8 +448,8 @@ error CS1056: Unexpected character '�'
       "panelSectionHeader.foreground": "#77BBFFEE",
       "panelTitle.inactiveForeground": "#77BBFFCC",
       "activityBar.inactiveForeground": "#77BBFF99",
-      "tab.inactiveForeground": "#77BBFF99",
-      "tab.unfocusedInactiveForeground": "#77BBFF99",
+
+
       "titleBar.inactiveForeground": "#77BBFF99",
       // #77BBFF
       "checkbox.border": "#77BBFF33",
@@ -662,10 +684,10 @@ error CS1056: Unexpected character '�'
                 4. RENAMED          --  #B060FF
                 5. IGNORED          --  #77BBFFCC
         ............................................................          */
-      "tab.activeModifiedBorder": "#FFBB00",
-      "tab.inactiveModifiedBorder": "#FFBB00",
-      "tab.unfocusedActiveModifiedBorder": "#FFBB00",
-      "tab.unfocusedInactiveModifiedBorder": "#FFBB00",
+
+
+
+
       "gitDecoration.stageModifiedResourceForeground": "#FFBB00",
       "gitDecoration.modifiedResourceForeground": "#FFBB00",
       "editorGutter.modifiedBackground": "#FFBB00aa",

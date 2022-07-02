@@ -1,78 +1,86 @@
 {
-    "STATIC COLORS": {
-        "BACKGROUNDS": {
-            "METALIC": {
-                "1 | TextEditor BG": "#13151D",
-                "2 | ActivityBar & Panels BG": "#0E121E",
-                "3 | SideBar & Friends BG": "1A1E2D",
-                "4": "",
-                "5": ""
-            },
-            "BLUE-GREEN BG": {
-                "1. BG | Inputs & Dropdowns": "#050F1F",
-                "2. BG | TabsGroup & InactiveTabs": "#060D24",
-                "3. BG | ": "",
-                "4. BG | ": "",
-                "5. BG | ": ""
-            },
-            "NUETRALS (Blacks & Whites)": {
-                "1": "",
-                "2": "",
-                "3": ""
-            }
-        },
-
-
-        "GENERIC BORDER COLORS": {
-            "1. BDR | Contrast Border": "#224466",
-            "2. BDR | TxtInputs & DropDowns": "#005577",
-            "3. BDR | ": "",
-            "4. BDR | ": ""
-        },
-
-        "STANDARD FG COLORING": {
+   "STATIC COLORS": {
+      "BACKGROUNDS": {
+         "METALIC": {
+            "1 | TextEditor BG": "#13151D",
+            "2 | ActivityBar & Panels BG": "#0E121E",
+            "3 | SideBar & Friends BG": "1A1E2D",
+            "4": "",
+            "5": ""
+         },
+         "BLUE-GREEN BG": {
+            "1. BG | Inputs & Dropdowns": "#050F1F",
+            "2. BG | TabsGroup & InactiveTabs": "#060D24",
+            "3. BG | ": "",
+            "4. BG | ": "",
+            "5. BG | ": ""
+         },
+         "NUETRALS (Blacks & Whites)": {
+            "1": "",
+            "2": "",
+            "3": ""
+         }
+      },
+      "GENERIC BORDER COLORS": {
+         "1. BDR | Contrast Border": "#224466",
+         "2. BDR | TxtInputs & DropDowns": "#005577",
+         "3. BDR | ": "",
+         "4. BDR | ": ""
+      },
+      "STANDARD FG COLORING": {
          "1. FG | Generic Foreground": "#CCCCCC",
-         "2. FG | d": "#B2AC9C",
+         "2. FG | Labels & Breadcrumb": ["#EECCAA","#EECCAADD"],
          "3. FG | ": "",
          "4. FG | ": ""
-        }
-    },
-    /******************************************************
+      }
+   },
+   /******************************************************
 
 
 
 
     ******************************************************/
-    "HIGHLIGHTING": {
-        "FOCUS": {
-            "1. BDR | FocusBorder": ["#E0D1B7", "#E0D1B7CC"],
-            "2. BDR | FocusBackground": "#01031377"
-        },
-        "EMPHASIZED FOREGROUNDS & BORDERS": {
-            "1. FG | Labels & Emphasized": "#22DDFF",
-            "2. FG | Inputs & Dropdowns": "#11EE88",
-            "3. FG | ": "",
-            "4. FG | ": ""
-        },
-        "SELECTED FORGROUNDS & BORDERS": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
-        },
-        "ACTIVE FOREGROUNDS & BORDERS": {
-            "1": "",
-            "2": "#A0E080", // *
-            "3": "#60D880",
-            "4": "#55EE77",
-            "5": ""
-        },
-        "HOVER FOREGROUNDS & BORDERS": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": ""
-        }
-    }
+   "HIGHLIGHTING": {
+      "FOCUS": {
+         "1. BDR | FocusBorder": [
+            "#FFEACC",
+            "#FFEACCAA"
+         ],
+         "2. BDR | FocusBackground": "#01031377"
+      },
+      "EMPHASIZED FOREGROUNDS & BORDERS": {
+         "1. FG | Labels & Emphasized": "#22DDFF",
+         "2. FG | Inputs & Dropdowns": "#11EE88",
+         "3. FG | ": "",
+         "4. FG | ": ""
+      },
+      "SELECTED FORGROUNDS & BORDERS": {
+         "1": "",
+         "2": "",
+         "3": "",
+         "4": ""
+      },
+      "ACTIVE FOREGROUNDS & BORDERS": {
+         "1": "",
+         "2": "#A0E080", // *
+         "3": "#60D880",
+         "4": "#55EE77",
+         "5": ""
+      },
+      "HOVER FOREGROUNDS & BORDERS": {
+         "1": "",
+         "2": "",
+         "3": "",
+         "4": "",
+         "5": ""
+      }
+   },
+   "SCM DECORATIONS COLOR SCHEME": {
+      "Modified": "#E0A030",
+      "Added": "#66CC55",
+      "Deleted":"#FF2299",
+      "Ignored": "#FFDDAA66",
+      "Conflict": "#FF5555",
+      "Renamed": "#BB77FF"
+   }
 }

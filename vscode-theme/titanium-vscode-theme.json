@@ -33,13 +33,13 @@ error CS1056: Unexpected character '�'
         03)  #11A0CC
         04)  #0066AA
         05)  #0055FF
-        06)  #0044FF
-        07)  #1830DD
+        06)  #006688
+        07)  #003344
         08)  #115566
         09)  #09154D
-        10)  #191D2C (sidebar)
+        10)  #1C202C (sidebar)
         11)  #101321 (activity-bar & panels)
-        12)  #00142C (small-bg hil)
+        12)  #0C0C0A (small-bg hil)
         13)  #16171A (editor-bg)
 *---------------------------------------------------------------*
 
@@ -79,7 +79,7 @@ error CS1056: Unexpected character '�'
           "editorCodeLens.foreground": "#007733",
           "textCodeBlock.background": "#0878A570",
           "titleBar.inactiveBackground": "#203055",
-          "editorUnnecessaryCode.opacity": "#010203BB",
+          "editorUnnecessaryCode.opacity": "#0C0C0ABB",
           "banner.background": "#500090", // TODO: "Find group for banner"
           "terminalCommandDecoration.defaultBackground": "#A0E080",
           "editorWhitespace.foreground": "#FF222255",
@@ -139,8 +139,8 @@ error CS1056: Unexpected character '�'
           "peekViewTitleDescription.foreground": "#88BBEE",
           "peekViewEditor.matchHighlightBorder": "#0066AA88",
           "peekViewResult.selectionBackground": "#0055FF66",
-          "peekView.border": "#1830DD99",
-          "peekViewResult.matchHighlightBackground": "#00142C",
+          "peekView.border": "#00334499",
+          "peekViewResult.matchHighlightBackground": "#0C0C0A",
           "peekViewResult.fileForeground": "#A0E080",
           // TESTING
           "testing.peekBorder": "#500090",
@@ -180,7 +180,7 @@ error CS1056: Unexpected character '�'
           "button.secondaryHoverBackground": "#BB22FF",
           "button.border": "#090300DD",
           // STATUS BAR
-          "statusBar.background": "#040B1B",
+          "statusBar.background": "#060D24",
           "statusBarItem.activeBackground": "#007733",
           "statusBarItem.remoteBackground": "#007733",
           "statusBarItem.compactHoverBackground": "#FFFFEE00",
@@ -192,13 +192,13 @@ error CS1056: Unexpected character '�'
           "statusBarItem.prominentForeground": "#88BBEE",
           "statusBarItem.focusBorder": "#33DDFFCC",
           "statusBar.focusBorder": "#33DDFFCC",
-          "statusBar.noFolderBorder": "#191D2C",
+          "statusBar.noFolderBorder": "#1C202C",
           "statusBar.noFolderBackground": "#101321",
           "statusBar.noFolderForeground": "#77BBFF99",
           "statusBar.border": "#FFFFFF22",
           "statusBar.debuggingBackground": "#500090",
           "statusBar.debuggingForeground": "#FFFFFF",
-          "statusBar.debuggingBorder": "#191D2C",
+          "statusBar.debuggingBorder": "#1C202C",
           //  INPUT VALIDATION
           /*
         WHITE PROPERTIES */
@@ -248,7 +248,7 @@ error CS1056: Unexpected character '�'
       *********************************************/
           "welcomePage.tileShadow": "#090000",
           "scrollbar.shadow": "#090000",
-          "contrastBorder": "#224466",
+          "contrastBorder": "#FFFFFF22",
           "diffEditor.diagonalFill": "#090000", // TODO: SET diagonalFill to theme color
           "titleBar.border": "#3D3D3D",
           "editorGroupHeader.border": "#090000",
@@ -256,8 +256,8 @@ error CS1056: Unexpected character '�'
           "textBlockQuote.background": "#09000088",
           "minimap.background": "#09000088",
           // WORKBENCH BLACK BACKGROUNDS (Terminal & Editor-Tabs-group bg when no tabs are present)
-          "editorGroupHeader.noTabsBackground": "#101321",
-          "editorGroupHeader.tabsBackground": "#040B1B",
+          "editorGroupHeader.noTabsBackground": "#060D24",
+          "editorGroupHeader.tabsBackground": "#060D24",
           // #0A0D1D (Editor's Bg-color)
           "editorOverviewRuler.background": "#0A0D1D",
           /******************************************************
@@ -335,7 +335,7 @@ error CS1056: Unexpected character '�'
           "terminal.tab.activeBorder": "#33DDFF",
           "panelTitle.activeBorder": "#33DDFF",
           // #88BBEE
-          "focusBorder": "#FF4400AA",
+          "focusBorder": "#DDCCBBAA",
           "activityBar.activeFocusBorder": "#88BBEE",
           "notebook.focusedCellBorder": "#33DDFFCC",
           /************************************************
@@ -345,8 +345,8 @@ error CS1056: Unexpected character '�'
         2.  #11A0CC
         3.  #0066AA
         4.  #0055FF
-        5.  #0044FF
-        7.  #1830DD
+        5.  #006688
+        7.  #003344
         BLUE PROPERTIES
         -------------------------------------------------                   */
           // #0066AA
@@ -366,41 +366,41 @@ error CS1056: Unexpected character '�'
           "terminal.selectionBackground": "#0055FF66",
           "tab.border": "#0055FF33",
           "tab.lastPinnedBorder": "#0055FF33",
-          // #0044FF
-          "selection.background": "#0044FF99",
-          "terminal.dropBackground": "#0044FF33",
-          "editorGroup.dropBackground": "#0044FF33",
+          // #006688
+          "selection.background": "#00668899",
+          "terminal.dropBackground": "#00668833",
+          "editorGroup.dropBackground": "#00668833",
           "panelSection.dropBackground": "#29292933",
-          "sideBar.dropBackground": "#0044FF33",
-          // #1830DD
-          "activityBar.dropBorder": "#1830DD",
-          "panel.dropBorder": "#1830DD",
+          "sideBar.dropBackground": "#00668833",
+          // #003344
+          "activityBar.dropBorder": "#003344",
+          "panel.dropBorder": "#003344",
 
-          "extensionBadge.remoteBackground": "#00080F",
-          "extensionBadge.remoteForeground": "#77DD11",
-          "activityBarBadge.foreground": "#77DD11",
-          "badge.foreground": "#77DD11",
-          "activityBarBadge.background": "#00080F",
-          "badge.background": "#00080F",
-          "editorRuler.foreground": "#1830DD33",
-          // #191D2C
-          "tab.activeBorder": "#191D2C",
-          "tab.unfocusedActiveBorder": "#191D2C",
-          "tab.activeBackground": "#191D2C",
-          "tab.hoverBackground": "#191D2C",
-          "tab.unfocusedHoverBackground": "#191D2C",
-          "tab.unfocusedActiveBackground": "#191D2C",
-          "breadcrumb.background": "#191D2C",
-          "editorIndentGuide.background": "#191D2C",
-          "toolbar.activeBackground": "#191D2C",
-          "sideBar.background": "#191D2C",
+          "extensionBadge.remoteBackground": "#0C0C0A",
+          "extensionBadge.remoteForeground": "#FF8800",
+          "activityBarBadge.foreground": "#FF8800",
+          "badge.foreground": "#FF8800",
+          "activityBarBadge.background": "#0C0C0A",
+          "badge.background": "#0C0C0A",
+          "editorRuler.foreground": "#00334433",
+          // #1C202C
+          "tab.activeBorder": "#1C202C",
+          "tab.unfocusedActiveBorder": "#1C202C",
+          "tab.activeBackground": "#1C202C",
+          "tab.hoverBackground": "#1C202C",
+          "tab.unfocusedHoverBackground": "#1C202C",
+          "tab.unfocusedActiveBackground": "#1C202C",
+          "breadcrumb.background": "#1C202C",
+          "editorIndentGuide.background": "#1C202C",
+          "toolbar.activeBackground": "#1C202C",
+          "sideBar.background": "#1C202C",
           // SMALL BACKGROUNDS (OR text bg highlighting)
-          "editorGroup.dropIntoPromptBackground": "#00142C",
-          "welcomePage.progress.background": "#00142C",
+          "editorGroup.dropIntoPromptBackground": "#0C0C0A",
+          "welcomePage.progress.background": "#0C0C0A",
           // KEYBINDING EDITOR & KEYBINDING LABELS                   << (COMPLETE)
           "keybindingLabel.foreground": "#88BBEE",
           "keybindingLabel.background": "#001462",
-          "keybindingTable.headerBackground": "#191D2C",
+          "keybindingTable.headerBackground": "#1C202C",
           "keybindingTable.rowsBackground": "#1A1E2D88",
           "keybindingLabel.border": "#77BBFF55",
           "keybindingLabel.bottomBorder": "#1188BBEE",
@@ -461,7 +461,7 @@ error CS1056: Unexpected character '�'
           "widget.shadow": "#090000",
           // EXCEPTION WIDGET                                       ! (TODO)
           // EDITOR WIDGET                                          ! (TODO)
-          "editorWidget.background": "#0A0F1AEE",
+          "editorWidget.background": "#060D24",
           "editorWidget.foreground": "#E8E8E8",
           "editorWidget.border": "#3D3D3D",
           "editorWidget.resizeBorder": "#1a4074",
@@ -474,9 +474,9 @@ error CS1056: Unexpected character '�'
           "editorSuggestWidget.selectedBackground": "#002090F0",
           // HOVER WIDGET                                            << (COMPLETE)
           "editorHoverWidget.highlightForeground": "#55FF33",
-          "editorHoverWidget.statusBarBackground": "#191D2C",
+          "editorHoverWidget.statusBarBackground": "#1C202C",
           // LIST-FILTER WIDGET                                      << (COMPLETE)
-          "listFilterWidget.background": "#0A0F1AEE",
+          "listFilterWidget.background": "#060D24",
           "listFilterWidget.outline": "#11A0CC",
           "listFilterWidget.noMatchesOutline": "#FF2222",
           // "editorHoverWidget.background": "#ff0000",
@@ -487,7 +487,7 @@ error CS1056: Unexpected character '�'
           // "editorSuggestWidget.foreground": "#ff0000",
           // error CS1056: Unexpected character �
           // MENUS                                                       ! (TODO)
-          "menu.background": "#0A0F1AEE",
+          "menu.background": "#060D24",
           // "menu.foreground": "#E4E4E4",
           "menu.border": "#3D3D3D",
           "menu.selectionBorder": "#11A0CC",
@@ -511,35 +511,35 @@ error CS1056: Unexpected character '�'
           "settings.focusedRowBackground": "#00407070",
           "settings.focusedRowBorder": "#33DDFFCC",
           // INPUTS (Text/Numeric)
-          // "settings.numberInputBackground": "#00142C",
-          // "settings.textInputBackground": "#00142C",
+          // "settings.numberInputBackground": "#0C0C0A",
+          // "settings.textInputBackground": "#0C0C0A",
           // "settings.numberInputForeground": "#11EE88",
           // "settings.textInputForeground": "#11EE88",
           // "settings.numberInputBorder": "#115566",
           // "settings.textInputBorder": "#115566",
-          "input.background": "#00142C",
+          "input.background": "#0C0C0A",
           "input.foreground": "#11EE88",
           "input.placeholderForeground": "#005577",
           "input.border": "#115566",
           // INPUT OPTIONS
           "inputOption.hoverBackground": "#00EEFF44",
           "inputOption.activeForeground": "#11EE88",
-          "inputOption.activeBorder": "#FF3300",
+          "inputOption.activeBorder": "#DDCCBBAA",
           "inputOption.activeBackground": "#00000000",
           // CHECKBOXES
-          // "settings.checkboxBackground": "#00142C",
+          // "settings.checkboxBackground": "#0C0C0A",
           // "settings.checkboxForeground": "#88BBEE",
           // "settings.checkboxBorder": "#00AABB",
-          "checkbox.background": "#00142C",
+          "checkbox.background": "#0C0C0A",
           "checkbox.foreground": "#11EE88",
           "checkbox.border": "#00AABB",
           // DROP-DOWN MENUS
-          // "settings.dropdownBackground": "#00142C",
+          // "settings.dropdownBackground": "#0C0C0A",
           // "settings.dropdownForeground": "#11EE88",
           // "settings.dropdownBorder": "#115566",
           // "settings.dropdownListBorder": "#115566",
-          "dropdown.background": "#00142C",
-          "dropdown.listBackground": "#00142C",
+          "dropdown.background": "#0C0C0A",
+          "dropdown.listBackground": "#0C0C0A",
           "dropdown.foreground": "#11EE88",
           "dropdown.border": "#115566",
           /************************************************
@@ -558,19 +558,19 @@ error CS1056: Unexpected character '�'
           "list.highlightForeground": "#88BBEE",
           "list.focusForeground": "#88BBEE",
           "list.filterMatchBorder": "#0066AA",
-          "list.focusOutline": "#FF4400AA",
-          "list.inactiveFocusOutline": "#FF4400AA",
+          "list.focusOutline": "#DDCCBBAA",
+          "list.inactiveFocusOutline": "#DDCCBBAA",
           "list.activeSelectionIconForeground": "#0066AAAA",
-          "list.activeSelectionBackground": "#000714CC",
-          "list.inactiveSelectionBackground": "#000714CC",
-          "list.dropBackground": "#0044FF33",
+          "list.activeSelectionBackground": "#01031377",
+          "list.inactiveSelectionBackground": "#01031377",
+          "list.dropBackground": "#00668833",
 
           "quickInput.foreground": "#CCCCCC",
-          "quickInput.background": "#191D2C",
-          "quickInputTitle.background": "#191D2C",
-          "quickInputList.focusIconForeground": "#FF3300",
+          "quickInput.background": "#1C202C",
+          "quickInputTitle.background": "#1C202C",
+          "quickInputList.focusIconForeground": "#DDCCBBAA",
           "quickInputList.focusForeground": "#FFFFFF",
-          "quickInputList.focusBackground": "#000714CC",
+          "quickInputList.focusBackground": "#01031377",
           /********************************************************
 
 
@@ -596,8 +596,8 @@ error CS1056: Unexpected character '�'
         -------------------------------------------------                   */
           "editor.selectionForeground": "#EEEEEE",
           "editor.selectionHighlightBorder": "#11A0CC",
-          "editor.selectionBackground": "#0044FF99",
-          "editor.selectionHighlightBackground": "#1830DD22",
+          "editor.selectionBackground": "#00668899",
+          "editor.selectionHighlightBackground": "#00334422",
           // Snippet Highlighting
           "editor.snippetFinalTabstopHighlightBorder": "#DDDDDDDD",
           "editor.snippetTabstopHighlightBorder": "#DDDDDDAA",
@@ -1330,7 +1330,7 @@ error CS1056: Unexpected character '�'
                     "entity.name.tag.localname.xml"
                ],
                "settings": {
-                    "foreground": "#2CC0D8",
+                    "foreground": "#33AABB",
                     "fontStyle": "bold"
                }
           },
@@ -1350,7 +1350,7 @@ error CS1056: Unexpected character '�'
                     "punctuation.definition.string.begin.yaml"
                ],
                "settings": {
-                    "foreground": "#DDDDDD",
+                    "foreground": "#CCCCCC",
                     "fontStyle": ""
                }
           },

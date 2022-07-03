@@ -23,11 +23,19 @@
          "FG": "",
          "BRD": ""
       },
+
       "ACTIVE": {
-         "BG": "",
-         "FG": "",
-         "BRD": ""
+         "BG": null,
+         "FG": {
+            "Active":"#EEEEEE",
+            "Inactive": ["#AA9988EE", "#AA9988BB"]
+         },
+         "BRD": "#FF4455",
+         "items-colored": [
+            "PanelTitle (actv)", "ActivityBar (actv)", "Tabs (actv)"
+         ]
       },
+
       "SELECTION": {
          "BG": "",
          "FG": "",

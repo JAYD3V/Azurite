@@ -12,8 +12,8 @@
          "Fg 04| Titles/Labels": "#E04455"
       },
       "BORDER": {
-         "Brd 01| Horizontal Generic Border": "#AA998844",
-         "Brd 02| Vertical Generic Border": "#AA998822",
+         "Brd 01| Horz Generic": "#004466",
+         "Brd 02| Vert Generic": "#CCBB9E28",
          "Brd 03| ": ""
       }
    },

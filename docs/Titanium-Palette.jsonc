@@ -41,7 +41,7 @@ source.json
 
  */
 {
-   "STATIC COLORS___________________________": {
+   "STATIC COLORS": {
       "BACKGROUND": {
          "321": {
             "APPLE": ["Fuji", "Granny-Smith"],

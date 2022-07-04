@@ -1,8 +1,56 @@
+/*
+
+meta.structure.dictionary.json
+source.json
+
+meta.structure.dictionary.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+source.json
+
+meta.structure.dictionary.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+source.json
+
+   //
+   support.type.property-name.json
+   string.json
+   meta.structure.dictionary.json
+   source.json
+
+   support.type.property-name.json
+   string.json
+   meta.structure.dictionary.json
+   meta.structure.dictionary.value.json
+   meta.structure.dictionary.json
+   source.json
+
+   support.type.property-name.json
+   string.json
+   meta.structure.dictionary.json
+   meta.structure.dictionary.value.json
+   meta.structure.dictionary.json
+   meta.structure.dictionary.value.json
+   meta.structure.dictionary.json
+   meta.structure.dictionary.value.json
+   meta.structure.dictionary.json
+   source.json
+
+ */
 {
    "STATIC COLORS___________________________": {
       "BACKGROUND": {
-         "1": "",
-         "2": "",
+         "321": {
+            "APPLE": ["Fuji", "Granny-Smith"],
+            "ORANGE": {
+               "NAVEL": null,
+               "VALENCIA":""
+            }
+         },
+         "2": ["Potatoe"],
          "3": ""
       },
       "FOREGROUND": {

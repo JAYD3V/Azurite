@@ -47,8 +47,8 @@ error CS1056: Unexpected character '�'
         07)  #1830DD
         08)  #1133EE
         09)  #09154D
-        10)  #0A1A46 (sidebar)
-        11)  #010B2F (Activity-bar & Panels)
+        10)  #0B1B40 (sidebar)
+        11)  #050D28 (Activity-bar & Panels)
         12)  #030760 (Small-Bg HiL)
         13)  #0E1428 (Editor-Bg)
 *---------------------------------------------------------------*
@@ -62,7 +62,7 @@ error CS1056: Unexpected character '�'
 *---------------------------------------------------------------*
 
     ACCENT COLORS:
-        1a) #FF5500  -- "Interactive Icons"
+        1a) #FF5000  -- "Interactive Icons"
         1b) #CC4200  -- "Used tp to highlight item bg"
         2a) #500090  -- "Color that signals debugger is in use (used to color debugging statusbar)"
         2b) #BB44FF
@@ -118,10 +118,10 @@ error CS1056: Unexpected character '�'
       "debugIcon.breakpointStackframeForeground": "#FF2222AA",
       "debugIcon.breakpointUnverifiedForeground": "#FF2222AA",
       "debugIcon.breakpointDisabledForeground": "#FF222255",
-      "debugIcon.stepBackForeground": "#FF5500",
-      "debugIcon.stepIntoForeground": "#FF5500",
-      "debugIcon.stepOutForeground": "#FF5500",
-      "debugIcon.stepOverForeground": "#FF5500",
+      "debugIcon.stepBackForeground": "#FF5000",
+      "debugIcon.stepIntoForeground": "#FF5000",
+      "debugIcon.stepOutForeground": "#FF5000",
+      "debugIcon.stepOverForeground": "#FF5000",
       "debugIcon.startForeground": "#44FF44",
       "debugIcon.continueForeground": "#1166FF",
       "debugIcon.pauseForeground": "#1166FF",
@@ -129,7 +129,7 @@ error CS1056: Unexpected character '�'
       "debugView.exceptionLabelBackground": "#FF222233",
       "debugTokenExpression.string": "#DDDDDD",
       "debugView.stateLabelForeground": "#DDDDDD",
-      "debugConsole.sourceForeground": "#FF5500",
+      "debugConsole.sourceForeground": "#FF5000",
       "debugConsoleInputIcon.foreground": "#1166FF",
       "debugTokenExpression.name": "#1166FF",
       "debugToolBar.border": "#04001E",
@@ -204,13 +204,13 @@ error CS1056: Unexpected character '�'
       "statusBarItem.prominentForeground": "#44FF44",
       "statusBarItem.focusBorder": "#00CCFFCC",
       "statusBar.focusBorder": "#00CCFFCC",
-      "statusBar.noFolderBorder": "#0A1A46",
-      "statusBar.noFolderBackground": "#010B2F",
+      "statusBar.noFolderBorder": "#0B1B40",
+      "statusBar.noFolderBackground": "#050D28",
       "statusBar.noFolderForeground": "#77BBFF99",
       "statusBar.border": "#77BBFF33",
       "statusBar.debuggingBackground": "#500090",
       "statusBar.debuggingForeground": "#FFFFFF",
-      "statusBar.debuggingBorder": "#0A1A46",
+      "statusBar.debuggingBorder": "#0B1B40",
 
       //  INPUT VALIDATION
       /*
@@ -238,14 +238,14 @@ error CS1056: Unexpected character '�'
 "tab.unfocusedActiveBorderTop": "#44FF44",
 "tab.border": "#0055FF33",
 "tab.lastPinnedBorder": "#0055FF33",
-"tab.activeBorder": "#0A1A46",
-"tab.unfocusedActiveBorder": "#0A1A46",
-"tab.activeBackground": "#0A1A46",
-"tab.hoverBackground": "#0A1A46",
-"tab.unfocusedHoverBackground": "#0A1A46",
-"tab.unfocusedActiveBackground": "#0A1A46",
-"tab.inactiveBackground": "#010B2F",
-"tab.unfocusedInactiveBackground": "#010B2F",
+"tab.activeBorder": "#0B1B40",
+"tab.unfocusedActiveBorder": "#0B1B40",
+"tab.activeBackground": "#0B1B40",
+"tab.hoverBackground": "#0B1B40",
+"tab.unfocusedHoverBackground": "#0B1B40",
+"tab.unfocusedActiveBackground": "#0B1B40",
+"tab.inactiveBackground": "#050D28",
+"tab.unfocusedInactiveBackground": "#050D28",
 "tab.inactiveForeground": "#77BBFF99",
 "tab.unfocusedInactiveForeground": "#77BBFF99",
 "tab.activeModifiedBorder": "#FFBB00",
@@ -293,48 +293,48 @@ error CS1056: Unexpected character '�'
         WORKBENCH HIGHLIGHTING (Emphasis, Icons & Interactive)
         -------------------------------------------------------                 */
       // ICONS & TEXT LINKS
-      "textLink.foreground": "#FF5500",
-      "icon.foreground": "#FF5500",
-      "banner.iconForeground": "#FF5500",
-      "symbolIcon.arrayForeground": "#FF5500",
-      "symbolIcon.constantForeground": "#FF5500",
-      "symbolIcon.stringForeground": "#FF5500",
-      "symbolIcon.textForeground": "#FF5500",
-      "symbolIcon.classForeground": "#FF5500",
-      "symbolIcon.interfaceForeground": "#FF5500",
-      "textPreformat.foreground": "#FF5500",
-      "editorGroup.dropIntoPromptBorder": "#FF5500",
-      "editorGroup.dropIntoPromptForeground": "#FF5500",
-      "symbolIcon.keyForeground": "#FF5500",
-      "symbolIcon.namespaceForeground": "#FF5500",
-      "symbolIcon.objectForeground": "#FF5500",
-      "symbolIcon.referenceForeground": "#FF5500",
-      "symbolIcon.structForeground": "#FF5500",
-      "symbolIcon.constructorForeground": "#FF5500",
-      "symbolIcon.eventForeground": "#FF5500",
-      "symbolIcon.fieldForeground": "#FF5500",
-      "symbolIcon.functionForeground": "#FF5500",
-      "symbolIcon.methodForeground": "#FF5500",
-      "symbolIcon.moduleForeground": "#FF5500",
-      "symbolIcon.propertyForeground": "#FF5500",
-      "symbolIcon.booleanForeground": "#FF5500",
-      "pickerGroup.foreground": "#FF5500",
-      "symbolIcon.colorForeground": "#FF5500",
-      "symbolIcon.enumeratorForeground": "#FF5500",
-      "symbolIcon.enumeratorMemberForeground": "#FF5500",
-      "symbolIcon.fileForeground": "#FF5500",
-      "symbolIcon.folderForeground": "#FF5500",
-      "symbolIcon.keywordForeground": "#FF5500",
-      "symbolIcon.nullForeground": "#FF5500",
-      "symbolIcon.numberForeground": "#FF5500",
-      "symbolIcon.operatorForeground": "#FF5500",
-      "symbolIcon.packageForeground": "#FF5500",
-      "symbolIcon.typeParameterForeground": "#FF5500",
-      "symbolIcon.unitForeground": "#FF5500",
-      "symbolIcon.variableForeground": "#FF5500",
-      "symbolIcon.snippetForeground": "#FF5500",
-      "terminalCursor.background": "#FF5500",
-      "tree.indentGuidesStroke": "#FF5500",
+      "textLink.foreground": "#FF5000",
+      "icon.foreground": "#FF5000",
+      "banner.iconForeground": "#FF5000",
+      "symbolIcon.arrayForeground": "#00AAFF",
+      "symbolIcon.constantForeground": "#FF3399",
+      "symbolIcon.stringForeground": "#00CCEE",
+      "symbolIcon.textForeground": "#DDDDDD",
+      "symbolIcon.classForeground": "#88EE00",
+      "symbolIcon.interfaceForeground": "#88EE00",
+      "textPreformat.foreground": "#DDDDDD",
+      "editorGroup.dropIntoPromptBorder": "#FF5000",
+      "editorGroup.dropIntoPromptForeground": "#FF5000",
+      "symbolIcon.keyForeground": "#FFAA00",
+      "symbolIcon.namespaceForeground": "#88EE00",
+      "symbolIcon.objectForeground": "#88EE00",
+      "symbolIcon.referenceForeground": "#FF5000",
+      "symbolIcon.structForeground": "#88EE00",
+      "symbolIcon.constructorForeground": "#FF5000",
+      "symbolIcon.eventForeground": "#FF5000",
+      "symbolIcon.fieldForeground": "#FF5000",
+      "symbolIcon.functionForeground": "#00BBFF",
+      "symbolIcon.methodForeground": "#00BBFF",
+      "symbolIcon.moduleForeground": "#00FF55",
+      "symbolIcon.propertyForeground": "#FFAA00",
+      "symbolIcon.booleanForeground": "#FF3399",
+      "pickerGroup.foreground": "#FF5000",
+      "symbolIcon.colorForeground": "#FF5000",
+      "symbolIcon.enumeratorForeground": "#FF5000",
+      "symbolIcon.enumeratorMemberForeground": "#FF5000",
+      "symbolIcon.fileForeground": "#FF5000",
+      "symbolIcon.folderForeground": "#FF5000",
+      "symbolIcon.keywordForeground": "#FF5000",
+      "symbolIcon.nullForeground": "#FF5000",
+      "symbolIcon.numberForeground": "#FF5000",
+      "symbolIcon.operatorForeground": "#FF5000",
+      "symbolIcon.packageForeground": "#FF5000",
+      "symbolIcon.typeParameterForeground": "#FF5000",
+      "symbolIcon.unitForeground": "#FF5000",
+      "symbolIcon.variableForeground": "#FF5000",
+      "symbolIcon.snippetForeground": "#FF5000",
+      "terminalCursor.background": "#FF5000",
+      "tree.indentGuidesStroke": "#FF5000",
       /************************************************
 
 
@@ -343,7 +343,7 @@ error CS1056: Unexpected character '�'
       "editorOverviewRuler.findMatchForeground": "#44FF44",
       "sash.hoverBorder": "#00CCFFCC",
       "panelTitle.activeForeground": "#44FF44",
-      "sideBarTitle.foreground": "#44FF44",
+      "sideBarTitle.foreground": "#22FF22",
       "editorOverviewRuler.selectionHighlightForeground": "#44FF44",
       "terminalOverviewRuler.cursorForeground": "#44FF44",
       "terminalCursor.foreground": "#44FF44",
@@ -356,7 +356,7 @@ error CS1056: Unexpected character '�'
       "editorGroup.focusedEmptyBorder": "#00CCFFCC",
       "welcomePage.progress.foreground": "#44FF44",
       "breadcrumb.focusForeground": "#44FF44",
-      "editorLineNumber.activeForeground": "#44FF44AA",
+      "editorLineNumber.activeForeground": "#44FF44DD",
       "interactive.activeCodeBorder": "#44FF44AA",
       "minimapSlider.background": "#44FF4433",
       "inputOption.activeBorder": "#44FF44",
@@ -409,18 +409,18 @@ error CS1056: Unexpected character '�'
       "activityBarBadge.background": "#CC4200",
       "badge.background": "#1830DD",
       "editorRuler.foreground": "#1830DD33",
-      // #0A1A46
+      // #0B1B40
 
 
 
 
 
 
-      "breadcrumb.background": "#0A1A46",
-      "editorIndentGuide.background": "#0A1A46",
-      "quickInputTitle.background": "#0A1A46",
-      "toolbar.activeBackground": "#0A1A46",
-      "sideBar.background": "#0A1A46",
+      "breadcrumb.background": "#0B1B40",
+      "editorIndentGuide.background": "#0B1B40",
+      "quickInputTitle.background": "#0B1B40",
+      "toolbar.activeBackground": "#0B1B40",
+      "sideBar.background": "#0B1B40",
       // SMALL BACKGROUNDS (OR text bg highlighting)
       "editorGroup.dropIntoPromptBackground": "#030760",
       "welcomePage.progress.background": "#030760",
@@ -428,20 +428,20 @@ error CS1056: Unexpected character '�'
       // KEYBINDING EDITOR & KEYBINDING LABELS                   << (COMPLETE)
       "keybindingLabel.foreground": "#44FF44",
       "keybindingLabel.background": "#001462",
-      "keybindingTable.headerBackground": "#0A1A46",
-      "keybindingTable.rowsBackground": "#0A1A4688",
+      "keybindingTable.headerBackground": "#0B1B40",
+      "keybindingTable.rowsBackground": "#0B1B4088",
       "keybindingLabel.border": "#77BBFF55",
       "keybindingLabel.bottomBorder": "#1144FF44",
-      // #010B2F
+      // #050D28
 
 
-      "editorMarkerNavigation.background": "#010B2F",
+      "editorMarkerNavigation.background": "#050D28",
       "notifications.background": "#060D2CE7",
       "quickInput.background": "#060D2CE7",
       "notificationCenterHeader.background": "#02041CE0",
-      "welcomePage.tileBackground": "#010B2F",
-      "activityBar.background": "#010B2F",
-      "panel.background": "#010B2F",
+      "welcomePage.tileBackground": "#050D28",
+      "activityBar.background": "#050D28",
+      "panel.background": "#050D28",
       // #041133EC
       "sideBarSectionHeader.foreground": "#77BBFF",
       "breadcrumb.foreground": "#77BBFFEE",
@@ -503,7 +503,7 @@ error CS1056: Unexpected character '�'
       "editorSuggestWidget.selectedBackground": "#002090F0",
       // HOVER WIDGET                                            << (COMPLETE)
       "editorHoverWidget.highlightForeground": "#55FF33",
-      "editorHoverWidget.statusBarBackground": "#0A1A46",
+      "editorHoverWidget.statusBarBackground": "#0B1B40",
       // LIST-FILTER WIDGET                                      << (COMPLETE)
       "listFilterWidget.background": "#060D44E4",
       "listFilterWidget.outline": "#0080FF",
@@ -606,7 +606,7 @@ error CS1056: Unexpected character '�'
       "editor.findMatchHighlightBackground": "#08000099",
       "editor.findMatchBackground": "#08000099",
       "editor.findRangeHighlightBackground": "#08000099",
-      "editor.findMatchHighlightBorder": "#FF5500EE",
+      "editor.findMatchHighlightBorder": "#FF5000EE",
       "editor.findMatchBorder": "#44FF44DD",
       /************************************************
 
@@ -618,8 +618,8 @@ error CS1056: Unexpected character '�'
       "editor.selectionBackground": "#0044FF99",
       "editor.selectionHighlightBackground": "#1830DD22",
       // Snippet Highlighting
-      "editor.snippetFinalTabstopHighlightBorder": "#FF5500DD",
-      "editor.snippetTabstopHighlightBorder": "#FF5500AA",
+      "editor.snippetFinalTabstopHighlightBorder": "#FF5000DD",
+      "editor.snippetTabstopHighlightBorder": "#FF5000AA",
       "editor.snippetFinalTabstopHighlightBackground": "#000028", //   Unique
       "editor.snippetTabstopHighlightBackground": "#000028", //   Unique
       // Inline values
@@ -638,7 +638,7 @@ error CS1056: Unexpected character '�'
       "editor.lineHighlightBackground": "#1133EE30",
       "editor.lineHighlightBorder": "#080000",
       // Editor Cursor
-      "editorCursor.background": "#FF5500",
+      "editorCursor.background": "#FF5000",
       "editorCursor.foreground": "#44FF44",
       // Editor BG & FG (includes workbench fg)
       "editor.background": "#0E1428",

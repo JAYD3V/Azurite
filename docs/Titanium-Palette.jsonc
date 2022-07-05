@@ -1,174 +1,24 @@
-/*
-
-meta.structure.dictionary.json
-source.json
-
-meta.structure.dictionary.json
-meta.structure.dictionary.value.json
-meta.structure.dictionary.json
-source.json
-
-meta.structure.dictionary.json
-meta.structure.dictionary.value.json
-meta.structure.dictionary.json
-meta.structure.dictionary.value.json
-meta.structure.dictionary.json
-source.json
-
-   //
-   support.type.property-name.json
-   string.json
-   meta.structure.dictionary.json
-   source.json
-
-   support.type.property-name.json
-   string.json
-   meta.structure.dictionary.json
-   meta.structure.dictionary.value.json
-   meta.structure.dictionary.json
-   source.json
-
-   support.type.property-name.json
-   string.json
-   meta.structure.dictionary.json
-   meta.structure.dictionary.value.json
-   meta.structure.dictionary.json
-   meta.structure.dictionary.value.json
-   meta.structure.dictionary.json
-   meta.structure.dictionary.value.json
-   meta.structure.dictionary.json
-   source.json
-
- */
 {
-   "STATIC COLORS": {
-      "BACKGROUND": {
-         "321": {
-            "APPLE": ["Fuji", "Granny-Smith"],
-            "ORANGE": {
-               "NAVEL": null,
-               "VALENCIA":""
-            }
-         },
-         "2": ["Potatoe"],
-         "3": ""
-      },
-      "FOREGROUND": {
-         "Fg @1| ": "",
-         "Fg @2| ": "",
-         "Fg 03| ICON": "#E04455",
-         "Fg 04| Titles/Labels": "#E04455"
-      },
-      "BORDER": {
-         "Brd 01| Horz Generic": "#004466",
-         "Brd 02| Vert Generic": "#CCBB9E28",
-         "Brd 03| ": ""
-      }
-   },
-   "INTERFACE HIGHLIGHTING": {
-      "HOVER": {
-         "BG": "",
-         "FG": "",
-         "BRD": ""
-      },
+   "DARK BLUE HUES": [],
 
-      "ACTIVE": {
-         "BG": null,
-         "FG": {
-            "Active":"#EEEEEE",
-            "Inactive": ["#AA9988EE", "#AA9988BB"]
-         },
-         "BRD": "#FF4455",
-         "items-colored": [
-            "PanelTitle (actv)", "ActivityBar (actv)", "Tabs (actv)"
-         ]
-      },
+   "METALIC HUES": [],
 
-      "SELECTION": {
-         "BG": "",
-         "FG": "",
-         "BRD": ""
+   "CYAN HUES": [
+      {
+         "PROCESS-CYAN": ["#00EEFF", "#00EEFFCC", "#00EEFF88"],
+         "propertyTypes": ["Dynamic FG (HL)", "Dynamic BDR (HL)"]
       },
-      "FOCUS": {
-         "BG": "",
-         "FG": "",
-         "BRD": ""
+      {
+         "BLUE-GRASS":["#006680", "#006680AA"],
+         "propertyTypes": ["BDR (hc)"]
       }
-   },
-   "FEATURE & TOOL HIGHLIGHTING": {
-      "BACKGROUND": {
-         "1": "",
-         "2": "",
-         "3": ""
-      },
-      "FOREGROUND": {
-         "1": "",
-         "2": "",
-         "3": ""
-      },
-      "BORDER": {
-         "1": "",
-         "2": "",
-         "3": ""
+   ],
+
+   "CRIMSON HUES": [
+      {
+         "ROJO": "#FF2C6C"
       }
-   },
-   "VSCODE FEATURES, TOOLS & WIDGETS": {
-      "CODE-STATUS COLORS": {
-         "ERROR": {
-            "1": "",
-            "2": "",
-            "3": ""
-         },
-         "WARNING": {
-            "1": "",
-            "2": "",
-            "3": ""
-         },
-         "INFO": {
-            "1": "",
-            "2": "",
-            "3": ""
-         }
-      },
-      "SCM/GIT REPOSITORY HIGHLIGHTING": {
-         "1 MODIFIED": "#AAB022",
-         "2 ADDED": "#66CC55",
-         "3 DELETED": "#FF2266",
-         "4 IGNORED": "#EEDDBB66",
-         "5 RENAMED": "#BB77FF",
-         "6 CONFLICT": "#FF5555"
-      },
-      "DIFF EDITOR & DIIF-HIGHLIGHTING": {
-         "1": "",
-         "2": "",
-         "3": "",
-         "4": "",
-         "5": ""
-      },
-      "WIDGETS & MENUS": {
-         "1":"",
-         "2":"",
-         "3":"",
-         "4":"",
-         "5":""
-      },
-      "ANSI 2-BIT COLOR PALETTE": {
-         "ANSI wht (brt)": "#EEEEEE",
-         "ANSI wht (dim)": "#DDDDDD",
-         "ANSI red (brt)": "#FF7777",
-         "ANSI red (dim)": "#CC1111",
-         "ANSI ylw (brt)": "#FFEE77",
-         "ANSI ylw (dim)": "#AAAA22",
-         "ANSI grn (brt)": "#70D850",
-         "ANSI grn (dim)": "#11AA11",
-         "ANSI blu (brt)": "#55CCFF",
-         "ANSI blu (dim)": "#11A0CC",
-         "ANSI mag (brt)": "#FF88EE",
-         "ANSI mag (dim)": "#EE11AA",
-         "ANSI cyn (brt)": "#77FFEE",
-         "ANSI cyn (dim)": "#22BBBB",
-         "ANSI blk (brt)": "#3D3D3D",
-         "ANSI blk (dim)": "#222222"
-      }
-   }
+   ],
+
+   "LIME/GREEN": []
 }

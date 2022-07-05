@@ -1,15 +1,38 @@
 {
-   "DARK BLUE HUES": [],
+   "METALLIC HUES": [
+      {
+         "GUNMETAL-BLUE": ["#0C141E"],
+         "propTypes": ["primary BG Color (workbench)"]
+      },
 
-   "METALLIC HUES": [],
+      {
+         "METALLIC-BLUE": ["#181A1C"],
+         "propTypes": ["secondary BG Color (workbench)"]
+      },
+
+      {
+         "STEEL-BLUE": ["#051428"]
+      }
+
+   ],
 
    "CYAN HUES": [
       {
-         "PROCESS-CYAN": ["#00EEFF", "#00EEFFCC", "#00EEFF88"],
-         "propertyTypes": ["Dynamic FG (HL)", "Dynamic BDR (HL)"]
+         "PROCESS-CYAN": [
+            "#11EEFF",
+            "#11EEFFCC",
+            "#11EEFF88",
+            "#11EEFF33",
+            "#11EEFF22"
+         ],
+         "propertyTypes": [
+            "Selection BG (Tp)",
+            "Dynamic FG (HL)",
+            "Dynamic BDR (HL)"
+         ]
       },
       {
-         "BLUE-GRASS":["#006680", "#006680AA"],
+         "BLUE-GRASS": ["#006680", "#006680AA"],
          "propertyTypes": ["BDR (hc)"]
       }
    ],
@@ -20,5 +43,18 @@
       }
    ],
 
-   "LIME/GREEN": []
+   "LIME/GREEN": [],
+   "CREAM & TAN HUES": [
+      {
+         "BEACH-SAND": "#CCBB90"
+      }
+   ],
+   "BLACK": [
+      {
+         "SMOKEY-BLACK": ["#100000", "#10000070"],
+         "black": ["#080808", "#000000"]
+      }
+   ],
+
+   "WHITE/GREY HUES": ["#FFFFFF", "#EEEEEE", "#DDDDDD", "#C8C8C8", "#BBBBBB"]
 }

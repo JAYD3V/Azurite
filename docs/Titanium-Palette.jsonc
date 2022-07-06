@@ -19,11 +19,12 @@
    "CYAN HUES": [
       {
          "PROCESS-CYAN": [
-            "#11EEFF",
-            "#11EEFFCC",
-            "#11EEFF88",
-            "#11EEFF33",
-            "#11EEFF22"
+            "#0FF0FF",
+            "#0FF0FFCC",
+            "#0FF0FF88",
+            "#0FF0FF66",
+            "#0FF0FF33",
+            "#0FF0FF22"
          ],
          "propertyTypes": [
             "Selection BG (Tp)",
@@ -44,9 +45,14 @@
    ],
 
    "LIME/GREEN": [],
-   "CREAM & TAN HUES": [
+   "SOFT-YELLOW HUES": [
       {
-         "BEACH-SAND": "#CCBB90"
+         "BEACH-SAND": "#DDD088",
+         "propType": ["SCM Modified Status", "Non-SCM Modified indicators"]
+      },
+      {
+         "WEATHERED-PAGES":"#D5D0B8",
+         "propType": ["menu-fg", "widget-fg"]
       }
    ],
    "BLACK": [
@@ -56,5 +62,9 @@
       }
    ],
 
-   "WHITE/GREY HUES": ["#FFFFFF", "#EEEEEE", "#DDDDDD", "#C8C8C8", "#BBBBBB"]
+   "WHITE/GREY HUES": ["#FFFFFF", "#EEEEEE", "#DDDDDD", "#C8C8C8", "#BBBBBB"],
+
+   "MISC": {
+      "Debugging BG": "#110033"
+   }
 }

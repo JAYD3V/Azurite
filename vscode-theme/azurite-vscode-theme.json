@@ -28,7 +28,7 @@ error CS1056: Unexpected character '�'
         - 01.  #BBBDC2 - Variables | Source
         - 02.  #009FFF - Func/Method
         - 03.  #2CAD52 - Class | Object | Type
-        - 04.  #0080FF - STORAGE
+        - 04.  #2299FF - STORAGE
         - 05.  #C0B040 - Parameters
         - 06.  #2CBCC0 - Strings
         - 07.  #E08020 - Key Words
@@ -40,17 +40,17 @@ error CS1056: Unexpected character '�'
     PRIMARY COLOR: "AZURE/BLUE"
         01)  #77BBFF
         02)  #22CCFF
-        03)  #0080FF
+        03)  #2299FF
         04)  #1166FF
         05)  #0055FF
         06)  #0044FF
         07)  #1830DD
         08)  #1133EE
         09)  #09154D
-        10)  #0B1B40 (sidebar)
-        11)  #050D28 (Activity-bar & Panels)
+        10)  #1A1E28 (sidebar)
+        11)  #13151A (Activity-bar & Panels)
         12)  #030760 (Small-Bg HiL)
-        13)  #0E1428 (Editor-Bg)
+        13)  #16181C (Editor-Bg)
 *---------------------------------------------------------------*
 
     SECONDARY COLOR: "GREEN"
@@ -86,7 +86,7 @@ error CS1056: Unexpected character '�'
       "gitDecoration.submoduleResourceForeground": "#99AAEE", // TODO: "Place in GIT/SCM Group"
       "titleBar.activeBackground": "#122664",
       "breadcrumbPicker.background": "#040824",
-      "editorBracketMatch.border": "#04001E",
+      "editorBracketMatch.border": "#FFFFFF11",
       "editorBracketMatch.background": "#030760",
       "editorCodeLens.foreground": "#007733",
       "textCodeBlock.background": "#0878A570",
@@ -132,7 +132,7 @@ error CS1056: Unexpected character '�'
       "debugConsole.sourceForeground": "#FF5000",
       "debugConsoleInputIcon.foreground": "#1166FF",
       "debugTokenExpression.name": "#1166FF",
-      "debugToolBar.border": "#04001E",
+      "debugToolBar.border": "#FFFFFF11",
       "debugView.exceptionLabelForeground": "#FF8888", //        UNIQUE
       "debugExceptionWidget.background": "#250205", //           UNIQUE
       "debugExceptionWidget.border": "#FF888844", //             UNIQUE
@@ -190,9 +190,9 @@ error CS1056: Unexpected character '�'
       "button.secondaryForeground": "#FFFFFF",
       "button.hoverBackground": "#00FF0099",
       "button.secondaryHoverBackground": "#BB22FF",
-      "button.border": "#04001E",
+      "button.border": "#FFFFFF11",
       // STATUS BAR
-      "statusBar.background": "#003090",
+      "statusBar.background": "#102030",
       "statusBarItem.activeBackground": "#007733",
       "statusBarItem.remoteBackground": "#007733",
       "statusBarItem.compactHoverBackground": "#FFFFEE00",
@@ -204,13 +204,13 @@ error CS1056: Unexpected character '�'
       "statusBarItem.prominentForeground": "#44FF44",
       "statusBarItem.focusBorder": "#00CCFFCC",
       "statusBar.focusBorder": "#00CCFFCC",
-      "statusBar.noFolderBorder": "#0B1B40",
-      "statusBar.noFolderBackground": "#050D28",
+      "statusBar.noFolderBorder": "#1A1E28",
+      "statusBar.noFolderBackground": "#13151A",
       "statusBar.noFolderForeground": "#77BBFF99",
       "statusBar.border": "#77BBFF33",
       "statusBar.debuggingBackground": "#500090",
       "statusBar.debuggingForeground": "#FFFFFF",
-      "statusBar.debuggingBorder": "#0B1B40",
+      "statusBar.debuggingBorder": "#1A1E28",
 
       //  INPUT VALIDATION
       /*
@@ -224,34 +224,33 @@ error CS1056: Unexpected character '�'
       // #EEEEEE
       "breadcrumb.activeSelectionForeground": "#EEEEEE",
 
-
       // #DDDDDD
       "banner.foreground": "#DDDDDD",
 
       "quickInput.foreground": "#EEEEEE",
       "terminal.foreground": "#DDDDDD",
       "tab.hoverForeground": "#FFFFFF",
-"tab.unfocusedHoverForeground": "#FFFFFF",
-"tab.activeForeground": "#DDDDDD",
-"tab.unfocusedActiveForeground": "#FFFFFFC8",
-"tab.activeBorderTop": "#44FF44",
-"tab.unfocusedActiveBorderTop": "#44FF44",
-"tab.border": "#0055FF33",
-"tab.lastPinnedBorder": "#0055FF33",
-"tab.activeBorder": "#0B1B40",
-"tab.unfocusedActiveBorder": "#0B1B40",
-"tab.activeBackground": "#0B1B40",
-"tab.hoverBackground": "#0B1B40",
-"tab.unfocusedHoverBackground": "#0B1B40",
-"tab.unfocusedActiveBackground": "#0B1B40",
-"tab.inactiveBackground": "#050D28",
-"tab.unfocusedInactiveBackground": "#050D28",
-"tab.inactiveForeground": "#77BBFF99",
-"tab.unfocusedInactiveForeground": "#77BBFF99",
-"tab.activeModifiedBorder": "#FFBB00",
-"tab.inactiveModifiedBorder": "#FFBB00",
-"tab.unfocusedActiveModifiedBorder": "#FFBB00",
-"tab.unfocusedInactiveModifiedBorder": "#FFBB00",
+      "tab.unfocusedHoverForeground": "#FFFFFF",
+      "tab.activeForeground": "#DDDDDD",
+      "tab.unfocusedActiveForeground": "#FFFFFFC8",
+      "tab.activeBorderTop": "#44FF44",
+      "tab.unfocusedActiveBorderTop": "#44FF44",
+      "tab.border": "#0055FF33",
+      "tab.lastPinnedBorder": "#0055FF33",
+      "tab.activeBorder": "#1A1E28",
+      "tab.unfocusedActiveBorder": "#1A1E28",
+      "tab.activeBackground": "#1A1E28",
+      "tab.hoverBackground": "#1A1E28",
+      "tab.unfocusedHoverBackground": "#1A1E28",
+      "tab.unfocusedActiveBackground": "#1A1E28",
+      "tab.inactiveBackground": "#13151A",
+      "tab.unfocusedInactiveBackground": "#13151A",
+      "tab.inactiveForeground": "#77BBFF99",
+      "tab.unfocusedInactiveForeground": "#77BBFF99",
+      "tab.activeModifiedBorder": "#FFBB00",
+      "tab.inactiveModifiedBorder": "#FFBB00",
+      "tab.unfocusedActiveModifiedBorder": "#FFBB00",
+      "tab.unfocusedInactiveModifiedBorder": "#FFBB00",
 
       "terminal.ansiWhite": "#DDDDDD",
       "notifications.foreground": "#DDDDDD",
@@ -282,9 +281,9 @@ error CS1056: Unexpected character '�'
       "textBlockQuote.background": "#08000088",
       "minimap.background": "#08000088",
       // WORKBENCH BLACK BACKGROUNDS (Terminal & Editor-Tabs-group bg when no tabs are present)
-      "terminal.background": "#0D101B",
-      "editorGroupHeader.noTabsBackground": "#050618",
-      "editorGroupHeader.tabsBackground": "#050618",
+
+      "editorGroupHeader.noTabsBackground": "#0F0F0F",
+      "editorGroupHeader.tabsBackground": "#0F0F0F",
       // #0A0D1D (Editor's Bg-color)
       "editorOverviewRuler.background": "#0A0D1D",
       /******************************************************
@@ -361,7 +360,6 @@ error CS1056: Unexpected character '�'
       "minimapSlider.background": "#44FF4433",
       "inputOption.activeBorder": "#44FF44",
 
-
       "activityBar.activeBorder": "#44FF44",
       "terminal.tab.activeBorder": "#44FF44",
       "panelTitle.activeBorder": "#44FF44",
@@ -373,7 +371,7 @@ error CS1056: Unexpected character '�'
 
             PRIMARY COLOR: "AZURE/BLUE"
         1.  #22CCFF
-        2.  #0080FF
+        2.  #2299FF
         3.  #1166FF
         4.  #0055FF
         5.  #0044FF
@@ -396,7 +394,6 @@ error CS1056: Unexpected character '�'
       // #0055FF
       "terminal.selectionBackground": "#0055FF66",
 
-
       // #0044FF
       "selection.background": "#0044FF99",
       "terminal.dropBackground": "#0044FF33",
@@ -409,18 +406,13 @@ error CS1056: Unexpected character '�'
       "activityBarBadge.background": "#CC4200",
       "badge.background": "#1830DD",
       "editorRuler.foreground": "#1830DD33",
-      // #0B1B40
+      // #1A1E28
 
-
-
-
-
-
-      "breadcrumb.background": "#0B1B40",
-      "editorIndentGuide.background": "#0B1B40",
-      "quickInputTitle.background": "#0B1B40",
-      "toolbar.activeBackground": "#0B1B40",
-      "sideBar.background": "#0B1B40",
+      "breadcrumb.background": "#1A1E28",
+      "editorIndentGuide.background": "#1A1E28",
+      "quickInputTitle.background": "#1A1E28",
+      "toolbar.activeBackground": "#1A1E28",
+      "sideBar.background": "#1A1E28",
       // SMALL BACKGROUNDS (OR text bg highlighting)
       "editorGroup.dropIntoPromptBackground": "#030760",
       "welcomePage.progress.background": "#030760",
@@ -428,28 +420,24 @@ error CS1056: Unexpected character '�'
       // KEYBINDING EDITOR & KEYBINDING LABELS                   << (COMPLETE)
       "keybindingLabel.foreground": "#44FF44",
       "keybindingLabel.background": "#001462",
-      "keybindingTable.headerBackground": "#0B1B40",
-      "keybindingTable.rowsBackground": "#0B1B4088",
+      "keybindingTable.headerBackground": "#1A1E28",
+      "keybindingTable.rowsBackground": "#1A1E2888",
       "keybindingLabel.border": "#77BBFF55",
       "keybindingLabel.bottomBorder": "#1144FF44",
-      // #050D28
-
-
-      "editorMarkerNavigation.background": "#050D28",
+      //
+      "editorMarkerNavigation.background": "#13151A",
       "notifications.background": "#060D2CE7",
       "quickInput.background": "#060D2CE7",
       "notificationCenterHeader.background": "#02041CE0",
-      "welcomePage.tileBackground": "#050D28",
-      "activityBar.background": "#050D28",
-      "panel.background": "#050D28",
+      "welcomePage.tileBackground": "#13151A",
+      "activityBar.background": "#13151A",
+      "panel.background": "#13151A",
       // #041133EC
       "sideBarSectionHeader.foreground": "#77BBFF",
       "breadcrumb.foreground": "#77BBFFEE",
       "panelSectionHeader.foreground": "#77BBFFEE",
       "panelTitle.inactiveForeground": "#77BBFFCC",
       "activityBar.inactiveForeground": "#77BBFF99",
-
-
       "titleBar.inactiveForeground": "#77BBFF99",
       // #77BBFF
       "checkbox.border": "#77BBFF33",
@@ -457,15 +445,15 @@ error CS1056: Unexpected character '�'
       "panelSectionHeader.border": "#77BBFF33",
       "sideBarSectionHeader.border": "#77BBFF33",
       "editorGroupHeader.tabsBorder": "#77BBFF33",
-      "textBlockQuote.border": "#04001E",
-      "panelInput.border": "#04001E",
-      "panelSection.border": "#04001E",
-      "notifications.border": "#04001E",
+      "textBlockQuote.border": "#FFFFFF11",
+      "panelInput.border": "#FFFFFF11",
+      "panelSection.border": "#FFFFFF11",
+      "notifications.border": "#FFFFFF11",
       "terminal.border": "#3366FF2D",
-      "activityBar.border": "#04001E",
-      "sideBar.border": "#04001E",
-      "editorGroup.border": "#04001E",
-      "editorOverviewRuler.border": "#04001E",
+      "activityBar.border": "#FFFFFF11",
+      "sideBar.border": "#FFFFFF11",
+      "editorGroup.border": "#FFFFFF11",
+      "editorOverviewRuler.border": "#FFFFFF11",
       /***********************************************************************
             MENUS & EDITOR WIDGETS
         ************************************************************************
@@ -489,9 +477,9 @@ error CS1056: Unexpected character '�'
       "widget.shadow": "#080000",
       // EXCEPTION WIDGET                                       ! (TODO)
       // EDITOR WIDGET                                          ! (TODO)
-      "editorWidget.background": "#060D44E4",
+      "editorWidget.background": "#02142E",
       "editorWidget.foreground": "#E8E8E8",
-      "editorWidget.border": "#1166FFDD",
+      "editorWidget.border": "#2D2D2D",
       "editorWidget.resizeBorder": "#1a4074",
 
       // SUGGESTION WIDGET                                       << (COMPLETE)
@@ -503,10 +491,10 @@ error CS1056: Unexpected character '�'
       "editorSuggestWidget.selectedBackground": "#002090F0",
       // HOVER WIDGET                                            << (COMPLETE)
       "editorHoverWidget.highlightForeground": "#55FF33",
-      "editorHoverWidget.statusBarBackground": "#0B1B40",
+      "editorHoverWidget.statusBarBackground": "#1A1E28",
       // LIST-FILTER WIDGET                                      << (COMPLETE)
-      "listFilterWidget.background": "#060D44E4",
-      "listFilterWidget.outline": "#0080FF",
+      "listFilterWidget.background": "#02142E",
+      "listFilterWidget.outline": "#2299FF",
       "listFilterWidget.noMatchesOutline": "#FF2222",
       // "editorHoverWidget.background": "#ff0000",
       // "editorHoverWidget.border": "#ff0000",
@@ -516,11 +504,8 @@ error CS1056: Unexpected character '�'
       // "editorSuggestWidget.foreground": "#ff0000",
       // error CS1056: Unexpected character �
       // MENUS                                                       ! (TODO)
-      "menu.background": "#060D44E4",
-      // "menu.foreground": "#E4E4E4",
-      // "menu.border": "#1166FFDD",
 
-      "menu.selectionBorder": "#0080FF",
+      "menu.selectionBorder": "#2299FF",
       "menu.selectionBackground": "#002090F0",
       "menu.selectionForeground": "#55FF33",
       "menu.separatorBackground": "#1166FFEE",
@@ -534,7 +519,7 @@ error CS1056: Unexpected character '�'
         INTERACTIVE: "FORM STYLE INPUTS"
         -------------------------------------------------                   */
       // SETTINGS: "Static Styling"
-      "settings.headerBorder": "#0080FF80",
+      "settings.headerBorder": "#2299FF80",
       "settings.sashBorder": "#1144CC",
       "settings.headerForeground": "#1199FF",
       "input.placeholderForeground": "#007733",
@@ -544,12 +529,12 @@ error CS1056: Unexpected character '�'
       "settings.focusedRowBorder": "#00CCFFCC",
       // CHECKBOXES
       "settings.checkboxBackground": "#000070",
-      "settings.checkboxBorder": "#0080FF",
+      "settings.checkboxBorder": "#2299FF",
       "settings.checkboxForeground": "#44FF44",
       // DROP-DOWN MENUS
       "dropdown.listBackground": "#041133EE",
-      "dropdown.foreground": "#22DD55",
-      "dropdown.background": "#000000",
+      "dropdown.foreground": "#CCCCCC",
+      "dropdown.background": "#021530",
       "dropdown.border": "#77BBFF33",
       // "settings.dropdownListBorder": "#1133EE",
       // "settings.dropdownBackground": "#030760",
@@ -583,8 +568,8 @@ error CS1056: Unexpected character '�'
       "list.focusForeground": "#44FF44",
       "quickInputList.focusForeground": "#44FF44",
       "list.filterMatchBorder": "#1166FF",
-      "list.focusOutline": "#0080FF",
-      "list.inactiveFocusOutline": "#0080FF",
+      "list.focusOutline": "#2299FF",
+      "list.inactiveFocusOutline": "#2299FF",
       "list.activeSelectionIconForeground": "#1166FFAA",
       "list.activeSelectionBackground": "#0055FF77",
       "quickInputList.focusBackground": "#0055FF77",
@@ -614,7 +599,7 @@ error CS1056: Unexpected character '�'
         COMMENT_GOES_HERE
         -------------------------------------------------                   */
       "editor.selectionForeground": "#EEEEEE",
-      "editor.selectionHighlightBorder": "#0080FF",
+      "editor.selectionHighlightBorder": "#2299FF",
       "editor.selectionBackground": "#0044FF99",
       "editor.selectionHighlightBackground": "#1830DD22",
       // Snippet Highlighting
@@ -641,7 +626,7 @@ error CS1056: Unexpected character '�'
       "editorCursor.background": "#FF5000",
       "editorCursor.foreground": "#44FF44",
       // Editor BG & FG (includes workbench fg)
-      "editor.background": "#0E1428",
+      "editor.background": "#16181C",
       "editor.foreground": "#DDDDDD",
       "foreground": "#CCCCCC", // Base Fg Setting
       // MISCELLANEOUS (Fold & Hover)
@@ -685,9 +670,6 @@ error CS1056: Unexpected character '�'
                 5. IGNORED          --  #77BBFFCC
         ............................................................          */
 
-
-
-
       "gitDecoration.stageModifiedResourceForeground": "#FFBB00",
       "gitDecoration.modifiedResourceForeground": "#FFBB00",
       "editorGutter.modifiedBackground": "#FFBB00aa",
@@ -711,7 +693,7 @@ error CS1056: Unexpected character '�'
       "terminal.ansiRed": "#CC1111",
       "terminal.ansiYellow": "#AAAA22",
       "terminal.ansiGreen": "#11AA11",
-      "terminal.ansiBlue": "#0080FF",
+      "terminal.ansiBlue": "#2299FF",
       "terminal.ansiMagenta": "#EE11AA",
       "terminal.ansiCyan": "#22BBBB",
       "terminal.ansiBlack": "#222222",
@@ -818,16 +800,13 @@ error CS1056: Unexpected character '�'
          "bold": true
       },
       "function.declaration": {
-         "foreground": "#009FFF",
-         "bold": true
+         "foreground": "#009FFF"
       },
       "method.declaration": {
-         "foreground": "#009FFF",
-         "bold": true
+         "foreground": "#009FFF"
       },
       "property.declaration": {
-         "foreground": "#BBBDC2",
-         "bold": true
+         "foreground": "#BBBDC2"
       },
       "parameter.declaration": {
          "foreground": "#C0B040",
@@ -886,7 +865,13 @@ error CS1056: Unexpected character '�'
       },
       {
          "name": "STRINGS",
-         "scope": ["string", "string.regexp", "string.regexp meta", "meta.group.regexp", "meta.embedded"],
+         "scope": [
+            "string",
+            "string.regexp",
+            "string.regexp meta",
+            "meta.group.regexp",
+            "meta.embedded"
+         ],
          "settings": {
             "foreground": "#2CBCC0",
             "fontStyle": ""
@@ -910,7 +895,11 @@ error CS1056: Unexpected character '�'
       // Hello World! I am a Comment, Oh... Heck Ya!!
       {
          "name": "GENERIC COMMENT SELECTOR",
-         "scope": ["comment", "comment punctuation", "punctuation.definition.comment"],
+         "scope": [
+            "comment",
+            "comment punctuation",
+            "punctuation.definition.comment"
+         ],
          "settings": {
             "foreground": "#AA3355AA",
             "fontStyle": ""
@@ -918,7 +907,12 @@ error CS1056: Unexpected character '�'
       },
       {
          "name": "TYPES: Primitive {TS}",
-         "scope": ["entity.type", "support.type", "entity.name.type", "meta.type"],
+         "scope": [
+            "entity.type",
+            "support.type",
+            "entity.name.type",
+            "meta.type"
+         ],
          "settings": {
             "foreground": "#AA77FF",
             "fontStyle": "italic"
@@ -929,16 +923,16 @@ error CS1056: Unexpected character '�'
          "name": "STORAGE KEYWORDS: Variable Keywords (i.e. var, const, let) ",
          "scope": ["storage", "case-clause.expr keyword.control.switch"],
          "settings": {
-            "foreground": "#0080FF",
-            "fontStyle": "bold"
+            "foreground": "#2299FF",
+            "fontStyle": ""
          }
       },
       {
          "name": "STORAGE TYPES: Class & Function Keywords",
          "scope": ["storage.type.function", "storage.type.class"],
          "settings": {
-            "foreground": "#0080FF",
-            "fontStyle": "bold"
+            "foreground": "#2299FF",
+            "fontStyle": ""
          }
       },
       {
@@ -951,7 +945,11 @@ error CS1056: Unexpected character '�'
       },
       {
          "name": "KEYWORDS/OPERATORS: Unary Expression Operators & Export Keyword",
-         "scope": ["keyword.operator.new", "keyword.control.export", "keyword.operator.expression"],
+         "scope": [
+            "keyword.operator.new",
+            "keyword.control.export",
+            "keyword.operator.expression"
+         ],
          "settings": {
             "foreground": "#E08020",
             "fontStyle": "italic"
@@ -959,7 +957,19 @@ error CS1056: Unexpected character '�'
       },
       {
          "name": "KEYWORDS/OPERATORS: Assignment/Assignment-compound, Arithmetic, Comparison, Relational, Logical, Ternary, incrementing/decrementing, bitwise/bitwise-shift",
-         "scope": ["keyword.operator.assignment", "keyword.operator.assignment.compound", "keyword.operator.arithmetic", "keyword.operator.comparison", "keyword.operator.relational", "keyword.operator.logical", "keyword.operator.ternary", "keyword.operator.increment", "keyword.operator.decrement", "keyword.operator.bitwise", "keyword.operator.bitwise.shift"],
+         "scope": [
+            "keyword.operator.assignment",
+            "keyword.operator.assignment.compound",
+            "keyword.operator.arithmetic",
+            "keyword.operator.comparison",
+            "keyword.operator.relational",
+            "keyword.operator.logical",
+            "keyword.operator.ternary",
+            "keyword.operator.increment",
+            "keyword.operator.decrement",
+            "keyword.operator.bitwise",
+            "keyword.operator.bitwise.shift"
+         ],
          "settings": {
             "foreground": "#E08020",
             "fontStyle": ""
@@ -967,7 +977,13 @@ error CS1056: Unexpected character '�'
       },
       {
          "name": "KEYWORDS/OPERATORS: Accessors, Separators & Delimiters",
-         "scope": ["punctuation.accessor", "punctuation.separator.key-value", "punctuation.definition.section.case-statement", "meta.type.parameters.ts punctuation.definition.typeparameters", "keyword.operator.type.annotation"],
+         "scope": [
+            "punctuation.accessor",
+            "punctuation.separator.key-value",
+            "punctuation.definition.section.case-statement",
+            "meta.type.parameters.ts punctuation.definition.typeparameters",
+            "keyword.operator.type.annotation"
+         ],
          "settings": {
             "foreground": "#E08020",
             "fontStyle": "bold"
@@ -1058,7 +1074,7 @@ error CS1056: Unexpected character '�'
          "name": "HTML | PUNCTUATION ",
          "scope": ["text.html punctuation.definition.tag"],
          "settings": {
-            "foreground": "#0080FF",
+            "foreground": "#2299FF",
             "fontStyle": ""
          }
       },
@@ -1085,7 +1101,10 @@ error CS1056: Unexpected character '�'
          }
       },
       {
-         "scope": ["markup.bold markup.italic.markdown", "markup.italic.markdown markup.bold"],
+         "scope": [
+            "markup.bold markup.italic.markdown",
+            "markup.italic.markdown markup.bold"
+         ],
          "settings": {
             "foreground": "#2CAD52",
             "fontStyle": "italic bold"
@@ -1106,37 +1125,69 @@ error CS1056: Unexpected character '�'
          }
       },
       {
-         "scope": ["constant.character.entity.named.nbsp punctuation.definition", "constant.character.entity.named.nbsp.html punctuation", "text.html.markdown constant.character.entity.named.nbsp.html", "text.html.markdown meta.tag.inline.br.void.html entity.name.tag.html", "text.html.markdown meta.paragraph.markdown constant.character.entity.named.nbsp.html", "text.html.markdown meta.tag.inline.br.void.html punctuation.definition.tag.end.html", "text.html.markdown meta.tag.inline.br.void.html punctuation.definition.tag.begin.html"],
+         "scope": [
+            "constant.character.entity.named.nbsp punctuation.definition",
+            "constant.character.entity.named.nbsp.html punctuation",
+            "text.html.markdown constant.character.entity.named.nbsp.html",
+            "text.html.markdown meta.tag.inline.br.void.html entity.name.tag.html",
+            "text.html.markdown meta.paragraph.markdown constant.character.entity.named.nbsp.html",
+            "text.html.markdown meta.tag.inline.br.void.html punctuation.definition.tag.end.html",
+            "text.html.markdown meta.tag.inline.br.void.html punctuation.definition.tag.begin.html"
+         ],
          "settings": {
             "fontStyle": "bold"
          }
       },
       {
-         "scope": ["heading.1.markdown entity.name.section.markdown", "heading.2.markdown entity.name.section.markdown", "heading.3.markdown entity.name.section.markdown", "heading.1.markdown entity.name.section.markdown markup.bold.markdown", "heading.2.markdown entity.name.section.markdown markup.bold.markdown", "heading.3.markdown entity.name.section.markdown markup.bold.markdown"],
+         "scope": [
+            "heading.1.markdown entity.name.section.markdown",
+            "heading.2.markdown entity.name.section.markdown",
+            "heading.3.markdown entity.name.section.markdown",
+            "heading.1.markdown entity.name.section.markdown markup.bold.markdown",
+            "heading.2.markdown entity.name.section.markdown markup.bold.markdown",
+            "heading.3.markdown entity.name.section.markdown markup.bold.markdown"
+         ],
          "settings": {
-            "foreground": "#0080FF",
+            "foreground": "#2299FF",
             "fontStyle": "bold underline"
          }
       },
       {
-         "scope": ["heading.1.markdown entity.name.section.markdown markup.italic.markdown", "heading.2.markdown entity.name.section.markdown markup.italic.markdown", "heading.3.markdown entity.name.section.markdown markup.italic.markdown", "heading.1.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown", "heading.2.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown", "heading.3.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"],
+         "scope": [
+            "heading.1.markdown entity.name.section.markdown markup.italic.markdown",
+            "heading.2.markdown entity.name.section.markdown markup.italic.markdown",
+            "heading.3.markdown entity.name.section.markdown markup.italic.markdown",
+            "heading.1.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown",
+            "heading.2.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown",
+            "heading.3.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
+         ],
          "settings": {
-            "foreground": "#0080FF",
+            "foreground": "#2299FF",
             "fontStyle": "italic bold underline"
          }
       },
       {
-         "scope": ["heading.4.markdown entity.name.section.markdown", "heading.5.markdown entity.name.section.markdown", "heading.4.markdown entity.name.section.markdown markup.bold.markdown", "heading.5.markdown entity.name.section.markdown markup.bold.markdown"],
+         "scope": [
+            "heading.4.markdown entity.name.section.markdown",
+            "heading.5.markdown entity.name.section.markdown",
+            "heading.4.markdown entity.name.section.markdown markup.bold.markdown",
+            "heading.5.markdown entity.name.section.markdown markup.bold.markdown"
+         ],
          "settings": {
-            "foreground": "#0080FF",
+            "foreground": "#2299FF",
             "fontStyle": "bold"
          }
       },
       {
-         "scope": ["heading.4.markdown entity.name.section.markdown markup.italic.markdown", "heading.5.markdown entity.name.section.markdown markup.italic.markdown", "heading.4.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown", "heading.5.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"],
+         "scope": [
+            "heading.4.markdown entity.name.section.markdown markup.italic.markdown",
+            "heading.5.markdown entity.name.section.markdown markup.italic.markdown",
+            "heading.4.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown",
+            "heading.5.markdown entity.name.section.markdown markup.italic.markdown markup.bold.markdown"
+         ],
          "settings": {
-            "foreground": "#0080FF",
-            "fontStyle": "bold"
+            "foreground": "#2299FF",
+            "fontStyle": "italic bold"
          }
       },
       {
@@ -1158,49 +1209,70 @@ error CS1056: Unexpected character '�'
          }
       },
       {
-         "scope": ["heading.1 entity.name.section markup.bold", "heading.2 entity.name.section markup.bold"],
+         "scope": [
+            "heading.1 entity.name.section markup.bold",
+            "heading.2 entity.name.section markup.bold"
+         ],
          "settings": {
             "foreground": "#C0B040",
             "fontStyle": "bold underline"
          }
       },
       {
-         "scope": ["heading.1 entity.name.section markup.italic", "heading.2 entity.name.section markup.italic"],
+         "scope": [
+            "heading.1 entity.name.section markup.italic",
+            "heading.2 entity.name.section markup.italic"
+         ],
          "settings": {
             "foreground": "#2CAD52",
             "fontStyle": "italic underline"
          }
       },
       {
-         "scope": ["heading.1 entity.name.section markup.bold markup.italic", "heading.2 entity.name.section markup.bold markup.italic"],
+         "scope": [
+            "heading.1 entity.name.section markup.bold markup.italic",
+            "heading.2 entity.name.section markup.bold markup.italic"
+         ],
          "settings": {
             "foreground": "#2CAD52",
             "fontStyle": "italic bold underline"
          }
       },
       {
-         "scope": ["heading.3 entity.name.section markup.bold", "heading.4 entity.name.section markup.bold"],
+         "scope": [
+            "heading.3 entity.name.section markup.bold",
+            "heading.4 entity.name.section markup.bold"
+         ],
          "settings": {
             "foreground": "#2CAD52",
             "fontStyle": "bold"
          }
       },
       {
-         "scope": ["heading.3 entity.name.section markup.italic", "heading.4 entity.name.section markup.italic"],
+         "scope": [
+            "heading.3 entity.name.section markup.italic",
+            "heading.4 entity.name.section markup.italic"
+         ],
          "settings": {
             "foreground": "#2CAD52",
             "fontStyle": "italic"
          }
       },
       {
-         "scope": ["heading.1 entity.name.section markup.bold markup.italic", "heading.2 entity.name.section markup.bold markup.italic"],
+         "scope": [
+            "heading.1 entity.name.section markup.bold markup.italic",
+            "heading.2 entity.name.section markup.bold markup.italic"
+         ],
          "settings": {
             "foreground": "#2CAD52",
             "fontStyle": "italic bold"
          }
       },
       {
-         "scope": ["heading.3 entity.name.section markup.bold markup.italic", "heading.4 entity.name.section markup.bold markup.italic"],
+         "scope": [
+            "heading.3 entity.name.section markup.bold markup.italic",
+            "heading.4 entity.name.section markup.bold markup.italic"
+         ],
          "settings": {
             "foreground": "#2CAD52",
             "fontStyle": "italic bold"
@@ -1210,35 +1282,60 @@ error CS1056: Unexpected character '�'
          "scope": "storage.type.class.jsdoc",
          "settings": {
             "foreground": "#1080FFCC",
-            "fontStyle": "bold"
+            "fontStyle": ""
          }
       },
       {
          "scope": "punctuation.definition.block.tag.jsdoc",
          "settings": {
             "foreground": "#1166FF",
-            "fontStyle": "bold"
+            "fontStyle": ""
          }
       },
       {
          "name": "DATA EXCHANGE FMT | 'Properties' & 'Keys  K/V pairs'",
-         "scope": ["keyword.other.definition.ini", "entity.name.tag.yaml", "string.unquoted.plain.out.yaml", "string.json support.type.property-name.json", "entity.name.tag.localname.xml"],
+         "scope": [
+            "keyword.other.definition.ini",
+            "entity.name.tag.yaml",
+            "string.unquoted.plain.out.yaml",
+            "string.json support.type.property-name.json",
+            "entity.name.tag.localname.xml"
+         ],
          "settings": {
-            "foreground": "#0080FF",
-            "fontStyle": "bold"
+            "foreground": "#2299FF",
+            "fontStyle": ""
          }
       },
       {
          "name": "DATA INTERCHANGE FORMATS | STRINGS",
-         "scope": ["text.xml", "string.quoted.double.xml", "string.quoted.double.json", "string.quoted.double.ini", "string.quoted.double.yaml", "punctuation.definition.string.end.json", "punctuation.definition.string.begin.json", "punctuation.definition.string.end.ini", "punctuation.definition.string.begin.ini", "punctuation.definition.string.end.yaml", "punctuation.definition.string.begin.yaml"],
+         "scope": [
+            "text.xml",
+            "string.quoted.double.xml",
+            "string.quoted.double.json",
+            "string.quoted.double.ini",
+            "string.quoted.double.yaml",
+            "punctuation.definition.string.end.json",
+            "punctuation.definition.string.begin.json",
+            "punctuation.definition.string.end.ini",
+            "punctuation.definition.string.begin.ini",
+            "punctuation.definition.string.end.yaml",
+            "punctuation.definition.string.begin.yaml"
+         ],
          "settings": {
-            "foreground": "#33BB66",
+            "foreground": "#B8BCC8",
             "fontStyle": ""
          }
       },
       {
          "name": "DATA INTERCHANGE FORMATS | PUNCTUATION",
-         "scope": ["source.json punctuation", "source.json punctuation.definition", "source.yaml punctuation", "source.yaml punctuation.definition", "source.ini punctuation", "source.ini punctuation.definition"],
+         "scope": [
+            "source.json punctuation",
+            "source.json punctuation.definition",
+            "source.yaml punctuation",
+            "source.yaml punctuation.definition",
+            "source.ini punctuation",
+            "source.ini punctuation.definition"
+         ],
          "settings": {
             "foreground": "#999999",
             "fontStyle": ""
@@ -1246,7 +1343,11 @@ error CS1056: Unexpected character '�'
       },
       {
          "name": "DATA EXCHANGE FMT | OPERATORS/SEPARATORS",
-         "scope": ["punctuation.separator.dictionary.key-value", "punctuation.separator.key-value", "punctuation.separator.key-value.mapping.yaml"],
+         "scope": [
+            "punctuation.separator.dictionary.key-value",
+            "punctuation.separator.key-value",
+            "punctuation.separator.key-value.mapping.yaml"
+         ],
          "settings": {
             "foreground": "#E08020",
             "fontStyle": "bold"
@@ -1254,7 +1355,12 @@ error CS1056: Unexpected character '�'
       },
       {
          "name": "DATA EXCHANGE FMT | OPERATORS/SEPARATORS",
-         "scope": ["punctuation.definition.string.begin.xml", "punctuation.definition.string.end.xml", "punctuation.definition.tag.xml", "meta.tag.xml"],
+         "scope": [
+            "punctuation.definition.string.begin.xml",
+            "punctuation.definition.string.end.xml",
+            "punctuation.definition.tag.xml",
+            "meta.tag.xml"
+         ],
          "settings": {
             "foreground": "#E08020",
             "fontStyle": ""

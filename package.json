@@ -1,7 +1,7 @@
 {
     "name": "azurite",
     "version": "0.0.0",
-    "publisher": "JAYD3V (A.J. Chambers)",
+    "publisher": "Andrew J Chambers",
     "displayName": "Azurite",
     "description": "A blue theme that resembles the Azurite Minerals found deep in the earths crust",
     "preview": true,
@@ -16,22 +16,14 @@
         "vscode": "^1.50.0"
     },
     "categories": ["Themes"],
-    "keywords": [
-        "VS Code", "Color", "Theme", "Icon", "Icons", "Product-Icons", "Workbench", "Color-customizations", "Dark", "Blue", "Grey", "Silver", "Azure", "Azurite", "Titanium", "Metalic", "Navy", "Onyx", "Oxford", "Theme-Pack", "Color & Icon", "JAYD3V", "jD3V", "JAYDEV", "jDev"
-    ],
+    "keywords": ["Color", "Theme"],
     "contributes": {
         "themes": [
             {
-                "id": "azurite-vscode-theme",
-                "label": "VSC THEME — AZURITE",
+                "id": "nocturnal-vscode-theme",
+                "label": "THEME: Nocturnal (dev)",
                 "uiTheme": "vs-dark",
-                "path": "./vscode-theme/azurite-vscode-theme.json"
-            },
-            {
-                "id": "titanium-vscode-theme",
-                "label": "VSC THEME — TITANIUM",
-                "uiTheme": "vs-dark",
-                "path": "./vscode-theme/titanium-vscode-theme.json"
+                "path": "./vscode-theme/nocturnal-vscode-theme.json"
             }
         ],
 

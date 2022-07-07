@@ -3,7 +3,7 @@
    "type": "dark",
    "semanticHighlighting": true,
    "colors": {
-      "editor.background": "#101319",
+      "editor.background": "#13161B",
       "editorWidget.background": "#111111",
       "editorWidget.foreground": "#D2D0B8",
       "menu.background": "#121314",
